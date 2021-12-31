@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-31T08:52:36.002Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="mHZzS4egzQrXGDPoD_Dw" version="16.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-31T09:02:28.485Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="XVKeiwaLkeqcKYMDAcTw" version="16.1.0" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
-    <mxGraphModel dx="2184" dy="618" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="1" shadow="0">
+    <mxGraphModel dx="1853" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -918,15 +918,6 @@
         <mxCell id="MC05JtdB94ARFOMbDvMO-697" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;fontColor=#000000;strokeColor=#000000;" edge="1" parent="MC05JtdB94ARFOMbDvMO-704" source="MC05JtdB94ARFOMbDvMO-694" target="MC05JtdB94ARFOMbDvMO-695">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MC05JtdB94ARFOMbDvMO-706" value="UpdateMatrixCompound" style="text;whiteSpace=wrap;html=1;fontSize=10;fontColor=#000000;" vertex="1" parent="77e6c97f196da883-4">
-          <mxGeometry x="50" y="1940" width="130" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="MC05JtdB94ARFOMbDvMO-707" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="77e6c97f196da883-4">
-          <mxGeometry x="180" y="1970" width="44.99" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="MC05JtdB94ARFOMbDvMO-708" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="77e6c97f196da883-4">
-          <mxGeometry x="312.5" y="1970" width="44.99" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="MC05JtdB94ARFOMbDvMO-772" value="" style="group" vertex="1" connectable="0" parent="77e6c97f196da883-4">
           <mxGeometry x="84.99" y="60" width="215.01000000000045" height="390" as="geometry" />
         </mxCell>
@@ -1048,6 +1039,54 @@
               <mxPoint x="170" y="200" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-781" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="77e6c97f196da883-4">
+          <mxGeometry x="175.01" y="2310" width="44.99" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-782" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="77e6c97f196da883-4">
+          <mxGeometry x="306.27" y="2310" width="44.99" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-784" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="77e6c97f196da883-4">
+          <mxGeometry x="175.01" y="2600" width="44.99" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-785" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="77e6c97f196da883-4">
+          <mxGeometry x="306.27" y="2600" width="44.99" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-799" value="" style="group" vertex="1" connectable="0" parent="77e6c97f196da883-4">
+          <mxGeometry x="134.98" y="1700" width="135.02" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-706" value="UpdateMatrixCompound" style="text;whiteSpace=wrap;html=1;fontSize=10;fontColor=#000000;" vertex="1" parent="MC05JtdB94ARFOMbDvMO-799">
+          <mxGeometry x="5.02000000000001" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-796" value="" style="group" vertex="1" connectable="0" parent="MC05JtdB94ARFOMbDvMO-799">
+          <mxGeometry y="30" width="130.00000000000003" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-707" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="MC05JtdB94ARFOMbDvMO-796">
+          <mxGeometry x="42.51000000000002" width="44.99" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-708" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="MC05JtdB94ARFOMbDvMO-796">
+          <mxGeometry x="42.50999999999999" y="240" width="44.99" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-787" value="计算复合矩阵&lt;br&gt;Adc = Ad, Bdc = Bd" style="whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;align=left;" vertex="1" parent="MC05JtdB94ARFOMbDvMO-796">
+          <mxGeometry x="16.879999999999995" y="50" width="96.25" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-790" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;fontColor=#000000;strokeColor=#000000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="MC05JtdB94ARFOMbDvMO-796" source="MC05JtdB94ARFOMbDvMO-707" target="MC05JtdB94ARFOMbDvMO-787">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-788" value="preview_window_&amp;gt;0" style="rhombus;whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;" vertex="1" parent="MC05JtdB94ARFOMbDvMO-796">
+          <mxGeometry y="110" width="130" height="41.5" as="geometry" />
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-791" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;fontColor=#000000;strokeColor=#000000;" edge="1" parent="MC05JtdB94ARFOMbDvMO-796" source="MC05JtdB94ARFOMbDvMO-787" target="MC05JtdB94ARFOMbDvMO-788">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-793" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;fontColor=#000000;strokeColor=#000000;" edge="1" parent="MC05JtdB94ARFOMbDvMO-796" source="MC05JtdB94ARFOMbDvMO-789" target="MC05JtdB94ARFOMbDvMO-708">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-789" value="填充复合矩阵Adc， Bdc剩余元素为1" style="whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;align=left;" vertex="1" parent="MC05JtdB94ARFOMbDvMO-796">
+          <mxGeometry x="16.880000000000138" y="180" width="96.25" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-792" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;fontColor=#000000;strokeColor=#000000;" edge="1" parent="MC05JtdB94ARFOMbDvMO-796" source="MC05JtdB94ARFOMbDvMO-788" target="MC05JtdB94ARFOMbDvMO-789">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="77e6c97f196da883-5" value="Lane 4" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
           <mxGeometry x="1360" y="20" width="160" height="4200" as="geometry" />
@@ -1462,6 +1501,27 @@
         </mxCell>
         <mxCell id="MC05JtdB94ARFOMbDvMO-702" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontColor=#000000;" vertex="1" connectable="0" parent="MC05JtdB94ARFOMbDvMO-701">
           <mxGeometry x="-0.9263" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-783" value="ComputeFeedForward" style="text;whiteSpace=wrap;html=1;fontSize=10;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="2320" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-786" value="ComputeLateralErrors" style="text;whiteSpace=wrap;html=1;fontSize=10;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="2630" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-794" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;fontColor=#000000;strokeColor=#000000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="MC05JtdB94ARFOMbDvMO-788">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1160" y="1990" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1260" y="1901" />
+              <mxPoint x="1260" y="1990" />
+              <mxPoint x="1160" y="1990" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-795" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontColor=#000000;" vertex="1" connectable="0" parent="MC05JtdB94ARFOMbDvMO-794">
+          <mxGeometry x="-0.8935" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
