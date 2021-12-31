@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-31T07:03:24.950Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="Y7TZkp0qZLi3FEZALr7C" version="16.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-31T08:06:55.903Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="PhUj1sUsKS0FfzA_X8oa" version="16.1.0" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="2229" dy="644" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="1" shadow="0">
       <root>
@@ -809,11 +809,71 @@
         <mxCell id="MC05JtdB94ARFOMbDvMO-632" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="77e6c97f196da883-3">
           <mxGeometry x="187.5" y="4140" width="44.99" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="77e6c97f196da883-4" value="子函数" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
+        <mxCell id="77e6c97f196da883-4" value="一级子函数" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
           <mxGeometry x="920" y="20" width="280" height="4200" as="geometry" />
         </mxCell>
-        <mxCell id="MC05JtdB94ARFOMbDvMO-649" value="UpdateDrivingOrientation" style="text;whiteSpace=wrap;html=1;fontSize=10;fontColor=#000000;" vertex="1" parent="77e6c97f196da883-4">
-          <mxGeometry x="10" y="60" width="140" height="30" as="geometry" />
+        <mxCell id="MC05JtdB94ARFOMbDvMO-663" value="" style="group" vertex="1" connectable="0" parent="77e6c97f196da883-4">
+          <mxGeometry x="10" y="60" width="205" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-649" value="UpdateDrivingOrientation" style="text;whiteSpace=wrap;html=1;fontSize=10;fontColor=#000000;" vertex="1" parent="MC05JtdB94ARFOMbDvMO-663">
+          <mxGeometry width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-650" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="MC05JtdB94ARFOMbDvMO-663">
+          <mxGeometry x="107.5" y="30" width="44.99" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-651" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="MC05JtdB94ARFOMbDvMO-663">
+          <mxGeometry x="107.5" y="350" width="44.99" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-652" value="读取车身朝向，离散化矩阵B" style="whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;align=left;" vertex="1" parent="MC05JtdB94ARFOMbDvMO-663">
+          <mxGeometry x="55" y="90" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-656" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;fontColor=#000000;strokeColor=#000000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="MC05JtdB94ARFOMbDvMO-663" source="MC05JtdB94ARFOMbDvMO-650" target="MC05JtdB94ARFOMbDvMO-652">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-653" value="如果&lt;br&gt;reverse_heading_control&lt;br&gt;？" style="rhombus;whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;" vertex="1" parent="MC05JtdB94ARFOMbDvMO-663">
+          <mxGeometry x="65" y="140" width="130" height="41.5" as="geometry" />
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-657" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;fontColor=#000000;strokeColor=#000000;" edge="1" parent="MC05JtdB94ARFOMbDvMO-663" source="MC05JtdB94ARFOMbDvMO-652" target="MC05JtdB94ARFOMbDvMO-653">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-654" value="如果倒车档位？" style="rhombus;whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;" vertex="1" parent="MC05JtdB94ARFOMbDvMO-663">
+          <mxGeometry x="65" y="210" width="130" height="41.5" as="geometry" />
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-658" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;fontColor=#000000;strokeColor=#000000;" edge="1" parent="MC05JtdB94ARFOMbDvMO-663" source="MC05JtdB94ARFOMbDvMO-653" target="MC05JtdB94ARFOMbDvMO-654">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-660" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=10;fontColor=#000000;strokeColor=#000000;" edge="1" parent="MC05JtdB94ARFOMbDvMO-663" source="MC05JtdB94ARFOMbDvMO-655" target="MC05JtdB94ARFOMbDvMO-651">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-655" value="车身朝向加pi，离散矩阵B取反" style="whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;align=left;" vertex="1" parent="MC05JtdB94ARFOMbDvMO-663">
+          <mxGeometry x="55" y="290" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-659" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;fontColor=#000000;strokeColor=#000000;" edge="1" parent="MC05JtdB94ARFOMbDvMO-663" source="MC05JtdB94ARFOMbDvMO-654" target="MC05JtdB94ARFOMbDvMO-655">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-664" value="UpdateState" style="text;whiteSpace=wrap;html=1;fontSize=10;fontColor=#000000;" vertex="1" parent="77e6c97f196da883-4">
+          <mxGeometry x="37.5" y="460" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-665" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="77e6c97f196da883-4">
+          <mxGeometry x="117.5" y="490" width="44.99" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-666" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="77e6c97f196da883-4">
+          <mxGeometry x="200" y="490" width="44.99" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-667" value="读取车身状态" style="whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;align=left;" vertex="1" parent="77e6c97f196da883-4">
+          <mxGeometry x="107.5" y="540" width="65" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-668" value="如果&lt;br&gt;use_navigation_mode&lt;br&gt;？" style="rhombus;whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;" vertex="1" parent="77e6c97f196da883-4">
+          <mxGeometry x="75" y="580" width="130" height="41.5" as="geometry" />
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-669" value="基于&lt;b&gt;&lt;font color=&quot;#ff6666&quot;&gt;原点(0,0)&lt;/font&gt;&lt;/b&gt;，朝向，车身线速度，角速度，先加速度和目标轨迹计算横向误差" style="whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;align=left;" vertex="1" parent="77e6c97f196da883-4">
+          <mxGeometry x="12.49" y="640" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-671" value="基于&lt;font color=&quot;#ff6666&quot;&gt;&lt;b&gt;质心&lt;/b&gt;&lt;/font&gt;，朝向，车身线速度，角速度，先加速度和目标轨迹计算横向误差" style="whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;align=left;" vertex="1" parent="77e6c97f196da883-4">
+          <mxGeometry x="94.99000000000001" y="700" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-672" value="如果&lt;br&gt;enable_look_ahead_back_control_&lt;br&gt;？" style="rhombus;whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;" vertex="1" parent="77e6c97f196da883-4">
+          <mxGeometry x="47.5" y="769" width="185" height="41" as="geometry" />
         </mxCell>
         <mxCell id="77e6c97f196da883-5" value="Lane 4" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
           <mxGeometry x="1200" y="20" width="160" height="4200" as="geometry" />
@@ -1210,6 +1270,21 @@
         <mxCell id="MC05JtdB94ARFOMbDvMO-644" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontColor=#000000;" vertex="1" connectable="0" parent="MC05JtdB94ARFOMbDvMO-640">
           <mxGeometry x="-0.7714" relative="1" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-661" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;fontColor=#000000;strokeColor=#000000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="MC05JtdB94ARFOMbDvMO-653">
+          <mxGeometry x="-0.9014" relative="1" as="geometry">
+            <mxPoint x="1100" y="430" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1200" y="261" />
+              <mxPoint x="1200" y="430" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-662" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;fontColor=#000000;strokeColor=#000000;" edge="1" parent="1" source="MC05JtdB94ARFOMbDvMO-654">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1200.0000000000005" y="330.7500000000001" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
