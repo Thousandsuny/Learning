@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-31T02:56:16.388Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="8BJwpA3OlrYdNvkzOoK5" version="16.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-31T02:58:44.364Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="l8X1AEqAg4ZTia0Kv7pn" version="16.1.0" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="934" dy="533" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="1" shadow="0">
       <root>
@@ -453,8 +453,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="MC05JtdB94ARFOMbDvMO-109" value="前后轮侧偏刚度取负，状态转移矩阵如下。v后面计算会更新，当前只需要初始化除了v之外的系数。&lt;br&gt;$$A&amp;nbsp;=&lt;br&gt;\begin{bmatrix}&lt;br&gt;0 &amp;amp; 0 &amp;amp; v &amp;amp; 0 \\&lt;br&gt;0 &amp;amp; \frac{-(c_f+c_r)}{m}\frac{1}{v} &amp;amp; \frac{c_f+c_r}{m} &amp;amp; \frac{l_rc_r-l_fc_f}{m}\frac{1}{v}\\&lt;br&gt;0 &amp;amp; 0 &amp;amp; 0 &amp;amp; 1\\&lt;br&gt;0 &amp;amp; \frac{l_rc_r-l_fc_f}{i_z}\frac{1}{v} &amp;amp; \frac{l_fc_f-l_rc_r}{i_z} &amp;amp; \frac{-(l_f^2c_f+l_r^2c_r)}{i_z}\frac{1}{v}&lt;br&gt;\end{bmatrix}$$" style="whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;align=left;fontColor=#FF6666;" vertex="1" parent="77e6c97f196da883-3">
-          <mxGeometry x="20" y="1220" width="275" height="140" as="geometry" />
+        <mxCell id="MC05JtdB94ARFOMbDvMO-109" value="前后轮侧偏刚度取负，状态转移矩阵如下。v后面计算会更新，当前只需要初始化除了v之外的系数。&lt;br&gt;$$A&amp;nbsp;=&lt;br&gt;\begin{bmatrix}&lt;br&gt;0 &amp;amp; 0 &amp;amp; v &amp;amp; 0 \\&lt;br&gt;0 &amp;amp; -\frac{-(c_f+c_r)}{m}\frac{1}{v} &amp;amp; -\frac{c_f+c_r}{m} &amp;amp; -\frac{l_rc_r-l_fc_f}{m}\frac{1}{v}\\&lt;br&gt;0 &amp;amp; 0 &amp;amp; 0 &amp;amp; 1\\&lt;br&gt;0 &amp;amp; -\frac{l_rc_r-l_fc_f}{i_z}\frac{1}{v} &amp;amp; -\frac{l_fc_f-l_rc_r}{i_z} &amp;amp; -\frac{-(l_f^2c_f+l_r^2c_r)}{i_z}\frac{1}{v}&lt;br&gt;\end{bmatrix}$$" style="whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;align=left;fontColor=#FF6666;" vertex="1" parent="77e6c97f196da883-3">
+          <mxGeometry x="18" y="1220" width="280" height="140" as="geometry" />
         </mxCell>
         <mxCell id="MC05JtdB94ARFOMbDvMO-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=10;strokeColor=#000000;" edge="1" parent="77e6c97f196da883-3" source="MC05JtdB94ARFOMbDvMO-109" target="MC05JtdB94ARFOMbDvMO-109">
           <mxGeometry relative="1" as="geometry" />
