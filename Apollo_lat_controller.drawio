@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-31T04:15:17.048Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="dOCbqeykKnEMMNBQGyHc" version="16.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-31T04:31:48.051Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="VHH-Z9n7IsbJN3RuwfHc" version="16.1.0" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1874" dy="442" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="1" shadow="0">
       <root>
@@ -665,6 +665,9 @@
         <mxCell id="MC05JtdB94ARFOMbDvMO-273" value="100" style="whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;align=left;" vertex="1" parent="77e6c97f196da883-3">
           <mxGeometry x="360" y="3145" width="35" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-489" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;fontColor=#000000;strokeColor=#000000;" edge="1" parent="77e6c97f196da883-3" source="MC05JtdB94ARFOMbDvMO-276" target="MC05JtdB94ARFOMbDvMO-282">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="MC05JtdB94ARFOMbDvMO-276" value="如果&lt;br&gt;enable_mrac_&lt;br&gt;?" style="rhombus;whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;" vertex="1" parent="77e6c97f196da883-3">
           <mxGeometry x="168.75" y="3220" width="102.5" height="40" as="geometry" />
         </mxCell>
@@ -681,6 +684,41 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="229.99999999999977" y="1570" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-490" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;fontColor=#000000;strokeColor=#000000;" edge="1" parent="77e6c97f196da883-3" source="MC05JtdB94ARFOMbDvMO-282" target="MC05JtdB94ARFOMbDvMO-283">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-282" value="根据mrac阶数初始化steer_state&lt;br&gt;steer_state(0,0) = 底盘转角百分比&lt;br&gt;steer_state(1,0) = 转角变化率" style="whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;align=left;" vertex="1" parent="77e6c97f196da883-3">
+          <mxGeometry x="142.5" y="3290" width="155" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-486" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;fontColor=#000000;strokeColor=#000000;" edge="1" parent="77e6c97f196da883-3" source="MC05JtdB94ARFOMbDvMO-283" target="MC05JtdB94ARFOMbDvMO-483">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-488" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;fontColor=#000000;strokeColor=#000000;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="77e6c97f196da883-3" source="MC05JtdB94ARFOMbDvMO-283" target="MC05JtdB94ARFOMbDvMO-284">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="3380" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="77" y="3380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-283" value="如果&lt;br&gt;车速&amp;gt;最小速度变化分辨率&lt;br&gt;?" style="rhombus;whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;" vertex="1" parent="77e6c97f196da883-3">
+          <mxGeometry x="123.75" y="3360" width="192.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-492" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;fontColor=#000000;strokeColor=#000000;" edge="1" parent="77e6c97f196da883-3" source="MC05JtdB94ARFOMbDvMO-284" target="MC05JtdB94ARFOMbDvMO-491">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-284" value="&lt;div&gt;&amp;nbsp;SetStateAdaptionRate(1.0);&lt;/div&gt;&lt;div&gt;&amp;nbsp;SetInputAdaptionRate(1.0);&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;align=left;" vertex="1" parent="77e6c97f196da883-3">
+          <mxGeometry x="12.5" y="3420" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-483" value="&lt;div&gt;&amp;nbsp;SetStateAdaptionRate(0.0);&lt;/div&gt;&lt;div&gt;&amp;nbsp;SetInputAdaptionRate(0.0);&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;align=left;" vertex="1" parent="77e6c97f196da883-3">
+          <mxGeometry x="295" y="3420" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-491" value="根据前轮输出转角steer_angle, steer_rate, steer_limit,&amp;nbsp;steer_diff_with_max_rate / ts_, 使用mrac_controller，优化限制得到最终的steer_angle" style="whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;align=left;" vertex="1" parent="77e6c97f196da883-3">
+          <mxGeometry x="106.25" y="3500" width="227.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-494" value="设置mrac调试打印信息" style="whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;align=left;" vertex="1" parent="77e6c97f196da883-3">
+          <mxGeometry x="163.75" y="3590" width="112.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="77e6c97f196da883-4" value="Lane 3" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
           <mxGeometry x="991" y="20" width="160" height="3730" as="geometry" />
@@ -1061,6 +1099,11 @@
             <Array as="points">
               <mxPoint x="847" y="3240" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-493" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=10;fontColor=#000000;strokeColor=#000000;" edge="1" parent="1" source="MC05JtdB94ARFOMbDvMO-483">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="690" y="3540" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
