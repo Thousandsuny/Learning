@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2021-12-30T10:16:10.098Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="uYrst8HN0lKmZnX98hfM" version="16.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-31T01:42:50.834Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="0_0DbARMRLjrN9_xcf9U" version="16.1.0" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="934" dy="533" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="77e6c97f196da883-1" value="Pool" style="swimlane;childLayout=stackLayout;startSize=20;rounded=0;shadow=0;labelBackgroundColor=#FFFFFF;strokeWidth=1;fontFamily=Verdana;fontSize=9;align=center;html=1;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="50" y="20" width="1410" height="1370" as="geometry">
+          <mxGeometry x="50" y="20" width="1480" height="1370" as="geometry">
             <mxRectangle x="70" y="40" width="50" height="20" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -114,7 +114,7 @@
           <mxGeometry x="57" y="100" width="120" height="25" as="geometry" />
         </mxCell>
         <mxCell id="77e6c97f196da883-3" value="ComputeControlCommand" style="swimlane;html=1;startSize=20;align=left;" parent="77e6c97f196da883-1" vertex="1">
-          <mxGeometry x="330" y="20" width="440" height="1350" as="geometry" />
+          <mxGeometry x="330" y="20" width="510" height="1350" as="geometry" />
         </mxCell>
         <mxCell id="C_RfmfMOIDp-wROfM4-I-86" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" parent="77e6c97f196da883-3" target="C_RfmfMOIDp-wROfM4-I-85" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -159,6 +159,9 @@
         <mxCell id="MC05JtdB94ARFOMbDvMO-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="77e6c97f196da883-3" source="MC05JtdB94ARFOMbDvMO-6" target="MC05JtdB94ARFOMbDvMO-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;strokeColor=#000000;" edge="1" parent="77e6c97f196da883-3" source="MC05JtdB94ARFOMbDvMO-12" target="MC05JtdB94ARFOMbDvMO-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="MC05JtdB94ARFOMbDvMO-12" value="把定位航向角赋给车辆" style="whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;" vertex="1" parent="77e6c97f196da883-3">
           <mxGeometry x="70" y="420" width="120" height="30" as="geometry" />
         </mxCell>
@@ -175,41 +178,77 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;strokeColor=#000000;" edge="1" parent="77e6c97f196da883-3" source="MC05JtdB94ARFOMbDvMO-15" target="MC05JtdB94ARFOMbDvMO-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="MC05JtdB94ARFOMbDvMO-15" value="根据定位信息中的四元数计算航向角" style="whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;" vertex="1" parent="77e6c97f196da883-3">
           <mxGeometry x="260" y="420" width="120" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;strokeColor=#000000;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="77e6c97f196da883-3" source="MC05JtdB94ARFOMbDvMO-18" target="MC05JtdB94ARFOMbDvMO-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;strokeColor=#000000;" edge="1" parent="77e6c97f196da883-3" source="MC05JtdB94ARFOMbDvMO-18" target="MC05JtdB94ARFOMbDvMO-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="MC05JtdB94ARFOMbDvMO-18" value="如果时间戳差值大于1ms?" style="rhombus;whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;" vertex="1" parent="77e6c97f196da883-3">
-          <mxGeometry x="137.5" y="480" width="165" height="40" as="geometry" />
+          <mxGeometry x="137.5" y="490" width="165" height="40" as="geometry" />
         </mxCell>
         <mxCell id="MC05JtdB94ARFOMbDvMO-38" value="将当前定位得到车身状态作为车辆初始状态" style="whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;" vertex="1" parent="77e6c97f196da883-3">
-          <mxGeometry x="70" y="540" width="120" height="30" as="geometry" />
+          <mxGeometry x="35" y="550" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-87" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;strokeColor=#000000;" edge="1" parent="77e6c97f196da883-3" source="MC05JtdB94ARFOMbDvMO-39" target="MC05JtdB94ARFOMbDvMO-40">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MC05JtdB94ARFOMbDvMO-39" value="计算定位得到的车身状态与车辆初始状态的位置偏差diff_map和朝向角偏差theta_diff=curr-init" style="whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;align=left;" vertex="1" parent="77e6c97f196da883-3">
           <mxGeometry x="145" y="600" width="150" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-89" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;strokeColor=#000000;" edge="1" parent="77e6c97f196da883-3" source="MC05JtdB94ARFOMbDvMO-40" target="MC05JtdB94ARFOMbDvMO-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="MC05JtdB94ARFOMbDvMO-40" value="将上面的偏差diff_map，逆时针旋转init角度，到初始车辆坐标系下, diff_veh" style="whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;align=left;" vertex="1" parent="77e6c97f196da883-3">
           <mxGeometry x="145" y="680" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-90" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;strokeColor=#000000;" edge="1" parent="77e6c97f196da883-3" source="MC05JtdB94ARFOMbDvMO-41" target="MC05JtdB94ARFOMbDvMO-80">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MC05JtdB94ARFOMbDvMO-41" value="将上面的偏差diff_veh，顺时针旋转theta_diff角度，到curr坐标系下, 得到tx和ty，作为轨迹偏置。" style="whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;align=left;" vertex="1" parent="77e6c97f196da883-3">
           <mxGeometry x="145" y="760" width="150" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="MC05JtdB94ARFOMbDvMO-80" value="遍历新发送的目标轨迹点，将其旋转到curr坐标系，并加上得到的偏置。(顺时针旋转-(curr-init)，相当于逆时针旋转init-curr）)" style="whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;align=left;" vertex="1" parent="77e6c97f196da883-3">
+        <mxCell id="MC05JtdB94ARFOMbDvMO-93" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;strokeColor=#000000;" edge="1" parent="77e6c97f196da883-3" source="MC05JtdB94ARFOMbDvMO-80" target="MC05JtdB94ARFOMbDvMO-92">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-80" value="遍历新发送的目标轨迹点，将其旋转到init坐标系，并加上得到的偏置。(顺时针旋转-(curr-init)，相当于逆时针旋转init-curr))" style="whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;align=left;" vertex="1" parent="77e6c97f196da883-3">
           <mxGeometry x="145" y="830" width="150" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="MC05JtdB94ARFOMbDvMO-82" value="&lt;font style=&quot;font-size: 10px&quot;&gt;整个过程相当于将&lt;br&gt;新发布的目标轨迹，&lt;br&gt;通过坐标变换转移&lt;br&gt;到定位得到的curr&lt;br&gt;车身坐标系&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;fontSize=12;" vertex="1" parent="77e6c97f196da883-3">
-          <mxGeometry x="330" y="570" width="90" height="80" as="geometry" />
+        <mxCell id="MC05JtdB94ARFOMbDvMO-82" value="&lt;font style=&quot;font-size: 10px&quot;&gt;整个过程相当于将新发布的目标轨迹&lt;br&gt;(基于定位生成，与curr车辆坐标系一致)，&lt;br&gt;通过坐标变换转移到当前init车辆坐标系&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;fontSize=12;" vertex="1" parent="77e6c97f196da883-3">
+          <mxGeometry x="320" y="640" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-92" value="将目标跟踪轨迹去掉模板引用，生成trajectory_analyzer_实例" style="whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;align=left;" vertex="1" parent="77e6c97f196da883-3">
+          <mxGeometry x="145" y="910" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;strokeColor=#000000;" edge="1" parent="77e6c97f196da883-3" source="MC05JtdB94ARFOMbDvMO-94" target="MC05JtdB94ARFOMbDvMO-95">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-94" value="如果基于质心控制前进后退，且enable_look_ahead_back_control&lt;br&gt;为true？" style="rhombus;whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;" vertex="1" parent="77e6c97f196da883-3">
+          <mxGeometry x="113.75" y="960" width="212.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-95" value="将trajectory_analyzer_转换成参考车辆质心" style="whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;align=left;" vertex="1" parent="77e6c97f196da883-3">
+          <mxGeometry x="145" y="1030" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-99" value="将trajectory_analyzer_转换成参考车辆质心" style="whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;align=left;" vertex="1" parent="77e6c97f196da883-3">
+          <mxGeometry x="145" y="1090" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="77e6c97f196da883-4" value="Lane 3" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
-          <mxGeometry x="770" y="20" width="160" height="1350" as="geometry" />
+          <mxGeometry x="840" y="20" width="160" height="1350" as="geometry" />
         </mxCell>
         <mxCell id="77e6c97f196da883-5" value="Lane 4" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
-          <mxGeometry x="930" y="20" width="160" height="1350" as="geometry" />
+          <mxGeometry x="1000" y="20" width="160" height="1350" as="geometry" />
         </mxCell>
         <mxCell id="77e6c97f196da883-6" value="Lane 5" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
-          <mxGeometry x="1090" y="20" width="160" height="1350" as="geometry" />
+          <mxGeometry x="1160" y="20" width="160" height="1350" as="geometry" />
         </mxCell>
         <mxCell id="77e6c97f196da883-7" value="Lane 6" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
-          <mxGeometry x="1250" y="20" width="160" height="1350" as="geometry" />
+          <mxGeometry x="1320" y="20" width="160" height="1350" as="geometry" />
         </mxCell>
         <mxCell id="C_RfmfMOIDp-wROfM4-I-41" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=10;" parent="1" source="C_RfmfMOIDp-wROfM4-I-20" edge="1">
           <mxGeometry x="-0.9289" relative="1" as="geometry">
@@ -694,6 +733,11 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="33" y="50" as="sourcePoint" />
             <mxPoint x="5" y="1" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;strokeColor=#000000;" edge="1" parent="1" source="MC05JtdB94ARFOMbDvMO-94">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="599.9999999999998" y="1000" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
