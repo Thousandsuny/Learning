@@ -1,16 +1,16 @@
-<mxfile host="app.diagrams.net" modified="2021-12-31T03:35:01.506Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="MnOBU48GpmpjRvL4nkiO" version="16.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-31T03:55:50.953Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="OGGQUH1gLhK0wq570r8y" version="16.1.0" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="934" dy="533" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="77e6c97f196da883-1" value="Pool" style="swimlane;childLayout=stackLayout;startSize=20;rounded=0;shadow=0;labelBackgroundColor=#FFFFFF;strokeWidth=1;fontFamily=Verdana;fontSize=9;align=center;html=1;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="50" y="20" width="1631" height="2490" as="geometry">
+          <mxGeometry x="50" y="20" width="1631" height="3150" as="geometry">
             <mxRectangle x="70" y="40" width="50" height="20" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="77e6c97f196da883-2" value="初始化" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
-          <mxGeometry y="20" width="430" height="2470" as="geometry">
+          <mxGeometry y="20" width="430" height="3130" as="geometry">
             <mxRectangle y="20" width="30" height="1350" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -306,7 +306,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="77e6c97f196da883-3" value="&lt;img&gt;" style="swimlane;html=1;startSize=20;align=left;" parent="77e6c97f196da883-1" vertex="1">
-          <mxGeometry x="430" y="20" width="561" height="2470" as="geometry" />
+          <mxGeometry x="430" y="20" width="561" height="3130" as="geometry" />
         </mxCell>
         <mxCell id="C_RfmfMOIDp-wROfM4-I-86" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" parent="77e6c97f196da883-3" target="C_RfmfMOIDp-wROfM4-I-85" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -553,23 +553,62 @@
         <mxCell id="MC05JtdB94ARFOMbDvMO-227" value="用复合矩阵A，B，以及Q，R和LQR收敛阈值，最大迭代次数等参数，求&lt;font color=&quot;#ff6666&quot;&gt;解控制增益矩阵K&lt;br&gt;&lt;b&gt;SolveLQRProblem&lt;/b&gt;&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;align=left;" vertex="1" parent="77e6c97f196da883-3">
           <mxGeometry x="320" y="2190" width="150" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="MC05JtdB94ARFOMbDvMO-235" value="用求得的控制增益矩阵，和当前状态，以及传动比，折算成最终的前轮转角控制量&lt;br&gt;feedback = -K * state" style="whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;align=left;" vertex="1" parent="77e6c97f196da883-3">
-          <mxGeometry x="145" y="2280" width="150" height="50" as="geometry" />
+        <mxCell id="MC05JtdB94ARFOMbDvMO-246" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;fontColor=#FF6666;strokeColor=#000000;" edge="1" parent="77e6c97f196da883-3" source="MC05JtdB94ARFOMbDvMO-235" target="MC05JtdB94ARFOMbDvMO-238">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MC05JtdB94ARFOMbDvMO-238" value="根据曲率计算前馈控制量&lt;br&gt;ComputeFeedForward()" style="whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;align=left;" vertex="1" parent="77e6c97f196da883-3">
-          <mxGeometry x="145" y="2360" width="150" height="30" as="geometry" />
+        <mxCell id="MC05JtdB94ARFOMbDvMO-235" value="用求得的控制增益矩阵，和当前状态，以及传动比，折算成最终的前轮转角控制量&lt;br&gt;&lt;font color=&quot;#ff33ff&quot;&gt;steer_angle_feedback&lt;/font&gt; = -K * state" style="whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;align=left;" vertex="1" parent="77e6c97f196da883-3">
+          <mxGeometry x="142.5" y="2280" width="155" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-247" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;fontColor=#FF6666;strokeColor=#000000;" edge="1" parent="77e6c97f196da883-3" source="MC05JtdB94ARFOMbDvMO-238" target="MC05JtdB94ARFOMbDvMO-239">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-238" value="根据曲率计算前馈控制量&lt;font color=&quot;#ff33ff&quot;&gt;steer_angle_feedforward&lt;/font&gt;&lt;br&gt;ComputeFeedForward()" style="whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;align=left;" vertex="1" parent="77e6c97f196da883-3">
+          <mxGeometry x="145" y="2360" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-248" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;fontColor=#FF6666;strokeColor=#000000;" edge="1" parent="77e6c97f196da883-3" source="MC05JtdB94ARFOMbDvMO-239" target="MC05JtdB94ARFOMbDvMO-240">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-239" value="如果&lt;br&gt;enable_leadlag&lt;br&gt;?" style="rhombus;whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;" vertex="1" parent="77e6c97f196da883-3">
+          <mxGeometry x="137.5" y="2420" width="165" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-249" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;fontColor=#FF6666;strokeColor=#000000;" edge="1" parent="77e6c97f196da883-3" source="MC05JtdB94ARFOMbDvMO-240" target="MC05JtdB94ARFOMbDvMO-243">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-240" value="如果&lt;br&gt;enable_feedback_augment_on_high_speed&lt;br&gt;或者 车速&amp;lt;低速边界(3m/s)&lt;br&gt;?" style="rhombus;whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;" vertex="1" parent="77e6c97f196da883-3">
+          <mxGeometry x="108.75" y="2480" width="222.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-251" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;fontColor=#FF6666;strokeColor=#000000;" edge="1" parent="77e6c97f196da883-3" source="MC05JtdB94ARFOMbDvMO-242" target="MC05JtdB94ARFOMbDvMO-244">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-242" value="如果&lt;br&gt;车速&amp;lt;低速边界-速度窗=3-1(m/s)&lt;br&gt;?" style="rhombus;whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;" vertex="1" parent="77e6c97f196da883-3">
+          <mxGeometry x="137.5" y="2630" width="165" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-250" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;fontColor=#FF6666;strokeColor=#000000;" edge="1" parent="77e6c97f196da883-3" source="MC05JtdB94ARFOMbDvMO-243" target="MC05JtdB94ARFOMbDvMO-242">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-243" value="根据当前横向误差状态量，通过leadlag控制器，计算&lt;font color=&quot;#ff33ff&quot;&gt;steer_angle_feedback_augment&lt;/font&gt;&amp;nbsp;" style="whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;align=left;" vertex="1" parent="77e6c97f196da883-3">
+          <mxGeometry x="145" y="2560" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-253" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;fontColor=#FF6666;strokeColor=#000000;" edge="1" parent="77e6c97f196da883-3" source="MC05JtdB94ARFOMbDvMO-244" target="MC05JtdB94ARFOMbDvMO-252">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-244" value="对上面计算得到的steer_angle_feedback_augment&amp;nbsp;&lt;br&gt;进行差值，进行软控制切换" style="whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;align=left;" vertex="1" parent="77e6c97f196da883-3">
+          <mxGeometry x="145" y="2700" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-252" value="总的转角控制输出为：&lt;br&gt;&lt;font color=&quot;#ff33ff&quot;&gt;steer_angle =&amp;nbsp;&lt;br&gt;&lt;span&gt;&amp;nbsp;steer_angle_feedback +&lt;br&gt;&amp;nbsp;steer_angle_feedforward +&lt;/span&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;steer_angle_feedback_augment&lt;/span&gt;&lt;/font&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;align=left;" vertex="1" parent="77e6c97f196da883-3">
+          <mxGeometry x="132.5" y="2780" width="175" height="60" as="geometry" />
         </mxCell>
         <mxCell id="77e6c97f196da883-4" value="Lane 3" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
-          <mxGeometry x="991" y="20" width="160" height="2470" as="geometry" />
+          <mxGeometry x="991" y="20" width="160" height="3130" as="geometry" />
         </mxCell>
         <mxCell id="77e6c97f196da883-5" value="Lane 4" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
-          <mxGeometry x="1151" y="20" width="160" height="2470" as="geometry" />
+          <mxGeometry x="1151" y="20" width="160" height="3130" as="geometry" />
         </mxCell>
         <mxCell id="77e6c97f196da883-6" value="Lane 5" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
-          <mxGeometry x="1311" y="20" width="160" height="2470" as="geometry" />
+          <mxGeometry x="1311" y="20" width="160" height="3130" as="geometry" />
         </mxCell>
         <mxCell id="77e6c97f196da883-7" value="Lane 6" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
-          <mxGeometry x="1471" y="20" width="160" height="2470" as="geometry" />
+          <mxGeometry x="1471" y="20" width="160" height="3130" as="geometry" />
         </mxCell>
         <mxCell id="C_RfmfMOIDp-wROfM4-I-41" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=10;" parent="1" source="C_RfmfMOIDp-wROfM4-I-20" edge="1">
           <mxGeometry x="-0.9289" relative="1" as="geometry">
