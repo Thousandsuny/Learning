@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-31T03:28:24.160Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="R1wX-Eyc1A6bxbsA443p" version="16.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-31T03:32:42.348Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="sRPE5Ahw4BKyGIyvm-uI" version="16.1.0" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="934" dy="533" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="1" shadow="0">
       <root>
@@ -522,6 +522,11 @@
         <mxCell id="MC05JtdB94ARFOMbDvMO-230" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;fontColor=#FF6666;strokeColor=#000000;" edge="1" parent="77e6c97f196da883-3" source="MC05JtdB94ARFOMbDvMO-224" target="MC05JtdB94ARFOMbDvMO-225">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-234" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontColor=#000000;" vertex="1" connectable="0" parent="MC05JtdB94ARFOMbDvMO-230">
+          <mxGeometry x="-0.2575" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="MC05JtdB94ARFOMbDvMO-232" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;fontColor=#FF6666;strokeColor=#000000;" edge="1" parent="77e6c97f196da883-3" source="MC05JtdB94ARFOMbDvMO-224" target="MC05JtdB94ARFOMbDvMO-227">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -539,11 +544,17 @@
         <mxCell id="MC05JtdB94ARFOMbDvMO-225" value="根据当然车身速度，差值得到横向误差和朝向误差，更新Q矩阵" style="whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;align=left;" vertex="1" parent="77e6c97f196da883-3">
           <mxGeometry x="145" y="2130" width="150" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-236" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;fontColor=#000000;strokeColor=#000000;" edge="1" parent="77e6c97f196da883-3" source="MC05JtdB94ARFOMbDvMO-226" target="MC05JtdB94ARFOMbDvMO-235">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="MC05JtdB94ARFOMbDvMO-226" value="用更新的Q和复合矩阵A，B，以及R和LQR收敛阈值，最大迭代次数等参数，求&lt;font color=&quot;#ff6666&quot;&gt;解控制增益矩阵K&lt;br&gt;&lt;b&gt;SolveLQRProblem&lt;/b&gt;&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;align=left;" vertex="1" parent="77e6c97f196da883-3">
           <mxGeometry x="145" y="2190" width="150" height="50" as="geometry" />
         </mxCell>
         <mxCell id="MC05JtdB94ARFOMbDvMO-227" value="用复合矩阵A，B，以及Q，R和LQR收敛阈值，最大迭代次数等参数，求&lt;font color=&quot;#ff6666&quot;&gt;解控制增益矩阵K&lt;br&gt;&lt;b&gt;SolveLQRProblem&lt;/b&gt;&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;align=left;" vertex="1" parent="77e6c97f196da883-3">
           <mxGeometry x="320" y="2190" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-235" value="用求得的控制增益矩阵，和当前状态，以及传动比，折算成最终的前轮转角控制量&lt;br&gt;feedback = -K * state" style="whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;align=left;" vertex="1" parent="77e6c97f196da883-3">
+          <mxGeometry x="145" y="2280" width="150" height="50" as="geometry" />
         </mxCell>
         <mxCell id="77e6c97f196da883-4" value="Lane 3" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
           <mxGeometry x="991" y="20" width="160" height="2470" as="geometry" />
@@ -879,6 +890,14 @@
         <mxCell id="MC05JtdB94ARFOMbDvMO-211" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;fontColor=#000000;strokeColor=#000000;" edge="1" parent="1" source="MC05JtdB94ARFOMbDvMO-192">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="699.9999999999998" y="1610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-237" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;fontColor=#000000;strokeColor=#000000;exitX=0.472;exitY=1.016;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="MC05JtdB94ARFOMbDvMO-227">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="699.9999999999998" y="2299.9999999999995" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="871" y="2300" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
