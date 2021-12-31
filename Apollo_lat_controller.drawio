@@ -1,16 +1,16 @@
-<mxfile host="app.diagrams.net" modified="2021-12-31T04:31:48.051Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="VHH-Z9n7IsbJN3RuwfHc" version="16.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-31T05:14:18.975Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="ojUnO60kvyuwjmyNhODC" version="16.1.0" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
-    <mxGraphModel dx="1874" dy="442" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="1" shadow="0">
+    <mxGraphModel dx="2034" dy="533" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="77e6c97f196da883-1" value="Pool" style="swimlane;childLayout=stackLayout;startSize=20;rounded=0;shadow=0;labelBackgroundColor=#FFFFFF;strokeWidth=1;fontFamily=Verdana;fontSize=9;align=center;html=1;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="40" y="20" width="1631" height="3750" as="geometry">
+          <mxGeometry x="40" y="20" width="1631" height="4220" as="geometry">
             <mxRectangle x="70" y="40" width="50" height="20" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="77e6c97f196da883-2" value="初始化" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
-          <mxGeometry y="20" width="430" height="3730" as="geometry">
+          <mxGeometry y="20" width="430" height="4200" as="geometry">
             <mxRectangle y="20" width="30" height="1350" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -306,7 +306,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="77e6c97f196da883-3" value="&lt;img&gt;" style="swimlane;html=1;startSize=20;align=left;" parent="77e6c97f196da883-1" vertex="1">
-          <mxGeometry x="430" y="20" width="561" height="3730" as="geometry" />
+          <mxGeometry x="430" y="20" width="561" height="4200" as="geometry" />
         </mxCell>
         <mxCell id="C_RfmfMOIDp-wROfM4-I-86" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" parent="77e6c97f196da883-3" target="C_RfmfMOIDp-wROfM4-I-85" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -382,8 +382,18 @@
         <mxCell id="MC05JtdB94ARFOMbDvMO-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;strokeColor=#000000;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="77e6c97f196da883-3" source="MC05JtdB94ARFOMbDvMO-18" target="MC05JtdB94ARFOMbDvMO-38">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MC05JtdB94ARFOMbDvMO-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;strokeColor=#000000;" edge="1" parent="77e6c97f196da883-3" source="MC05JtdB94ARFOMbDvMO-18" target="MC05JtdB94ARFOMbDvMO-39">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="MC05JtdB94ARFOMbDvMO-648" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontColor=#000000;" vertex="1" connectable="0" parent="MC05JtdB94ARFOMbDvMO-85">
+          <mxGeometry x="-0.6941" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-86" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;strokeColor=#000000;" edge="1" parent="77e6c97f196da883-3" source="MC05JtdB94ARFOMbDvMO-18" target="MC05JtdB94ARFOMbDvMO-39">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="220" y="550" />
+              <mxPoint x="220" y="550" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="MC05JtdB94ARFOMbDvMO-18" value="如果时间戳差值大于1ms?" style="rhombus;whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;" vertex="1" parent="77e6c97f196da883-3">
           <mxGeometry x="137.5" y="490" width="165" height="40" as="geometry" />
@@ -665,8 +675,22 @@
         <mxCell id="MC05JtdB94ARFOMbDvMO-273" value="100" style="whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;align=left;" vertex="1" parent="77e6c97f196da883-3">
           <mxGeometry x="360" y="3145" width="35" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="MC05JtdB94ARFOMbDvMO-489" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;fontColor=#000000;strokeColor=#000000;" edge="1" parent="77e6c97f196da883-3" source="MC05JtdB94ARFOMbDvMO-276" target="MC05JtdB94ARFOMbDvMO-282">
+        <mxCell id="MC05JtdB94ARFOMbDvMO-489" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;fontColor=#000000;strokeColor=#000000;" edge="1" parent="77e6c97f196da883-3" source="MC05JtdB94ARFOMbDvMO-276" target="MC05JtdB94ARFOMbDvMO-282">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-646" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;fontColor=#000000;strokeColor=#000000;" edge="1" parent="77e6c97f196da883-3" source="MC05JtdB94ARFOMbDvMO-276" target="MC05JtdB94ARFOMbDvMO-495">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="450" y="3240" />
+              <mxPoint x="450" y="3610" />
+              <mxPoint x="220" y="3610" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-647" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontColor=#000000;" vertex="1" connectable="0" parent="MC05JtdB94ARFOMbDvMO-646">
+          <mxGeometry x="-0.936" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="MC05JtdB94ARFOMbDvMO-276" value="如果&lt;br&gt;enable_mrac_&lt;br&gt;?" style="rhombus;whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;" vertex="1" parent="77e6c97f196da883-3">
           <mxGeometry x="168.75" y="3220" width="102.5" height="40" as="geometry" />
@@ -694,12 +718,18 @@
         <mxCell id="MC05JtdB94ARFOMbDvMO-486" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;fontColor=#000000;strokeColor=#000000;" edge="1" parent="77e6c97f196da883-3" source="MC05JtdB94ARFOMbDvMO-283" target="MC05JtdB94ARFOMbDvMO-483">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MC05JtdB94ARFOMbDvMO-488" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;fontColor=#000000;strokeColor=#000000;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="77e6c97f196da883-3" source="MC05JtdB94ARFOMbDvMO-283" target="MC05JtdB94ARFOMbDvMO-284">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="MC05JtdB94ARFOMbDvMO-645" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontColor=#000000;" vertex="1" connectable="0" parent="MC05JtdB94ARFOMbDvMO-486">
+          <mxGeometry x="-0.7261" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-488" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;fontColor=#000000;strokeColor=#000000;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="77e6c97f196da883-3" source="MC05JtdB94ARFOMbDvMO-283" target="MC05JtdB94ARFOMbDvMO-284">
+          <mxGeometry x="-0.683" relative="1" as="geometry">
             <mxPoint x="120" y="3380" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="77" y="3380" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MC05JtdB94ARFOMbDvMO-283" value="如果&lt;br&gt;车速&amp;gt;最小速度变化分辨率&lt;br&gt;?" style="rhombus;whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;" vertex="1" parent="77e6c97f196da883-3">
@@ -714,23 +744,80 @@
         <mxCell id="MC05JtdB94ARFOMbDvMO-483" value="&lt;div&gt;&amp;nbsp;SetStateAdaptionRate(0.0);&lt;/div&gt;&lt;div&gt;&amp;nbsp;SetInputAdaptionRate(0.0);&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;align=left;" vertex="1" parent="77e6c97f196da883-3">
           <mxGeometry x="295" y="3420" width="130" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-633" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;fontColor=#000000;strokeColor=#000000;" edge="1" parent="77e6c97f196da883-3" source="MC05JtdB94ARFOMbDvMO-491" target="MC05JtdB94ARFOMbDvMO-494">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="MC05JtdB94ARFOMbDvMO-491" value="根据前轮输出转角steer_angle, steer_rate, steer_limit,&amp;nbsp;steer_diff_with_max_rate / ts_, 使用mrac_controller，优化限制得到最终的steer_angle" style="whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;align=left;" vertex="1" parent="77e6c97f196da883-3">
           <mxGeometry x="106.25" y="3500" width="227.5" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-634" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;fontColor=#000000;strokeColor=#000000;" edge="1" parent="77e6c97f196da883-3" source="MC05JtdB94ARFOMbDvMO-494" target="MC05JtdB94ARFOMbDvMO-495">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="MC05JtdB94ARFOMbDvMO-494" value="设置mrac调试打印信息" style="whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;align=left;" vertex="1" parent="77e6c97f196da883-3">
-          <mxGeometry x="163.75" y="3590" width="112.5" height="30" as="geometry" />
+          <mxGeometry x="163.75" y="3569" width="112.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-635" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;fontColor=#000000;strokeColor=#000000;" edge="1" parent="77e6c97f196da883-3" source="MC05JtdB94ARFOMbDvMO-495" target="MC05JtdB94ARFOMbDvMO-496">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-495" value="更新pre_steer_position为steering_position" style="whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;align=left;" vertex="1" parent="77e6c97f196da883-3">
+          <mxGeometry x="163.75" y="3629" width="112.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-636" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;fontColor=#000000;strokeColor=#000000;" edge="1" parent="77e6c97f196da883-3" source="MC05JtdB94ARFOMbDvMO-496" target="MC05JtdB94ARFOMbDvMO-497">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-496" value="对steer_angle，用steer_limit进行限幅" style="whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;align=left;" vertex="1" parent="77e6c97f196da883-3">
+          <mxGeometry x="163.75" y="3689" width="112.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-637" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;fontColor=#000000;strokeColor=#000000;" edge="1" parent="77e6c97f196da883-3" source="MC05JtdB94ARFOMbDvMO-497" target="MC05JtdB94ARFOMbDvMO-498">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-497" value="对steer_angle进行滤波，再限幅在百分比100" style="whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;align=left;" vertex="1" parent="77e6c97f196da883-3">
+          <mxGeometry x="163.75" y="3749" width="112.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-638" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;fontColor=#000000;strokeColor=#000000;" edge="1" parent="77e6c97f196da883-3" source="MC05JtdB94ARFOMbDvMO-498" target="MC05JtdB94ARFOMbDvMO-499">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-498" value="如果&lt;br&gt;车速&amp;lt;lock_steer_speed, &lt;br&gt;并且当前为全自动非停止模式&lt;br&gt;?" style="rhombus;whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;" vertex="1" parent="77e6c97f196da883-3">
+          <mxGeometry x="123.75" y="3809" width="192.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-639" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=10;fontColor=#000000;strokeColor=#000000;" edge="1" parent="77e6c97f196da883-3" source="MC05JtdB94ARFOMbDvMO-499" target="MC05JtdB94ARFOMbDvMO-500">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-499" value="继续执行前一次的转角&lt;br&gt;steer_angle = pre_steer_angle_" style="whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;align=left;" vertex="1" parent="77e6c97f196da883-3">
+          <mxGeometry x="146.88" y="3899" width="146.25" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-641" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;fontColor=#000000;strokeColor=#000000;" edge="1" parent="77e6c97f196da883-3" source="MC05JtdB94ARFOMbDvMO-500" target="MC05JtdB94ARFOMbDvMO-631">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-500" value="对steer_angle限幅在pre_steer_angle_ ± steer_diff_with_max_rate以内，再作为目标转角发送" style="whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;align=left;" vertex="1" parent="77e6c97f196da883-3">
+          <mxGeometry x="146.88" y="3959" width="146.25" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-643" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;fontColor=#000000;strokeColor=#000000;" edge="1" parent="77e6c97f196da883-3" source="MC05JtdB94ARFOMbDvMO-501" target="MC05JtdB94ARFOMbDvMO-632">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-501" value="计算记录其他调试信息" style="whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;align=left;" vertex="1" parent="77e6c97f196da883-3">
+          <mxGeometry x="146.88" y="4090" width="146.25" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-642" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;fontColor=#000000;strokeColor=#000000;" edge="1" parent="77e6c97f196da883-3" source="MC05JtdB94ARFOMbDvMO-631" target="MC05JtdB94ARFOMbDvMO-501">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-631" value="更新pre_steer_angle_ 上面最终发送的转角" style="whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;align=left;" vertex="1" parent="77e6c97f196da883-3">
+          <mxGeometry x="146.88" y="4040" width="146.25" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-632" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="77e6c97f196da883-3">
+          <mxGeometry x="197.5" y="4140" width="44.99" height="30" as="geometry" />
         </mxCell>
         <mxCell id="77e6c97f196da883-4" value="Lane 3" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
-          <mxGeometry x="991" y="20" width="160" height="3730" as="geometry" />
+          <mxGeometry x="991" y="20" width="160" height="4200" as="geometry" />
         </mxCell>
         <mxCell id="77e6c97f196da883-5" value="Lane 4" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
-          <mxGeometry x="1151" y="20" width="160" height="3730" as="geometry" />
+          <mxGeometry x="1151" y="20" width="160" height="4200" as="geometry" />
         </mxCell>
         <mxCell id="77e6c97f196da883-6" value="Lane 5" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
-          <mxGeometry x="1311" y="20" width="160" height="3730" as="geometry" />
+          <mxGeometry x="1311" y="20" width="160" height="4200" as="geometry" />
         </mxCell>
         <mxCell id="77e6c97f196da883-7" value="Lane 6" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
-          <mxGeometry x="1471" y="20" width="160" height="3730" as="geometry" />
+          <mxGeometry x="1471" y="20" width="160" height="4200" as="geometry" />
         </mxCell>
         <mxCell id="C_RfmfMOIDp-wROfM4-I-41" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=10;" parent="1" source="C_RfmfMOIDp-wROfM4-I-20" edge="1">
           <mxGeometry x="-0.9289" relative="1" as="geometry">
@@ -1104,6 +1191,20 @@
         <mxCell id="MC05JtdB94ARFOMbDvMO-493" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=10;fontColor=#000000;strokeColor=#000000;" edge="1" parent="1" source="MC05JtdB94ARFOMbDvMO-483">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="690" y="3540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-640" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=10;fontColor=#000000;strokeColor=#000000;" edge="1" parent="1" source="MC05JtdB94ARFOMbDvMO-498">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="690" y="3980" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="806" y="3879" />
+              <mxPoint x="806" y="3980" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-644" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontColor=#000000;" vertex="1" connectable="0" parent="MC05JtdB94ARFOMbDvMO-640">
+          <mxGeometry x="-0.7714" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
