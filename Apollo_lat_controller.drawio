@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-04T01:31:53.151Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="VxzhoyJx2IyT97a5ecuq" version="16.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-04T02:15:42.957Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="igwhIp6oPqh282yHIWMX" version="16.1.0" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="2184" dy="618" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="1" shadow="0">
       <root>
@@ -1041,7 +1041,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="MC05JtdB94ARFOMbDvMO-784" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="77e6c97f196da883-4">
-          <mxGeometry x="176.25" y="2610" width="44.99" height="30" as="geometry" />
+          <mxGeometry x="176.26" y="2610" width="44.99" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MC05JtdB94ARFOMbDvMO-785" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="77e6c97f196da883-4">
           <mxGeometry x="306.27" y="2600" width="44.99" height="30" as="geometry" />
@@ -1139,6 +1139,39 @@
         </mxCell>
         <mxCell id="MC05JtdB94ARFOMbDvMO-786" value="ComputeLateralErrors" style="text;whiteSpace=wrap;html=1;fontSize=10;fontColor=#000000;" vertex="1" parent="77e6c97f196da883-4">
           <mxGeometry x="120" y="2590" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-814" value="如果&lt;br&gt;query_time_nearest_point_only&lt;br&gt;？" style="rhombus;whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;" vertex="1" parent="77e6c97f196da883-4">
+          <mxGeometry x="106.25" y="2680" width="185" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-815" value="基于当前时间+查询相对时间，查询目标轨迹上最近邻点" style="whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;align=left;" vertex="1" parent="77e6c97f196da883-4">
+          <mxGeometry x="123.75999999999999" y="2760" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-816" value="如果&lt;br&gt;use_navigation_mode 并且&lt;br&gt;disable_navigation_mode_position_update&lt;br&gt;？" style="rhombus;whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;" vertex="1" parent="77e6c97f196da883-4">
+          <mxGeometry x="88.75" y="2840" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-817" value="基于当前时间+查询相对时间，查询目标轨迹上最近邻点" style="whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;align=left;" vertex="1" parent="77e6c97f196da883-4">
+          <mxGeometry x="123.75" y="2919" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-818" value="基于传入的xy坐标位置，查询目标轨迹上最近邻点" style="whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;align=left;" vertex="1" parent="77e6c97f196da883-4">
+          <mxGeometry x="123.75" y="3000" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-819" value="计算输入xy坐标与查询的最近点的纵向位置偏差lateral_error =&amp;nbsp;&lt;br&gt;cos(ref_theta)*dy-sin(ref_theta)*dx" style="whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;align=left;" vertex="1" parent="77e6c97f196da883-4">
+          <mxGeometry x="118.75" y="3080" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-820" value="如果&lt;br&gt;enable_navigation_mode_error_filter&lt;br&gt;？" style="rhombus;whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;" vertex="1" parent="77e6c97f196da883-4">
+          <mxGeometry x="106.25" y="3160" width="185" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-821" value="对lateral_error进行滤波处理" style="whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;align=left;" vertex="1" parent="77e6c97f196da883-4">
+          <mxGeometry x="123.76" y="3240" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-822" value="计算输入xy坐标与查询的最近点的纵向航向角偏差heading_error =&amp;nbsp;&lt;br&gt;theta - ref_theta" style="whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;align=left;" vertex="1" parent="77e6c97f196da883-4">
+          <mxGeometry x="118.75" y="3320" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-823" value="如果&lt;br&gt;enable_navigation_mode_error_filter&lt;br&gt;？" style="rhombus;whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;" vertex="1" parent="77e6c97f196da883-4">
+          <mxGeometry x="106.25999999999999" y="3400" width="185" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MC05JtdB94ARFOMbDvMO-824" value="对heading_error进行滤波处理" style="whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;align=left;" vertex="1" parent="77e6c97f196da883-4">
+          <mxGeometry x="123.75" y="3480" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="77e6c97f196da883-5" value="Lane 4" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
           <mxGeometry x="1360" y="20" width="160" height="4200" as="geometry" />
