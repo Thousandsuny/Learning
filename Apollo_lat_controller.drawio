@@ -1,5 +1,5 @@
-<mxfile host="app.diagrams.net" modified="2022-01-27T01:10:43.446Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="rrKs8V8bzAdzYusdud3v" version="16.2.6" type="github" pages="3">
-  <diagram name="lat_controller.cc" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
+<mxfile host="app.diagrams.net" modified="2022-01-27T08:39:08.934Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="HISkH3beC_ZpzN_3HZDG" version="16.4.7" type="github" pages="3">
+  <diagram name="lat_controller" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1355" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="1" shadow="0">
       <root>
         <mxCell id="0" />
@@ -1856,7 +1856,7 @@
         <mxCell id="MC05JtdB94ARFOMbDvMO-1515" value="从x&#39;y&#39;，到xy即为坐标旋转-a，因此公式为&lt;br style=&quot;font-size: 15px&quot;&gt;x = x&#39;cos(a) - y&#39;sin(a)&lt;br style=&quot;font-size: 15px&quot;&gt;y = x&#39;sin(a) + y&#39;cos(a)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontColor=#000000;fontStyle=1" parent="MC05JtdB94ARFOMbDvMO-1473" vertex="1">
           <mxGeometry y="260" width="290" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="QDZ_ARCjeTSY3vKNMjlz-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+        <mxCell id="QDZ_ARCjeTSY3vKNMjlz-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1720" y="1050" as="targetPoint" />
             <mxPoint x="1840" y="945" as="sourcePoint" />
@@ -1869,7 +1869,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="FNzPJEMkcqPhtXhuz3O_" name="linear_quadratic_regulator.cc">
+  <diagram id="FNzPJEMkcqPhtXhuz3O_" name="lon_controller">
     <mxGraphModel dx="1355" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="21PTu1vJcjUk7ZxuE2vz-0" />
@@ -1877,7 +1877,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="BxL1BPj1FlsLehWVMZAM" name="curvature">
+  <diagram id="BxL1BPj1FlsLehWVMZAM" name="mpc_controller">
     <mxGraphModel dx="1355" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="yTyQucyBNlrQBm80aUoB-0" />
