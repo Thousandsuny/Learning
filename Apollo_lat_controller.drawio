@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-07T04:16:27.767Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="9yAQOL1y_09bMd4HX7_F" version="16.4.7" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-02-07T04:20:15.892Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="E0TBZlsVl5vT-KYnHW1M" version="16.4.7" type="github" pages="3">
   <diagram name="lat_controller" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1355" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="1" shadow="0">
       <root>
@@ -2182,6 +2182,9 @@
         <mxCell id="XhkEk3ZrrLslnnZAYCya-105" value="加载高速PID控制参数" style="whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;align=left;" vertex="1" parent="HX5aW8TS0pCAQXoXMN9y-40">
           <mxGeometry x="30" y="1080" width="110" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="XhkEk3ZrrLslnnZAYCya-122" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;fontColor=#000000;" edge="1" parent="HX5aW8TS0pCAQXoXMN9y-40" source="XhkEk3ZrrLslnnZAYCya-113" target="XhkEk3ZrrLslnnZAYCya-121">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="XhkEk3ZrrLslnnZAYCya-113" value="speed_offset为station_error_limited经过位置PID控制后的值&amp;nbsp;" style="whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;align=left;" vertex="1" parent="HX5aW8TS0pCAQXoXMN9y-40">
           <mxGeometry x="120" y="1240" width="170" height="30" as="geometry" />
         </mxCell>
@@ -2193,6 +2196,21 @@
               <mxPoint x="205" y="1200" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="XhkEk3ZrrLslnnZAYCya-124" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;fontColor=#000000;" edge="1" parent="HX5aW8TS0pCAQXoXMN9y-40" source="XhkEk3ZrrLslnnZAYCya-121" target="XhkEk3ZrrLslnnZAYCya-123">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XhkEk3ZrrLslnnZAYCya-121" value="如果使能leadlag？" style="rhombus;whiteSpace=wrap;html=1;align=center;rounded=0;fontSize=10;strokeWidth=2;" vertex="1" parent="HX5aW8TS0pCAQXoXMN9y-40">
+          <mxGeometry x="125" y="1300" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XhkEk3ZrrLslnnZAYCya-126" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;fontColor=#000000;" edge="1" parent="HX5aW8TS0pCAQXoXMN9y-40" source="XhkEk3ZrrLslnnZAYCya-123" target="XhkEk3ZrrLslnnZAYCya-125">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XhkEk3ZrrLslnnZAYCya-123" value="对speed_offset经过leadlag控制器处理" style="whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;align=left;" vertex="1" parent="HX5aW8TS0pCAQXoXMN9y-40">
+          <mxGeometry x="115" y="1370" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XhkEk3ZrrLslnnZAYCya-125" value="speed_control_input = 0&lt;br&gt;speed_control_input_limited = 0" style="whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;align=left;" vertex="1" parent="HX5aW8TS0pCAQXoXMN9y-40">
+          <mxGeometry x="132.5" y="1440" width="145" height="30" as="geometry" />
         </mxCell>
         <mxCell id="HX5aW8TS0pCAQXoXMN9y-185" value="ComputeControlCommand:&amp;nbsp;一级子函数" style="swimlane;html=1;startSize=20;" parent="HX5aW8TS0pCAQXoXMN9y-2" vertex="1">
           <mxGeometry x="920" y="20" width="440" height="4210" as="geometry" />
@@ -2208,6 +2226,22 @@
         </mxCell>
         <mxCell id="BYFu5jfnrJFVMLr0TTVF-66" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;labelBackgroundColor=#FFFFFF;fontSize=10;" parent="HX5aW8TS0pCAQXoXMN9y-1" vertex="1">
           <mxGeometry x="152" y="100" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XhkEk3ZrrLslnnZAYCya-127" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;fontColor=#000000;" edge="1" parent="HX5aW8TS0pCAQXoXMN9y-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="685" y="1420" as="targetPoint" />
+            <mxPoint x="770" y="1320" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="800" y="1320" />
+              <mxPoint x="800" y="1420" />
+              <mxPoint x="685" y="1420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XhkEk3ZrrLslnnZAYCya-128" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontColor=#000000;" vertex="1" connectable="0" parent="XhkEk3ZrrLslnnZAYCya-127">
+          <mxGeometry x="-0.5361" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
