@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-07T04:20:15.892Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="E0TBZlsVl5vT-KYnHW1M" version="16.4.7" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-02-07T06:16:20.892Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="aZ2XwzTyckWXM4lBK-J3" version="16.4.7" type="github" pages="3">
   <diagram name="lat_controller" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1355" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="1" shadow="0">
       <root>
@@ -2206,11 +2206,76 @@
         <mxCell id="XhkEk3ZrrLslnnZAYCya-126" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;fontColor=#000000;" edge="1" parent="HX5aW8TS0pCAQXoXMN9y-40" source="XhkEk3ZrrLslnnZAYCya-123" target="XhkEk3ZrrLslnnZAYCya-125">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XhkEk3ZrrLslnnZAYCya-123" value="对speed_offset经过leadlag控制器处理" style="whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;align=left;" vertex="1" parent="HX5aW8TS0pCAQXoXMN9y-40">
-          <mxGeometry x="115" y="1370" width="180" height="30" as="geometry" />
+        <mxCell id="XhkEk3ZrrLslnnZAYCya-123" value="对speed_offset进行位置leadlag控制器处理" style="whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;align=left;" vertex="1" parent="HX5aW8TS0pCAQXoXMN9y-40">
+          <mxGeometry x="147.49" y="1370" width="115" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XhkEk3ZrrLslnnZAYCya-134" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;fontColor=#000000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="HX5aW8TS0pCAQXoXMN9y-40" source="XhkEk3ZrrLslnnZAYCya-125" target="XhkEk3ZrrLslnnZAYCya-129">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XhkEk3ZrrLslnnZAYCya-125" value="speed_control_input = 0&lt;br&gt;speed_control_input_limited = 0" style="whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;align=left;" vertex="1" parent="HX5aW8TS0pCAQXoXMN9y-40">
           <mxGeometry x="132.5" y="1440" width="145" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XhkEk3ZrrLslnnZAYCya-135" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;fontColor=#000000;" edge="1" parent="HX5aW8TS0pCAQXoXMN9y-40" source="XhkEk3ZrrLslnnZAYCya-129" target="XhkEk3ZrrLslnnZAYCya-130">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XhkEk3ZrrLslnnZAYCya-138" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;fontColor=#000000;" edge="1" parent="HX5aW8TS0pCAQXoXMN9y-40" source="XhkEk3ZrrLslnnZAYCya-129" target="XhkEk3ZrrLslnnZAYCya-132">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XhkEk3ZrrLslnnZAYCya-129" value="如果使能速度位置预瞄？" style="rhombus;whiteSpace=wrap;html=1;align=center;rounded=0;fontSize=10;strokeWidth=2;" vertex="1" parent="HX5aW8TS0pCAQXoXMN9y-40">
+          <mxGeometry x="125" y="1500" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XhkEk3ZrrLslnnZAYCya-136" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;fontColor=#000000;" edge="1" parent="HX5aW8TS0pCAQXoXMN9y-40" source="XhkEk3ZrrLslnnZAYCya-130" target="XhkEk3ZrrLslnnZAYCya-131">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XhkEk3ZrrLslnnZAYCya-130" value="speed_control_input = speed_offset + preview_speed_error" style="whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;align=left;" vertex="1" parent="HX5aW8TS0pCAQXoXMN9y-40">
+          <mxGeometry x="123.13" y="1560" width="163.75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XhkEk3ZrrLslnnZAYCya-137" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=10;fontColor=#000000;" edge="1" parent="HX5aW8TS0pCAQXoXMN9y-40" source="XhkEk3ZrrLslnnZAYCya-131" target="XhkEk3ZrrLslnnZAYCya-140">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XhkEk3ZrrLslnnZAYCya-131" value="&lt;span&gt;speed_control_input_limited为上面的&lt;/span&gt;speed_control_input限幅后的值" style="whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;align=left;" vertex="1" parent="HX5aW8TS0pCAQXoXMN9y-40">
+          <mxGeometry x="126.25" y="1640" width="157.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XhkEk3ZrrLslnnZAYCya-139" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;fontColor=#000000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="HX5aW8TS0pCAQXoXMN9y-40" source="XhkEk3ZrrLslnnZAYCya-132">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="205" y="1620" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="394" y="1620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XhkEk3ZrrLslnnZAYCya-132" value="speed_control_input = speed_offset + speed_error" style="whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;align=left;" vertex="1" parent="HX5aW8TS0pCAQXoXMN9y-40">
+          <mxGeometry x="311.87" y="1560" width="163.75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XhkEk3ZrrLslnnZAYCya-144" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;fontColor=#000000;" edge="1" parent="HX5aW8TS0pCAQXoXMN9y-40" source="XhkEk3ZrrLslnnZAYCya-133" target="XhkEk3ZrrLslnnZAYCya-142">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XhkEk3ZrrLslnnZAYCya-133" value="acceleration_cmd_closeloop为上面speed_control_input_limited进过速度PID控制器处理之后的值" style="whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;align=left;" vertex="1" parent="HX5aW8TS0pCAQXoXMN9y-40">
+          <mxGeometry x="119.99" y="1780" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XhkEk3ZrrLslnnZAYCya-141" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;fontColor=#000000;" edge="1" parent="HX5aW8TS0pCAQXoXMN9y-40" source="XhkEk3ZrrLslnnZAYCya-140" target="XhkEk3ZrrLslnnZAYCya-133">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XhkEk3ZrrLslnnZAYCya-140" value="acceleration_cmd_closeloop = 0" style="whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;align=left;" vertex="1" parent="HX5aW8TS0pCAQXoXMN9y-40">
+          <mxGeometry x="131.25" y="1710" width="147.49" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XhkEk3ZrrLslnnZAYCya-146" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;fontColor=#000000;" edge="1" parent="HX5aW8TS0pCAQXoXMN9y-40" source="XhkEk3ZrrLslnnZAYCya-142" target="XhkEk3ZrrLslnnZAYCya-143">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XhkEk3ZrrLslnnZAYCya-142" value="更新速度PID积分饱和状态" style="whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;align=left;" vertex="1" parent="HX5aW8TS0pCAQXoXMN9y-40">
+          <mxGeometry x="131.27" y="1850" width="147.49" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XhkEk3ZrrLslnnZAYCya-147" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;fontColor=#000000;" edge="1" parent="HX5aW8TS0pCAQXoXMN9y-40" source="XhkEk3ZrrLslnnZAYCya-143" target="XhkEk3ZrrLslnnZAYCya-145">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XhkEk3ZrrLslnnZAYCya-143" value="如果使能leadlag？" style="rhombus;whiteSpace=wrap;html=1;align=center;rounded=0;fontSize=10;strokeWidth=2;" vertex="1" parent="HX5aW8TS0pCAQXoXMN9y-40">
+          <mxGeometry x="125.00999999999999" y="1920" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XhkEk3ZrrLslnnZAYCya-145" value="对acceleration_cmd_closeloop进行速度leadlag控制器处理" style="whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;align=left;" vertex="1" parent="HX5aW8TS0pCAQXoXMN9y-40">
+          <mxGeometry x="115" y="1990" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XhkEk3ZrrLslnnZAYCya-148" value="更新速度leadlag内部状态饱和状态" style="whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;align=left;" vertex="1" parent="HX5aW8TS0pCAQXoXMN9y-40">
+          <mxGeometry x="125.63000000000001" y="2050" width="158.73" height="30" as="geometry" />
         </mxCell>
         <mxCell id="HX5aW8TS0pCAQXoXMN9y-185" value="ComputeControlCommand:&amp;nbsp;一级子函数" style="swimlane;html=1;startSize=20;" parent="HX5aW8TS0pCAQXoXMN9y-2" vertex="1">
           <mxGeometry x="920" y="20" width="440" height="4210" as="geometry" />
