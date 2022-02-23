@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-23T03:46:04.457Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="qYcaQxA35UJEYfY0tlbp" version="16.6.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-02-23T04:00:40.965Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="6CvpnLQUk8ZrNkJHzGN_" version="16.6.1" type="github" pages="4">
   <diagram name="lat_controller" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1355" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="1" shadow="0">
       <root>
@@ -3120,7 +3120,7 @@
             <mxRectangle width="64" height="180" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JMXIpu4SClRpetwRc-rk-9" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-size: 12px&quot;&gt;$$a_x = \ddot{s} \frac{1-k_rd}{\cos(\Delta \theta)} + \frac{\dot{s}^2}{\cos(\Delta \theta)}(\tan(\Delta \theta)\Delta \theta^{\prime}(1-\kappa_rd )-(\kappa_r^{\prime}d + \kappa_rd^{\prime}))$$&lt;/span&gt;&lt;br style=&quot;color: rgb(0 , 0 , 0) ; font-size: 12px&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-size: 12px&quot;&gt;其中，`\Delta \theta^{\prime} = \kappa_x \frac{1-\kappa_rd}{\cos(\Delta \theta)} - \kappa_r`&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;labelBackgroundColor=none;fontSize=20;fontColor=#0000FF;" vertex="1" parent="JMXIpu4SClRpetwRc-rk-7">
+        <mxCell id="JMXIpu4SClRpetwRc-rk-9" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-size: 12px&quot;&gt;$$a_x = \ddot{s} \frac{1-k_rd}{\cos\Delta \theta} + \frac{\dot{s}^2}{\cos\Delta \theta}(\tan\Delta \theta\Delta \theta^{\prime}(1-\kappa_rd )-(\kappa_r^{\prime}d + \kappa_rd^{\prime}))$$&lt;/span&gt;&lt;br style=&quot;color: rgb(0 , 0 , 0) ; font-size: 12px&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-size: 12px&quot;&gt;其中，`\Delta \theta^{\prime} = \kappa_x \frac{1-\kappa_rd}{\cos\Delta \theta} - \kappa_r`&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;labelBackgroundColor=none;fontSize=20;fontColor=#0000FF;" vertex="1" parent="JMXIpu4SClRpetwRc-rk-7">
           <mxGeometry x="64" width="456" height="180" as="geometry">
             <mxRectangle width="456" height="180" as="alternateBounds" />
           </mxGeometry>
@@ -3165,7 +3165,7 @@
             <mxRectangle width="64" height="60" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JMXIpu4SClRpetwRc-rk-23" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-size: 12px&quot;&gt;$$\ddot{s} = \frac{\cos\Delta \theta}{1-\kappa_rd}[a_x - \frac{\dot{s}}{\cos \Delta \theta}(\tan \Delta \theta)\Delta\theta(1-\kappa_rd) - (\kappa_r^{\prime}d+\kappa_rd^{\prime})$$&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;labelBackgroundColor=none;fontSize=20;fontColor=#0000FF;" vertex="1" parent="JMXIpu4SClRpetwRc-rk-21">
+        <mxCell id="JMXIpu4SClRpetwRc-rk-23" value="&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;$$\ddot{s} = \frac{\cos\Delta \theta}{1-\kappa_rd}[a_x - \frac{\dot{s}^2}{\cos \Delta \theta}(\tan\Delta \theta\Delta \theta^{\prime}(1-\kappa_rd ) -(\kappa_r^{\prime}d+\kappa_rd^{\prime}))] $$&lt;/span&gt;&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;labelBackgroundColor=none;fontSize=20;fontColor=#0000FF;" vertex="1" parent="JMXIpu4SClRpetwRc-rk-21">
           <mxGeometry x="64" width="456" height="60" as="geometry">
             <mxRectangle width="456" height="60" as="alternateBounds" />
           </mxGeometry>
