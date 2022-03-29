@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-02-23T06:05:47.037Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="eUuhY_twVTKA6PA6hKvO" version="16.6.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-03-29T01:21:35.913Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="n70uUyLvjAOvC1jlR1WP" version="16.6.4" type="github" pages="4">
   <diagram name="lat_controller" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
-    <mxGraphModel dx="1355" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="1" shadow="0">
+    <mxGraphModel dx="1422" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1866,7 +1866,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="lon_controller" id="UUxNqY85Z3k7sjWd4qqY">
-    <mxGraphModel dx="1355" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="1" shadow="0">
+    <mxGraphModel dx="1422" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="1" shadow="0">
       <root>
         <mxCell id="HX5aW8TS0pCAQXoXMN9y-0" />
         <mxCell id="HX5aW8TS0pCAQXoXMN9y-1" parent="HX5aW8TS0pCAQXoXMN9y-0" />
@@ -2195,6 +2195,14 @@
         </mxCell>
         <mxCell id="XhkEk3ZrrLslnnZAYCya-30" value="station_error_limited为preview_station_error限幅后的值" style="whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;align=left;" parent="HX5aW8TS0pCAQXoXMN9y-40" vertex="1">
           <mxGeometry x="121.25" y="820" width="157.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="n3_4SzUBFftpXjOdyrYJ-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="HX5aW8TS0pCAQXoXMN9y-40" source="XhkEk3ZrrLslnnZAYCya-91" target="XhkEk3ZrrLslnnZAYCya-98">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="370" y="870" />
+              <mxPoint x="200" y="870" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="XhkEk3ZrrLslnnZAYCya-91" value="station_error_limited为station_error限幅后的值" style="whiteSpace=wrap;html=1;fontSize=10;strokeWidth=2;align=left;" parent="HX5aW8TS0pCAQXoXMN9y-40" vertex="1">
           <mxGeometry x="291.25" y="820" width="157.5" height="30" as="geometry" />
@@ -2886,28 +2894,28 @@
         <mxCell id="8k9YRqnjZLQ59Qm0_hmZ-47" value="" style="group;strokeColor=default;dashed=1;strokeWidth=2;container=0;" parent="HX5aW8TS0pCAQXoXMN9y-279" vertex="1" connectable="0">
           <mxGeometry x="39.56" y="50" width="360.44" height="600" as="geometry" />
         </mxCell>
-        <mxCell id="Ag2RwxF9DMmC33zf9Iph-0" value="&lt;span style=&quot;text-align: center&quot;&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;b&gt;leadlag&lt;/b&gt;&lt;br&gt;&lt;b&gt;https://zhuanlan.zhihu.com/p/390993852&lt;/b&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=10;fontColor=#000000;" vertex="1" parent="HX5aW8TS0pCAQXoXMN9y-279">
+        <mxCell id="Ag2RwxF9DMmC33zf9Iph-0" value="&lt;span style=&quot;text-align: center&quot;&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;b&gt;leadlag&lt;/b&gt;&lt;br&gt;&lt;b&gt;https://zhuanlan.zhihu.com/p/390993852&lt;/b&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=10;fontColor=#000000;" parent="HX5aW8TS0pCAQXoXMN9y-279" vertex="1">
           <mxGeometry x="79.55999999999995" y="55" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="pdtvXq7p1rhNZxfmtKzj-0" value="超前-滞后补偿器的传递函数形式如下：&lt;br&gt;$$H(s) = \beta \frac{ \tau  s + 1 } { \tau \alpha s + 1 }$$&lt;br&gt;其中，`\alpha` 为滞后系数；`\beta` 为超前系数；`\tau` 为给定的时间系数。&lt;br&gt;&lt;br&gt;采用双线性变换，T为采样周期&lt;br&gt;$$s=\frac {2} {T} \frac {z-1} {z+1}$$&lt;br&gt;&lt;br&gt;可以得到&lt;br&gt;$$\begin{align}&lt;br&gt;H(z) &amp;amp;= \beta \frac { \tau  \frac {2} {T} \frac {z-1} {z+1} + 1 }  { \tau \alpha \frac {2} {T} \frac {z-1} {z+1} + 1 } \\&lt;br&gt;&amp;amp;= \beta \frac { 2 \tau (z-1)  + T (z+1) }  { 2 \tau \alpha (z-1)  + T(z+1) } \\&lt;br&gt;&amp;amp;= \beta \frac {  (T - 2 \tau) + (2 \tau + T)z^{} }  {  (T - 2  \alpha \tau) + (2 \alpha \tau + T)z^{} } \\&lt;br&gt;&amp;amp;=  \frac {  (T \beta - 2 \beta \tau) + (2 \beta \tau + T \beta)z^{} }  {  (T - 2  \alpha \tau) + (2 \alpha \tau + T)z^{} } \\&lt;br&gt;&amp;amp;=  \frac {  kn_0 +kn_1 * z^{} }  {  kd_0+ kd_1 * z^{} }&lt;br&gt;\end{align}$$" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="HX5aW8TS0pCAQXoXMN9y-279">
+        <mxCell id="pdtvXq7p1rhNZxfmtKzj-0" value="超前-滞后补偿器的传递函数形式如下：&lt;br&gt;$$H(s) = \beta \frac{ \tau  s + 1 } { \tau \alpha s + 1 }$$&lt;br&gt;其中，`\alpha` 为滞后系数；`\beta` 为超前系数；`\tau` 为给定的时间系数。&lt;br&gt;&lt;br&gt;采用双线性变换，T为采样周期&lt;br&gt;$$s=\frac {2} {T} \frac {z-1} {z+1}$$&lt;br&gt;&lt;br&gt;可以得到&lt;br&gt;$$\begin{align}&lt;br&gt;H(z) &amp;amp;= \beta \frac { \tau  \frac {2} {T} \frac {z-1} {z+1} + 1 }  { \tau \alpha \frac {2} {T} \frac {z-1} {z+1} + 1 } \\&lt;br&gt;&amp;amp;= \beta \frac { 2 \tau (z-1)  + T (z+1) }  { 2 \tau \alpha (z-1)  + T(z+1) } \\&lt;br&gt;&amp;amp;= \beta \frac {  (T - 2 \tau) + (2 \tau + T)z^{} }  {  (T - 2  \alpha \tau) + (2 \alpha \tau + T)z^{} } \\&lt;br&gt;&amp;amp;=  \frac {  (T \beta - 2 \beta \tau) + (2 \beta \tau + T \beta)z^{} }  {  (T - 2  \alpha \tau) + (2 \alpha \tau + T)z^{} } \\&lt;br&gt;&amp;amp;=  \frac {  kn_0 +kn_1 * z^{} }  {  kd_0+ kd_1 * z^{} }&lt;br&gt;\end{align}$$" style="text;whiteSpace=wrap;html=1;" parent="HX5aW8TS0pCAQXoXMN9y-279" vertex="1">
           <mxGeometry x="79.56" y="85" width="280.44" height="535" as="geometry" />
         </mxCell>
-        <mxCell id="pdtvXq7p1rhNZxfmtKzj-1" value="" style="group;strokeColor=default;dashed=1;strokeWidth=2;container=0;" vertex="1" connectable="0" parent="HX5aW8TS0pCAQXoXMN9y-279">
+        <mxCell id="pdtvXq7p1rhNZxfmtKzj-1" value="" style="group;strokeColor=default;dashed=1;strokeWidth=2;container=0;" parent="HX5aW8TS0pCAQXoXMN9y-279" vertex="1" connectable="0">
           <mxGeometry x="39.56" y="690" width="360.44" height="600" as="geometry" />
         </mxCell>
-        <mxCell id="pdtvXq7p1rhNZxfmtKzj-2" value="&lt;span style=&quot;text-align: center&quot;&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;b&gt;LpfCoefficients&lt;/b&gt;&lt;br&gt;&lt;b&gt;https://zhuanlan.zhihu.com/p/391016378&lt;/b&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=10;fontColor=#000000;" vertex="1" parent="HX5aW8TS0pCAQXoXMN9y-279">
+        <mxCell id="pdtvXq7p1rhNZxfmtKzj-2" value="&lt;span style=&quot;text-align: center&quot;&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;b&gt;LpfCoefficients&lt;/b&gt;&lt;br&gt;&lt;b&gt;https://zhuanlan.zhihu.com/p/391016378&lt;/b&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=10;fontColor=#000000;" parent="HX5aW8TS0pCAQXoXMN9y-279" vertex="1">
           <mxGeometry x="79.56" y="700" width="200.44" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="YB-BKEFKG8FZ73EBfx1Z-1" value="" style="group;strokeColor=default;dashed=1;strokeWidth=2;container=0;" vertex="1" connectable="0" parent="HX5aW8TS0pCAQXoXMN9y-279">
+        <mxCell id="YB-BKEFKG8FZ73EBfx1Z-1" value="" style="group;strokeColor=default;dashed=1;strokeWidth=2;container=0;" parent="HX5aW8TS0pCAQXoXMN9y-279" vertex="1" connectable="0">
           <mxGeometry x="39.56" y="1330" width="360.44" height="760" as="geometry" />
         </mxCell>
-        <mxCell id="YB-BKEFKG8FZ73EBfx1Z-2" value="&lt;span style=&quot;text-align: center&quot;&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;b&gt;LpfCoefficients&lt;/b&gt;&lt;br&gt;&lt;b&gt;https://zhuanlan.zhihu.com/p/391016378&lt;/b&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=10;fontColor=#000000;" vertex="1" parent="HX5aW8TS0pCAQXoXMN9y-279">
+        <mxCell id="YB-BKEFKG8FZ73EBfx1Z-2" value="&lt;span style=&quot;text-align: center&quot;&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;b&gt;LpfCoefficients&lt;/b&gt;&lt;br&gt;&lt;b&gt;https://zhuanlan.zhihu.com/p/391016378&lt;/b&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=10;fontColor=#000000;" parent="HX5aW8TS0pCAQXoXMN9y-279" vertex="1">
           <mxGeometry x="79.55999999999995" y="1340" width="200.44" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="OV1Q_prMjBnU5QXeyTZ--0" value="采用的是二阶巴特沃斯低通滤波器，推导如下&lt;br&gt;&lt;br&gt;传递函数如下&lt;br&gt;&lt;br&gt;$$H(S)=\frac{\omega_{N}^{2}  }{s^2+\sqrt{2}\omega_{N}^{} *s+\omega_{N}^{2} }$$&lt;br&gt;&lt;br&gt;其中，阻尼比为0.707。&lt;br&gt;&lt;br&gt;采用双线性变换，T为采样周期&lt;br&gt;&lt;br&gt;$$s=\frac {2} {T} \frac {1-z^{-1}} {1+z^{-1}}$$&lt;br&gt;&lt;br&gt;为了简便，设 $$\alpha=\frac{\omega_{N}^{}T}{2}$$ ，将上式带入传递函数，可以得到&lt;br&gt;&lt;br&gt;$$\begin{align}H(z)&amp;amp;=\frac {\frac {\alpha^2 (1+2z^{-1}+z^{-2})} {1+\sqrt{2}\alpha+\alpha^2 } } { 1 + \frac{2(\alpha^2-1)} {1+\sqrt{2}\alpha+\alpha^2 } z^{-1} +  \frac{1-\sqrt{2}\alpha+\alpha^2 } {1+\sqrt{2}\alpha+\alpha^2 } z^{-2} }\end{align}$$" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="HX5aW8TS0pCAQXoXMN9y-279">
+        <mxCell id="OV1Q_prMjBnU5QXeyTZ--0" value="采用的是二阶巴特沃斯低通滤波器，推导如下&lt;br&gt;&lt;br&gt;传递函数如下&lt;br&gt;&lt;br&gt;$$H(S)=\frac{\omega_{N}^{2}  }{s^2+\sqrt{2}\omega_{N}^{} *s+\omega_{N}^{2} }$$&lt;br&gt;&lt;br&gt;其中，阻尼比为0.707。&lt;br&gt;&lt;br&gt;采用双线性变换，T为采样周期&lt;br&gt;&lt;br&gt;$$s=\frac {2} {T} \frac {1-z^{-1}} {1+z^{-1}}$$&lt;br&gt;&lt;br&gt;为了简便，设 $$\alpha=\frac{\omega_{N}^{}T}{2}$$ ，将上式带入传递函数，可以得到&lt;br&gt;&lt;br&gt;$$\begin{align}H(z)&amp;amp;=\frac {\frac {\alpha^2 (1+2z^{-1}+z^{-2})} {1+\sqrt{2}\alpha+\alpha^2 } } { 1 + \frac{2(\alpha^2-1)} {1+\sqrt{2}\alpha+\alpha^2 } z^{-1} +  \frac{1-\sqrt{2}\alpha+\alpha^2 } {1+\sqrt{2}\alpha+\alpha^2 } z^{-2} }\end{align}$$" style="text;whiteSpace=wrap;html=1;" parent="HX5aW8TS0pCAQXoXMN9y-279" vertex="1">
           <mxGeometry x="79.56" y="760" width="280.44" height="510" as="geometry" />
         </mxCell>
-        <mxCell id="YB-BKEFKG8FZ73EBfx1Z-0" value="LpFirstOrderCoefficients&lt;br&gt;这里的滤波器主要由两个部分组成：&lt;br&gt;采样系统为0阶保持器，传递函数如下所示：&lt;br&gt;&lt;br&gt;$$G_{0}(s) = \frac{1- e^{-sT}}{s}$$&lt;br&gt;&lt;br&gt;一阶滤波系统，传递函数如下所示：&lt;br&gt;&lt;br&gt;$$G_{1}(s) = \frac{a}{s+a}$$&lt;br&gt;&lt;br&gt;写成数字控制器的形式:&lt;br&gt;&lt;br&gt;$$G_{}(s)= G_{0}(s)G_{1}(s) = (1 - e^{-sT})(\frac{a}{s(s+a)})$$&lt;br&gt;&lt;br&gt;代入离散变换公式得：&lt;br&gt;&lt;br&gt;$$G(z) = (1-z^{-1})(\frac{z(1-e^{-aT})}{(z-1)(z-e^{-aT})})$$&lt;br&gt;&lt;br&gt;最终我们可以得到：&lt;br&gt;&lt;br&gt;$$G(z) =\frac{(1-e^{-aT})}{(z-e^{-aT})}$$&lt;br&gt;&lt;br&gt;其中T为采样时间，与采样频率相关；参数 `a = 2\pi f, f` 为滤波器带宽，即为截止频率。" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="HX5aW8TS0pCAQXoXMN9y-279">
+        <mxCell id="YB-BKEFKG8FZ73EBfx1Z-0" value="LpFirstOrderCoefficients&lt;br&gt;这里的滤波器主要由两个部分组成：&lt;br&gt;采样系统为0阶保持器，传递函数如下所示：&lt;br&gt;&lt;br&gt;$$G_{0}(s) = \frac{1- e^{-sT}}{s}$$&lt;br&gt;&lt;br&gt;一阶滤波系统，传递函数如下所示：&lt;br&gt;&lt;br&gt;$$G_{1}(s) = \frac{a}{s+a}$$&lt;br&gt;&lt;br&gt;写成数字控制器的形式:&lt;br&gt;&lt;br&gt;$$G_{}(s)= G_{0}(s)G_{1}(s) = (1 - e^{-sT})(\frac{a}{s(s+a)})$$&lt;br&gt;&lt;br&gt;代入离散变换公式得：&lt;br&gt;&lt;br&gt;$$G(z) = (1-z^{-1})(\frac{z(1-e^{-aT})}{(z-1)(z-e^{-aT})})$$&lt;br&gt;&lt;br&gt;最终我们可以得到：&lt;br&gt;&lt;br&gt;$$G(z) =\frac{(1-e^{-aT})}{(z-e^{-aT})}$$&lt;br&gt;&lt;br&gt;其中T为采样时间，与采样频率相关；参数 `a = 2\pi f, f` 为滤波器带宽，即为截止频率。" style="text;whiteSpace=wrap;html=1;" parent="HX5aW8TS0pCAQXoXMN9y-279" vertex="1">
           <mxGeometry x="79.56" y="1370" width="280.44" height="720" as="geometry" />
         </mxCell>
         <mxCell id="XhkEk3ZrrLslnnZAYCya-127" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;fontColor=#000000;" parent="HX5aW8TS0pCAQXoXMN9y-1" edge="1">
