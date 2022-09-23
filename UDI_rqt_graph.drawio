@@ -1,1 +1,65 @@
-<mxfile host="app.diagrams.net" modified="2022-09-23T06:06:23.388Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="FHybBXS3L13JSDp5qNOe" version="20.2.7" type="github"><diagram name="Page-1" id="42789a77-a242-8287-6e28-9cd8cfd52e62">7Ztdk5owFIZ/jZftQAIil9Xubi/a3thpr7OQhXRD4oT41V/fIIlCUxE7s2OcZryQnHxBzpvnHEAncFHtngRalV94jukEBPluAj9OAAijYKa+Gsu+tSSRNhSC5LrRybAkv7A2Btq6Jjmuew0l51SSVd+YccZwJns2JATf9pu9cNqfdYUKbBmWGaK29QfJZamtYRCcKj5hUpR66lmsK55R9loIvmZ6PsYZbmsqZIbRTesS5XzbMcGHCVwIzmV7VO0WmDbLalas7fd4pvZ4ygIzOaoDRjBMkjTIQYbSGXwXAn1icm/WAedqWXTxcClwfrg43IwRqlIpK6oPKXrGdH68/gWnXJy61RIJ+aFxzR+2R0KbEQJT1mKIVRmz3PTIKKprkn0rCWsrdLewLXU6/cRS7nUZrSVXJi5kyQvOEP3M+Ur3qqXgr9ic5QTA+eFzrDF+b9q+cCYfUUVoI+fvWOSIIW3WM5m16y6/9kjN1yLD59ZcixuJAsszbfTQjS86A2unPmFeYSn2qoHAFEmy6UsY6Z1QHNudJKEOtCrGKgS2g24QXetp2kk589JxUTqpO9KJvHTuSjrQHelYylk2LiOsmIApqtTSztlz3XypMlXXM8/JRh0WzSFTuYkxq5k7NbbsKFX5RSORbUkkXq7QYQG3KsXpa+4kxoN+TBxvqjJekUxXXJLmP/kbzhElBWvEqVyOxfFC/qKBDRYS7wa9p2sjk7/ofG2mi9tT8pNqU9lJe6bBG7gb2P72pLgVKcAIUiTOkAIAL527ks7UHelYyjFRo14hZmLG10M0CUAnonSrfUjphpTkfdwLKmFqR5UktqNK/BZRJYw9GpxBAxyBhsgZNNg3vQNogB4NF9GQBP1s87ZgmHowOAOGaAQYYmfAYD/SGABD4sFwNRgguCUYEg8GZ8AQjwDDzBkw2LnmABhSD4arwRAlNwQD8G9B3AHD9K7AYOeaA2CYejBcBEMcO5QxAP+Oyx0wJHcFBjvXHABD7MFwEQxw6hAYZpZ3H1iuDO3LSe+088+M4/CWd4Cp57kzPE9H8NyIxQGg29LR8A5t6fy/G/74g08XngSbCOG3uwPb3QhjeL+Hzuz30BbPQAYX+Qzuajbc9mGwncJ5NtyMDWN+v+jOvZ053XFomHk0XI2GN3wcrIqnv2Qc6jp/eYEPvwE=</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-09-23T06:32:48.596Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="5mU7ovCsIuUWdI3l-CK4" version="20.2.7" type="github">
+  <diagram name="Page-1" id="42789a77-a242-8287-6e28-9cd8cfd52e62">
+    <mxGraphModel dx="1422" dy="739" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1ea317790d2ca983-16" value="&amp;nbsp;" style="edgeStyle=none;rounded=1;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeColor=#B3B3B3;strokeWidth=1;fontFamily=Verdana;fontSize=12" parent="1" source="1ea317790d2ca983-4" target="1ea317790d2ca983-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1ea317790d2ca983-4" value="&lt;span&gt;/localization&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=1;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
+          <mxGeometry x="162.5" y="790" width="75" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="1ea317790d2ca983-17" value="Only way to get speed&lt;br&gt;/localization_estimate/pose/linear_velocity_vrf.x" style="edgeStyle=none;rounded=1;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeColor=#B3B3B3;strokeWidth=1;fontFamily=Verdana;fontSize=12" parent="1" source="1ea317790d2ca983-5" target="1ea317790d2ca983-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1ea317790d2ca983-5" value="&lt;span&gt;/convert&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=1;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
+          <mxGeometry x="162.5" y="680" width="75" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="1ea317790d2ca983-23" value="&lt;div style=&quot;&quot;&gt;Three ways to get steer&lt;/div&gt;&lt;ol&gt;&lt;li&gt;/sys_data_hub/car_driving_feedback/steering_angle_feedback&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;/chassis/steering_angle&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;/steer_senor/data[0]&lt;/li&gt;&lt;/ol&gt;" style="edgeStyle=none;rounded=1;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeColor=#B3B3B3;strokeWidth=1;fontFamily=Verdana;fontSize=12" parent="1" source="1ea317790d2ca983-6" target="1ea317790d2ca983-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1ea317790d2ca983-6" value="&lt;span&gt;/sys_data_hub&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=1;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
+          <mxGeometry x="162.5" y="400" width="75" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="1ea317790d2ca983-8" value="steer&lt;br&gt;speed" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
+          <mxGeometry x="145" y="560" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="1ea317790d2ca983-19" value="/auto/cmd_vel/speed_mps&lt;br&gt;/auto/cmd_vel/front_wheel_angle" style="edgeStyle=none;rounded=1;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeColor=#B3B3B3;strokeWidth=1;fontFamily=Verdana;fontSize=12" parent="1" source="1ea317790d2ca983-9" target="1ea317790d2ca983-10" edge="1">
+          <mxGeometry x="-0.1361" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1ea317790d2ca983-9" value="/udrive_control_node" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=1;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
+          <mxGeometry x="130" y="40" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1ea317790d2ca983-20" value="/lower_control/vehicle_control/motro_speed_target&lt;br&gt;/lower_control/vehicle_control/steering_angle_target" style="edgeStyle=none;rounded=1;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeColor=#B3B3B3;strokeWidth=1;fontFamily=Verdana;fontSize=12" parent="1" source="1ea317790d2ca983-10" target="1ea317790d2ca983-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1ea317790d2ca983-10" value="&lt;span&gt;/lower_control&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=1;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
+          <mxGeometry x="162.5" y="160" width="75" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="1ea317790d2ca983-18" value="/can_port/motor_feedback/motor_speed&lt;br&gt;/can_port/steer_feedback/steering_wheel_angle" style="edgeStyle=none;rounded=1;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeColor=#B3B3B3;strokeWidth=1;fontFamily=Verdana;fontSize=12;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="1ea317790d2ca983-11" target="1ea317790d2ca983-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1ea317790d2ca983-11" value="&lt;span&gt;/can_port&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=1;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
+          <mxGeometry x="160" y="280" width="75" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="XuH4jdcDLuXmFMLZp_Sr-4" value="&amp;nbsp;" style="edgeStyle=none;rounded=1;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeColor=#B3B3B3;strokeWidth=1;fontFamily=Verdana;fontSize=12;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1ea317790d2ca983-8" target="1ea317790d2ca983-9">
+          <mxGeometry x="0.0908" y="-47" relative="1" as="geometry">
+            <mxPoint x="210" y="800" as="sourcePoint" />
+            <mxPoint x="210" y="740" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="400" y="585" />
+              <mxPoint x="400" y="60" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XuH4jdcDLuXmFMLZp_Sr-5" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;规控组&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;strokeWidth=2;align=left;strokeColor=#6c8ebf;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="35" y="30" width="330" height="110" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
