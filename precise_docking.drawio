@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-07T11:12:34.580Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="r0C9SCZDFan9uKH3hmch" version="20.5.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-11-07T11:48:03.165Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="2cRpxVb-269q5D58lpa1" version="20.5.1" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="flowchart v0">
     <mxGraphModel dx="1298" dy="736" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
       <root>
@@ -317,7 +317,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="flowchart v1" id="S8cJmiYe3_z6hNxYtOoG">
-    <mxGraphModel dx="2262" dy="814" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F4F1DE" math="0" shadow="0">
+    <mxGraphModel dx="1837" dy="573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F4F1DE" math="0" shadow="0">
       <root>
         <mxCell id="Y8kqwTjm1M0Ri40_EtUb-0" />
         <mxCell id="Y8kqwTjm1M0Ri40_EtUb-1" parent="Y8kqwTjm1M0Ri40_EtUb-0" />
@@ -446,8 +446,8 @@
             <mxPoint x="559.5" y="-12" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Y8kqwTjm1M0Ri40_EtUb-62" value="接收到全局发送的高精对接topic&lt;br&gt;first_docking_ = true&lt;br&gt;adjusting_count_ = 0" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;align=left;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="Y8kqwTjm1M0Ri40_EtUb-1">
-          <mxGeometry x="1700" y="479" width="185" height="57" as="geometry" />
+        <mxCell id="Y8kqwTjm1M0Ri40_EtUb-62" value="1 精准对接开始逻辑设置&lt;br&gt;当控制接收到global_behavior_planner发送的下面两个ros::param任何一个为真时，即进入精准对接控制precise_docking算法：&lt;br&gt;&lt;br&gt;enable_docking_controller（全局绝对定位模式下控制算法切换标志）&lt;br&gt;high_precision_docking（局部相对定位模式下控制算法切换标志）&lt;br&gt;&lt;br&gt;2 精准对接结束逻辑设置&lt;br&gt;当控制完成最后的对接精度后，即docking_state_=3时，控制主程序会发送reach_goal话题。&lt;br&gt;&lt;br&gt;在全局绝对定位模式下，由控制将enable_docking_controller复位为false；&lt;br&gt;在局部相对定位模式下，global_behavior_planner接收到reach_goal后再将high_precision_docking复位成false" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;align=left;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="Y8kqwTjm1M0Ri40_EtUb-1">
+          <mxGeometry x="-800" y="879" width="400" height="250" as="geometry" />
         </mxCell>
         <mxCell id="meSlRAtCNUWD2e_-i2cj-106" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontColor=#000000;fillColor=#F2CC8F;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Y8kqwTjm1M0Ri40_EtUb-1" source="Y8kqwTjm1M0Ri40_EtUb-66" target="meSlRAtCNUWD2e_-i2cj-79">
           <mxGeometry relative="1" as="geometry" />
@@ -467,9 +467,6 @@
         </mxCell>
         <mxCell id="Y8kqwTjm1M0Ri40_EtUb-74" value="adjusting_count = 0&lt;br&gt;first_docking_ = false&lt;br&gt;second_docking_ = false" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;align=left;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="Y8kqwTjm1M0Ri40_EtUb-1">
           <mxGeometry x="1880" y="169" width="140" height="52" as="geometry" />
-        </mxCell>
-        <mxCell id="Y8kqwTjm1M0Ri40_EtUb-77" value="对倒车，轨迹的终点朝向与车辆一直，所以在终点坐标系下，车位于X轴右半平面" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;align=left;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="Y8kqwTjm1M0Ri40_EtUb-1">
-          <mxGeometry x="1988.5" y="479" width="185" height="57" as="geometry" />
         </mxCell>
         <mxCell id="meSlRAtCNUWD2e_-i2cj-20" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;labelBackgroundColor=#F4F1DE;" edge="1" parent="Y8kqwTjm1M0Ri40_EtUb-1" source="Y8kqwTjm1M0Ri40_EtUb-78" target="Y8kqwTjm1M0Ri40_EtUb-79">
           <mxGeometry relative="1" as="geometry">
@@ -550,8 +547,8 @@
         <mxCell id="meSlRAtCNUWD2e_-i2cj-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;labelBackgroundColor=#F4F1DE;" edge="1" parent="Y8kqwTjm1M0Ri40_EtUb-1" source="Y8kqwTjm1M0Ri40_EtUb-88" target="Y8kqwTjm1M0Ri40_EtUb-89">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Y8kqwTjm1M0Ri40_EtUb-88" value="&lt;div&gt;更新相关变量，包括：&lt;/div&gt;&lt;div&gt;速度方向&lt;span style=&quot;background-color: initial;&quot;&gt;direction_&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;横纵向误差和航向误差，&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;临时速度命令&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;align=left;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="Y8kqwTjm1M0Ri40_EtUb-1">
-          <mxGeometry x="-120" y="604" width="160" height="50" as="geometry" />
+        <mxCell id="Y8kqwTjm1M0Ri40_EtUb-88" value="&lt;div&gt;更新相关变量，包括：&lt;/div&gt;&lt;div&gt;速度方向&lt;span style=&quot;background-color: initial;&quot;&gt;direction_&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;横纵向误差和航向误差，&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;临时速度命令cmd_v = speed_output_&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;align=left;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="Y8kqwTjm1M0Ri40_EtUb-1">
+          <mxGeometry x="-120" y="600" width="160" height="64" as="geometry" />
         </mxCell>
         <mxCell id="meSlRAtCNUWD2e_-i2cj-35" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;labelBackgroundColor=#F4F1DE;" edge="1" parent="Y8kqwTjm1M0Ri40_EtUb-1" source="Y8kqwTjm1M0Ri40_EtUb-89" target="Y8kqwTjm1M0Ri40_EtUb-90">
           <mxGeometry relative="1" as="geometry" />
@@ -578,8 +575,8 @@
         <mxCell id="meSlRAtCNUWD2e_-i2cj-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;labelBackgroundColor=#F4F1DE;" edge="1" parent="Y8kqwTjm1M0Ri40_EtUb-1" source="Y8kqwTjm1M0Ri40_EtUb-91" target="meSlRAtCNUWD2e_-i2cj-0">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Y8kqwTjm1M0Ri40_EtUb-91" value="根据配置文件设置的docking横向控制算法controller_type_，选择相应的算法，当前默认值为&lt;b&gt;&lt;font color=&quot;#0000ff&quot;&gt;RearWheelFeedback()&lt;/font&gt;&lt;/b&gt;，得到转角命令&lt;b&gt;steer_output_&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;align=left;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="Y8kqwTjm1M0Ri40_EtUb-1">
-          <mxGeometry x="-127.5" y="819" width="175" height="91" as="geometry" />
+        <mxCell id="Y8kqwTjm1M0Ri40_EtUb-91" value="转角命令&lt;b&gt;steer_output_ =&amp;nbsp;&lt;br&gt;&lt;/b&gt;atan2(-L*(k2_*he/cmd_v+k1_*ye*sin(he)/he),1)&lt;br&gt;其中k1=heading_error_weight，k2=lateral_error_weight&lt;br&gt;&lt;font style=&quot;&quot;&gt;其与kappa为0时&lt;span style=&quot;color: rgb(0, 0, 255); font-weight: 700;&quot;&gt;RearWheelFeedback()&lt;/span&gt;是一样的，代码中还可通过配置文件选择其他常用的横向控制方法的&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;align=left;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="Y8kqwTjm1M0Ri40_EtUb-1">
+          <mxGeometry x="-194.36999999999998" y="819.5" width="308.73" height="91" as="geometry" />
         </mxCell>
         <mxCell id="meSlRAtCNUWD2e_-i2cj-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;labelBackgroundColor=#F4F1DE;" edge="1" parent="Y8kqwTjm1M0Ri40_EtUb-1" source="meSlRAtCNUWD2e_-i2cj-0" target="meSlRAtCNUWD2e_-i2cj-10">
           <mxGeometry relative="1" as="geometry" />
@@ -622,7 +619,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="meSlRAtCNUWD2e_-i2cj-10" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;FLAGS_enable_log&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;?&lt;/span&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="Y8kqwTjm1M0Ri40_EtUb-1">
-          <mxGeometry x="-120" y="1014" width="160" height="30" as="geometry" />
+          <mxGeometry x="-120" y="1010.5" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="meSlRAtCNUWD2e_-i2cj-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;exitX=0.5;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=#F4F1DE;" edge="1" parent="Y8kqwTjm1M0Ri40_EtUb-1" source="meSlRAtCNUWD2e_-i2cj-57" target="meSlRAtCNUWD2e_-i2cj-16">
           <mxGeometry relative="1" as="geometry">
@@ -710,15 +707,15 @@
         <mxCell id="meSlRAtCNUWD2e_-i2cj-66" value="3" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="Y8kqwTjm1M0Ri40_EtUb-1">
           <mxGeometry x="170" y="467" width="62.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="meSlRAtCNUWD2e_-i2cj-75" value="cmd_steer = &lt;br&gt;atan2(-L*(k2_*he/ego_speed+k1_*ye*sin(he)/he),1)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;align=left;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="Y8kqwTjm1M0Ri40_EtUb-1">
+        <mxCell id="meSlRAtCNUWD2e_-i2cj-75" value="cmd_steer = &lt;br&gt;atan2(-L*(k2_*he/cmd_v+k1_*ye*sin(he)/he),1)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;align=left;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="Y8kqwTjm1M0Ri40_EtUb-1">
           <mxGeometry x="1830" y="60" width="285" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="meSlRAtCNUWD2e_-i2cj-98" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#E07A5F;fontColor=#000000;fillColor=#F2CC8F;" edge="1" parent="Y8kqwTjm1M0Ri40_EtUb-1" source="meSlRAtCNUWD2e_-i2cj-76" target="meSlRAtCNUWD2e_-i2cj-78">
+        <mxCell id="meSlRAtCNUWD2e_-i2cj-98" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#E07A5F;fontColor=#000000;fillColor=#F2CC8F;" edge="1" parent="Y8kqwTjm1M0Ri40_EtUb-1" source="meSlRAtCNUWD2e_-i2cj-76" target="meSlRAtCNUWD2e_-i2cj-78">
           <mxGeometry x="-0.5003" y="-10" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="meSlRAtCNUWD2e_-i2cj-99" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#E07A5F;fontColor=#000000;fillColor=#F2CC8F;" edge="1" parent="Y8kqwTjm1M0Ri40_EtUb-1" source="meSlRAtCNUWD2e_-i2cj-76" target="meSlRAtCNUWD2e_-i2cj-77">
+        <mxCell id="meSlRAtCNUWD2e_-i2cj-99" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#E07A5F;fontColor=#000000;fillColor=#F2CC8F;" edge="1" parent="Y8kqwTjm1M0Ri40_EtUb-1" source="meSlRAtCNUWD2e_-i2cj-76" target="meSlRAtCNUWD2e_-i2cj-77">
           <mxGeometry x="-0.6812" y="10" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
