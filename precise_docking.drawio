@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-08T11:12:30.308Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="DqEZTXdWBCaiDoh0AQBo" version="20.5.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-11-08T11:27:33.243Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="NF4WV1irU-bK7JMqLaxT" version="20.5.3" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="flowchart v0">
     <mxGraphModel dx="1363" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
       <root>
@@ -938,7 +938,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="raa-rXJ20ZMo0cdVbP6Q" name="statemachine">
+  <diagram id="raa-rXJ20ZMo0cdVbP6Q" name="demonstration">
     <mxGraphModel dx="2339" dy="647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -1014,8 +1014,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Dg86dCcDJOtBz_xtVJ_q-15" value="第一阶段docking区域：&lt;br&gt;车以匀速v1在次范围调整横向误差和航向误差，直到两个误差都小于设定值，则进入第二阶段docking&lt;br&gt;范围：最远不能超过dist_start，除了第一次" style="rounded=0;whiteSpace=wrap;html=1;fillStyle=auto;strokeColor=#2D7600;fontColor=#ffffff;fillColor=#60a917;align=left;" vertex="1" parent="1">
-          <mxGeometry x="-650" y="50" width="280" height="100" as="geometry" />
+        <mxCell id="Dg86dCcDJOtBz_xtVJ_q-15" value="第一阶段docking区域：&lt;br&gt;车以匀速v1在次范围调整横向误差和航向误差，直到两个误差都小于设定阈值，则进入第二阶段docking" style="rounded=0;whiteSpace=wrap;html=1;fillStyle=auto;strokeColor=#2D7600;fontColor=#ffffff;fillColor=#60a917;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-640" y="40" width="220" height="120" as="geometry" />
         </mxCell>
         <mxCell id="Dg86dCcDJOtBz_xtVJ_q-16" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;dist_start&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontColor=#5AA9E6;" vertex="1" parent="1">
           <mxGeometry x="-220" y="410" width="80" height="40" as="geometry" />
@@ -1025,6 +1025,12 @@
         </mxCell>
         <mxCell id="Dg86dCcDJOtBz_xtVJ_q-18" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;goal_point&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontColor=#5AA9E6;" vertex="1" parent="1">
           <mxGeometry x="-950" y="410" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Lh3qjaHuyprDjzQngRAo-2" value="第二阶段docking区域：&lt;br&gt;车以逐渐减小的速度v2*abs(xe)在次范围调整纵向误差，并保持横向误差和航向误差同时满足设定阈值（如果不满足则退回到第一阶段），直到纵向误差满足给定的阈值范围，则docking成功" style="rounded=0;whiteSpace=wrap;html=1;fillStyle=auto;strokeColor=#2D7600;fontColor=#ffffff;fillColor=#60a917;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-920" y="40" width="220" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Lh3qjaHuyprDjzQngRAo-3" value="注：&lt;br&gt;1. 整个过程中的行驶方向用pd_direction标记，不用实际车速判断方向。&lt;br&gt;2. 转角计算公式中的速度使用cmd_v，而不是实际车速。&lt;br&gt;3. 满足误差阈值的需要连续多次才算满足，尽量并保证车姿态相对稳定；但是超出阈值一次即算作是不满足阈值。&lt;br&gt;4. 车辆姿态默认使用均值滤波，避免各种因素造成的跳变。" style="rounded=0;whiteSpace=wrap;html=1;fillStyle=auto;strokeColor=#2D7600;fontColor=#ffffff;fillColor=#60a917;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-770" y="200" width="220" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
