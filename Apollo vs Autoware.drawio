@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-18T07:58:40.938Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="UHxOiNAxaHco--Y-ypWc" version="21.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-18T08:09:54.019Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="y7HPo0hetg7yhfOW5Frf" version="21.1.8" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1618" dy="912" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -484,7 +484,7 @@
         <mxCell id="VPyf_NganPNjQ0OQ-j9U-107" value="加速度指令" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1087" y="1410" width="69" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="VPyf_NganPNjQ0OQ-j9U-108" value="&lt;b&gt;车辆&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="VPyf_NganPNjQ0OQ-j9U-108" value="&lt;b&gt;被控车辆&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="601" y="1540" width="360" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VPyf_NganPNjQ0OQ-j9U-109" value="" style="group" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -657,6 +657,12 @@
             <mxPoint x="41" y="1010" as="sourcePoint" />
             <mxPoint x="151" y="1010" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="VPyf_NganPNjQ0OQ-j9U-161" value="&lt;b&gt;ControlState::STOPPED&lt;/b&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1200" y="880" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VPyf_NganPNjQ0OQ-j9U-163" value="&lt;b&gt;ControlState::DRIVE&lt;/b&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="40" y="880" width="150" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
