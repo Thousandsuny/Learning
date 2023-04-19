@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-19T09:53:33.950Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="I0y-3tT_LPfBzk3FCpOx" version="21.1.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-19T10:18:37.201Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="jvmQ6xaOasUAcOAH4ksC" version="21.1.9" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2260" dy="1257" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1318" dy="733" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -728,13 +728,13 @@
         <mxCell id="cRVgNskynFr92N2gzK_U-317" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="cRVgNskynFr92N2gzK_U-2" target="cRVgNskynFr92N2gzK_U-305">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cRVgNskynFr92N2gzK_U-2" value="基于当前时间找到轨迹上时间最近的参考点&lt;br&gt;reference_point" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="cRVgNskynFr92N2gzK_U-2" value="基于当前绝对时间戳找到轨迹上时间最近的参考点&lt;br&gt;reference_point" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="262" y="178.5" width="150" height="80" as="geometry" />
         </mxCell>
         <mxCell id="cRVgNskynFr92N2gzK_U-315" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="cRVgNskynFr92N2gzK_U-3" target="cRVgNskynFr92N2gzK_U-309">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cRVgNskynFr92N2gzK_U-3" value="基于预瞄时间找到轨迹上时间最近的参考点&lt;br&gt;preview_point" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="cRVgNskynFr92N2gzK_U-3" value="基于预瞄绝对时间戳找到轨迹上时间最近的参考点&lt;br&gt;preview_point" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="263" y="58.5" width="149" height="80" as="geometry" />
         </mxCell>
         <mxCell id="cRVgNskynFr92N2gzK_U-328" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="cRVgNskynFr92N2gzK_U-6">
@@ -2361,7 +2361,7 @@
         <mxCell id="cRVgNskynFr92N2gzK_U-609" value="底盘车速" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="2038" y="616.5" width="50" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="cRVgNskynFr92N2gzK_U-610" value="AutoWare纵向控制框图" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontSize=22;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="cRVgNskynFr92N2gzK_U-610" value="Autoware纵向控制框图" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontSize=22;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="39.5" y="880" width="260" height="40" as="geometry" />
         </mxCell>
         <mxCell id="cRVgNskynFr92N2gzK_U-611" value="Apollo纵向控制框图" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontSize=22;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -2369,6 +2369,144 @@
         </mxCell>
         <mxCell id="cRVgNskynFr92N2gzK_U-617" value="Apollo vs AutoWare" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontSize=22;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="47.5" y="1680" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cRVgNskynFr92N2gzK_U-618" value="Pool" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="40" y="1760" width="460" height="380" as="geometry">
+            <mxRectangle x="40" y="1760" width="70" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cRVgNskynFr92N2gzK_U-619" value="Lane 1" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="cRVgNskynFr92N2gzK_U-618">
+          <mxGeometry y="20" width="460" height="120" as="geometry">
+            <mxRectangle y="20" width="1080" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cRVgNskynFr92N2gzK_U-620" value="Lane 2" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="cRVgNskynFr92N2gzK_U-618">
+          <mxGeometry y="140" width="460" height="120" as="geometry">
+            <mxRectangle y="50" width="1080" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cRVgNskynFr92N2gzK_U-629" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="cRVgNskynFr92N2gzK_U-618">
+          <mxGeometry y="260" width="460" height="120" as="geometry">
+            <mxRectangle y="50" width="1080" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cRVgNskynFr92N2gzK_U-695" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="601" y="1680" width="439" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="cRVgNskynFr92N2gzK_U-696" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="cRVgNskynFr92N2gzK_U-695">
+          <mxGeometry width="439" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cRVgNskynFr92N2gzK_U-716" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="cRVgNskynFr92N2gzK_U-696">
+          <mxGeometry width="60" height="40" as="geometry">
+            <mxRectangle width="60" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cRVgNskynFr92N2gzK_U-697" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="cRVgNskynFr92N2gzK_U-696">
+          <mxGeometry x="60" width="59" height="40" as="geometry">
+            <mxRectangle width="59" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cRVgNskynFr92N2gzK_U-698" value="Apollo" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="cRVgNskynFr92N2gzK_U-696">
+          <mxGeometry x="119" width="160" height="40" as="geometry">
+            <mxRectangle width="160" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cRVgNskynFr92N2gzK_U-699" value="Autoware" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="cRVgNskynFr92N2gzK_U-696">
+          <mxGeometry x="279" width="160" height="40" as="geometry">
+            <mxRectangle width="160" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cRVgNskynFr92N2gzK_U-700" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="cRVgNskynFr92N2gzK_U-695">
+          <mxGeometry y="40" width="439" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cRVgNskynFr92N2gzK_U-717" value="自车状态" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="cRVgNskynFr92N2gzK_U-700">
+          <mxGeometry width="60" height="40" as="geometry">
+            <mxRectangle width="60" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cRVgNskynFr92N2gzK_U-701" value="位置" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="cRVgNskynFr92N2gzK_U-700">
+          <mxGeometry x="60" width="59" height="40" as="geometry">
+            <mxRectangle width="59" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cRVgNskynFr92N2gzK_U-702" value="从定位话题获取，没有后续处理" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="cRVgNskynFr92N2gzK_U-700">
+          <mxGeometry x="119" width="160" height="40" as="geometry">
+            <mxRectangle width="160" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cRVgNskynFr92N2gzK_U-703" value="考虑响应延迟，基于运动学模型计算延迟时间后的位置做预测位置" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="cRVgNskynFr92N2gzK_U-700">
+          <mxGeometry x="279" width="160" height="40" as="geometry">
+            <mxRectangle width="160" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cRVgNskynFr92N2gzK_U-704" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="cRVgNskynFr92N2gzK_U-695">
+          <mxGeometry y="80" width="439" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cRVgNskynFr92N2gzK_U-718" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="cRVgNskynFr92N2gzK_U-704">
+          <mxGeometry width="60" height="40" as="geometry">
+            <mxRectangle width="60" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cRVgNskynFr92N2gzK_U-705" value="速度" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="cRVgNskynFr92N2gzK_U-704">
+          <mxGeometry x="60" width="59" height="40" as="geometry">
+            <mxRectangle width="59" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cRVgNskynFr92N2gzK_U-706" value="从底盘话题获取，没有后续处理" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="cRVgNskynFr92N2gzK_U-704">
+          <mxGeometry x="119" width="160" height="40" as="geometry">
+            <mxRectangle width="160" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cRVgNskynFr92N2gzK_U-707" value="记录加速度序列，根据响应延迟将未执行的加速度产生的速度累加到当前车速上，作为预测车速" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="cRVgNskynFr92N2gzK_U-704">
+          <mxGeometry x="279" width="160" height="40" as="geometry">
+            <mxRectangle width="160" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cRVgNskynFr92N2gzK_U-708" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="cRVgNskynFr92N2gzK_U-695">
+          <mxGeometry y="120" width="439" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cRVgNskynFr92N2gzK_U-719" value="轨迹" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="cRVgNskynFr92N2gzK_U-708">
+          <mxGeometry width="60" height="40" as="geometry">
+            <mxRectangle width="60" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cRVgNskynFr92N2gzK_U-709" value="匹配点" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="cRVgNskynFr92N2gzK_U-708">
+          <mxGeometry x="60" width="59" height="40" as="geometry">
+            <mxRectangle width="59" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cRVgNskynFr92N2gzK_U-710" value="基于距离使用差值和黄金分割法找到的离自车位置距离最近的点" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="cRVgNskynFr92N2gzK_U-708">
+          <mxGeometry x="119" width="160" height="40" as="geometry">
+            <mxRectangle width="160" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cRVgNskynFr92N2gzK_U-711" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="cRVgNskynFr92N2gzK_U-708">
+          <mxGeometry x="279" width="160" height="40" as="geometry">
+            <mxRectangle width="160" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cRVgNskynFr92N2gzK_U-712" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="cRVgNskynFr92N2gzK_U-695">
+          <mxGeometry y="160" width="439" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cRVgNskynFr92N2gzK_U-720" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="cRVgNskynFr92N2gzK_U-712">
+          <mxGeometry width="60" height="40" as="geometry">
+            <mxRectangle width="60" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cRVgNskynFr92N2gzK_U-713" value="参考点" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="cRVgNskynFr92N2gzK_U-712">
+          <mxGeometry x="60" width="59" height="40" as="geometry">
+            <mxRectangle width="59" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cRVgNskynFr92N2gzK_U-714" value="基于当前时间找到轨迹上时间最近的参考点" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="cRVgNskynFr92N2gzK_U-712">
+          <mxGeometry x="119" width="160" height="40" as="geometry">
+            <mxRectangle width="160" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cRVgNskynFr92N2gzK_U-715" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="cRVgNskynFr92N2gzK_U-712">
+          <mxGeometry x="279" width="160" height="40" as="geometry">
+            <mxRectangle width="160" height="40" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
