@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-19T06:00:00.567Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="r-y02mZld3-9sNASkaN0" version="21.1.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-19T06:14:33.462Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="DLyKoItktnsQIZL9HHnn" version="21.1.9" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1196" dy="1501" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1356,8 +1356,87 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="cRVgNskynFr92N2gzK_U-1" value="基于预测位置做线性差值得到轨迹参考点" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="180" y="-460" width="120" height="70" as="geometry" />
+        <mxCell id="cRVgNskynFr92N2gzK_U-1" value="基于距离使用差值法+黄金分割法找到轨迹上离自车位置距离最近的匹配点&lt;br&gt;match_point" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="120" y="-760" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="cRVgNskynFr92N2gzK_U-2" value="基于当前时间找到轨迹上时间最近的参考点&lt;br&gt;reference_point" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="120" y="-640" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="cRVgNskynFr92N2gzK_U-3" value="基于预瞄时间找到轨迹上时间最近的参考点&lt;br&gt;preview_point" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="121" y="-520" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="cRVgNskynFr92N2gzK_U-4" value="得到参考点的位置、速度、加速度、加加速度状态变量，并计算这些状态变量与匹配点之间的误差" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="360" y="-640" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="cRVgNskynFr92N2gzK_U-5" value="基于匹配点计算Frenet坐标系下自车位置与匹配点之间的横纵向误差及其变化率" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="361" y="-760" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="cRVgNskynFr92N2gzK_U-6" value="得到预瞄点的速度和加速度，并计算预瞄点与匹配点之间的路程和速度误差" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="360" y="-520" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="cRVgNskynFr92N2gzK_U-7" value="" style="group" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="750" y="-680" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cRVgNskynFr92N2gzK_U-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="cRVgNskynFr92N2gzK_U-7">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cRVgNskynFr92N2gzK_U-9" value="" style="group" vertex="1" connectable="0" parent="cRVgNskynFr92N2gzK_U-7">
+          <mxGeometry x="10.830000000000041" y="2.5" width="8.34" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="cRVgNskynFr92N2gzK_U-10" value="" style="endArrow=classic;html=1;endSize=3;" edge="1" parent="cRVgNskynFr92N2gzK_U-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="4.17" y="25" as="sourcePoint" />
+            <mxPoint x="4.17" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cRVgNskynFr92N2gzK_U-11" value="" style="endArrow=classic;html=1;endSize=3;" edge="1" parent="cRVgNskynFr92N2gzK_U-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-8.34" y="12.5" as="sourcePoint" />
+            <mxPoint x="16.68" y="12.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="8.34" y="12.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cRVgNskynFr92N2gzK_U-12" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="cRVgNskynFr92N2gzK_U-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-8.34" y="20.833333333333336" as="sourcePoint" />
+            <mxPoint x="16.68" y="4.166666666666667" as="targetPoint" />
+            <Array as="points">
+              <mxPoint y="20.833333333333336" />
+              <mxPoint x="8.34" y="4.166666666666667" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cRVgNskynFr92N2gzK_U-13" value="参考轨迹" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="30" y="-760" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cRVgNskynFr92N2gzK_U-14" value="自车位置" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="30" y="-710" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cRVgNskynFr92N2gzK_U-15" value="station_error" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="500" y="-640" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cRVgNskynFr92N2gzK_U-16" value="参考轨迹" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="30" y="-630" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cRVgNskynFr92N2gzK_U-17" value="参考轨迹" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="30" y="-500" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cRVgNskynFr92N2gzK_U-18" value="speed_error" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="500" y="-610" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cRVgNskynFr92N2gzK_U-19" value="延迟时间" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="756" y="-750" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cRVgNskynFr92N2gzK_U-20" value="preview_station_error" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="500" y="-520" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cRVgNskynFr92N2gzK_U-21" value="preview_speed_error" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="493" y="-495" width="123" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cRVgNskynFr92N2gzK_U-22" value="preview_acceleration" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="493.5" y="-470" width="123" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
