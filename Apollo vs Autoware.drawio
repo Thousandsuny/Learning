@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-19T09:36:43.114Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="RfrIGyI5rMkCTFycT4Nf" version="21.1.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-19T09:40:11.483Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="xooCyrUzIMaJMWsLE4Qs" version="21.1.9" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2260" dy="1257" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -607,7 +607,7 @@
         </mxCell>
         <UserObject label="https://autowarefoundation.github.io/autoware.universe/main/control/pid_longitudinal_controller/" link="https://autowarefoundation.github.io/autoware.universe/main/control/pid_longitudinal_controller/" id="VPyf_NganPNjQ0OQ-j9U-151">
           <mxCell style="text;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-            <mxGeometry x="40" y="840" width="520" height="30" as="geometry" />
+            <mxGeometry x="41" y="1609" width="520" height="30" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="VPyf_NganPNjQ0OQ-j9U-157" value="" style="endArrow=classic;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1">
@@ -2351,6 +2351,12 @@
         </mxCell>
         <mxCell id="cRVgNskynFr92N2gzK_U-609" value="底盘车速" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="2038" y="616.5" width="50" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="cRVgNskynFr92N2gzK_U-610" value="AutoWare纵向控制框图" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontSize=22;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="39.5" y="880" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cRVgNskynFr92N2gzK_U-611" value="Apollo纵向控制框图" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontSize=22;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="41" width="220" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
