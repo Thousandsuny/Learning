@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-19T09:51:53.370Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="4i6wPWA6V0gbND_Q5s9s" version="21.1.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-19T09:53:33.950Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="I0y-3tT_LPfBzk3FCpOx" version="21.1.9" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2260" dy="1257" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -2366,6 +2366,9 @@
         </mxCell>
         <mxCell id="cRVgNskynFr92N2gzK_U-611" value="Apollo纵向控制框图" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontSize=22;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="41" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cRVgNskynFr92N2gzK_U-617" value="Apollo vs AutoWare" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontSize=22;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="47.5" y="1680" width="230" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
