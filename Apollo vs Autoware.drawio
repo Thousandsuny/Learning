@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-26T07:13:23.037Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="RHIh5vii5jyVaeY-2Na8" version="21.2.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-04-26T07:28:44.775Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="Bme_B8-koXv_Ielqv83f" version="21.2.1" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1582" dy="880" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -2938,7 +2938,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="GSvfXQv8rLipdmTZXuyY" name="Page-3">
-    <mxGraphModel dx="2260" dy="607" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2487" dy="733" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -5446,8 +5446,8 @@
         <mxCell id="BgZQWUZ5J6j2CCL8TdGR-15" value="preview_point&lt;br&gt;(chassis view)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#00FFFF;" vertex="1" parent="1">
           <mxGeometry x="-780" y="98.5" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="BgZQWUZ5J6j2CCL8TdGR-16" value="raw_point: vehicle_provider提供的车辆原始定位位置&lt;br&gt;ego_point:考虑传输延迟后，控制模块得到的车辆位置&lt;br&gt;predict_point: 基于运动学模型预估底盘响应延迟时间后的位置&lt;br&gt;match_point: 规划轨迹距离predict_point最近的轨迹点&lt;br&gt;reference_point: 规划轨迹上当前时间最近的轨迹点&lt;br&gt;delay_point: 在reference_point的时间戳加上底盘响应延迟后的轨迹点&lt;br&gt;preview_point: 在delay_point的时间戳加上控制预瞄时间后的轨迹点" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-950" y="288.5" width="390" height="110" as="geometry" />
+        <mxCell id="BgZQWUZ5J6j2CCL8TdGR-16" value="raw_point: vehicle_provider提供的车辆原始定位位置&lt;br&gt;ego_point:考虑传输延迟后，控制模块得到的车辆位置&lt;br&gt;predict_point: 基于运动学模型预估底盘响应延迟时间后的位置。&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 255);&quot;&gt;注：根据测量的底盘速度响应延迟时间td，按运动学模型，和未执行的控制序列推算&lt;/span&gt;&lt;br&gt;match_point: 规划轨迹距离predict_point最近的轨迹点&lt;br&gt;reference_point: 规划轨迹上当前时间最近的轨迹点&lt;br&gt;delay_point: 在reference_point的时间戳加上底盘响应延迟后的轨迹点&lt;br&gt;preview_point: 在delay_point的时间戳加上控制预瞄时间后的轨迹点" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-960" y="278.5" width="460" height="130" as="geometry" />
         </mxCell>
         <mxCell id="BgZQWUZ5J6j2CCL8TdGR-17" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
