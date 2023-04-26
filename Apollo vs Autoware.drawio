@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-26T07:42:16.549Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="GN0KadwmibujlwNDMeUY" version="21.2.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-04-26T08:04:19.887Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="FZosJ6TBDD01qQ60S-e2" version="21.2.1" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1582" dy="880" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -2938,7 +2938,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="GSvfXQv8rLipdmTZXuyY" name="Page-3">
-    <mxGraphModel dx="2260" dy="607" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2260" dy="607" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -5590,8 +5590,8 @@
         <mxCell id="BgZQWUZ5J6j2CCL8TdGR-57" value="preview_point&lt;br&gt;(preview time)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#009900;" vertex="1" parent="1">
           <mxGeometry x="-755" y="54" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="BgZQWUZ5J6j2CCL8TdGR-59" value="$$[s, \dot{s}, \ddot{s}; d, \dot{d}, \ddot{d}, d&#39;, d&#39;&#39;] \rightarrow[\mathbf{x}, \theta_x, \kappa_x, v_x, a_x]$$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-985" y="743.5" width="560" height="30" as="geometry" />
+        <mxCell id="BgZQWUZ5J6j2CCL8TdGR-59" value="$$ \frac{T_{eq}i_gi_o \eta_{T} }{r} = m(g\mu cos(\alpha )+gsin(\alpha )+\delta \frac{\Delta v}{\Delta t})+\frac{1}{2}C_DA_\rho v^{2}$$&lt;br&gt;其中&lt;br&gt;$$ T_{tq}：发动机转矩 \\&lt;br&gt;i_g：变速器的传动比 \&lt;br&gt;i_0：主减速器的传动比&lt;br&gt;$$" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1065" y="708.5" width="720" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
