@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-04T06:55:20.518Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="SUtXykvk4YdPvzIFmSep" version="21.2.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-05-04T07:03:08.607Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="yeiSX_bDKWJMOkNRT4W4" version="21.2.3" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="VS">
     <mxGraphModel dx="1582" dy="880" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -2938,7 +2938,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="yg9AW94qZbo5T2Lc0dVz" name="Calibration">
-    <mxGraphModel dx="1582" dy="880" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1318" dy="733" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3003,8 +3003,11 @@
         <mxCell id="HKrlnnEcn5-aqoaFCH6Y-7" value="删除最后一次标定结果" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="1">
           <mxGeometry x="840.5" y="170" width="150" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="HKrlnnEcn5-aqoaFCH6Y-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="HKrlnnEcn5-aqoaFCH6Y-9" target="HKrlnnEcn5-aqoaFCH6Y-96">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="HKrlnnEcn5-aqoaFCH6Y-9" value="标定新数据" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="1">
-          <mxGeometry x="720.5" y="210" width="80" height="20" as="geometry" />
+          <mxGeometry x="720.5" y="220" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="HKrlnnEcn5-aqoaFCH6Y-10" value="退出标定进程" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="1">
           <mxGeometry x="840.5" y="120" width="80" height="20" as="geometry" />
@@ -3227,6 +3230,36 @@
         </mxCell>
         <mxCell id="HKrlnnEcn5-aqoaFCH6Y-82" value="调用发布控制命令子函数&lt;br&gt;publish_control()" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;align=center;" vertex="1" parent="1">
           <mxGeometry x="1770" y="720" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HKrlnnEcn5-aqoaFCH6Y-95" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="1">
+          <mxGeometry x="2055" y="65" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HKrlnnEcn5-aqoaFCH6Y-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="HKrlnnEcn5-aqoaFCH6Y-96" target="HKrlnnEcn5-aqoaFCH6Y-97">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HKrlnnEcn5-aqoaFCH6Y-96" value="定位消息接收成功" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="1">
+          <mxGeometry x="710.75" y="260" width="99.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="HKrlnnEcn5-aqoaFCH6Y-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="HKrlnnEcn5-aqoaFCH6Y-97" target="HKrlnnEcn5-aqoaFCH6Y-98">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HKrlnnEcn5-aqoaFCH6Y-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="HKrlnnEcn5-aqoaFCH6Y-97" target="HKrlnnEcn5-aqoaFCH6Y-103">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HKrlnnEcn5-aqoaFCH6Y-97" value="底盘消息接收成功" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="1">
+          <mxGeometry x="709.75" y="300" width="100.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="HKrlnnEcn5-aqoaFCH6Y-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="HKrlnnEcn5-aqoaFCH6Y-98" target="HKrlnnEcn5-aqoaFCH6Y-104">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HKrlnnEcn5-aqoaFCH6Y-98" value="发送控制命令" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="1">
+          <mxGeometry x="709.75" y="340" width="100.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="HKrlnnEcn5-aqoaFCH6Y-103" value="记录接收底盘消息时对应的相关信息" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="1">
+          <mxGeometry x="840.5" y="300" width="209.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="HKrlnnEcn5-aqoaFCH6Y-104" value="记录发送控制命令是对应的相关信息" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="1">
+          <mxGeometry x="840.5" y="340" width="209.5" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
