@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-04T03:37:33.319Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="SRP44Bf40R_0O1fa8W8v" version="21.2.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-05-04T03:58:51.525Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="XOurI6pL8cnyS5P7Ss5n" version="21.2.3" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="VS">
     <mxGraphModel dx="1582" dy="880" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -2938,7 +2938,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="yg9AW94qZbo5T2Lc0dVz" name="Calibration">
-    <mxGraphModel dx="1055" dy="587" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="428" dy="238" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2949,6 +2949,65 @@
         </UserObject>
         <mxCell id="m_swJxXdyyRCfIZvp-0K-2" value="脚本目录：&lt;br&gt;modules/tools/vehicle_calibration&lt;br&gt;&lt;br&gt;Step 1:&lt;br&gt;运行python脚本data_collector.py，即如下命令形式&lt;br&gt;python data_collector.py&lt;br&gt;&lt;br&gt;注：&lt;br&gt;a. 输入q，退出运行脚本&lt;br&gt;b. 输入p，画出最后一次标定数据&lt;br&gt;c. 输入x，删除最后一次标定数据&lt;br&gt;d. 输入x y z三个数值，进行加速度标定&lt;br&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;其中x对应加速度命令数值，即油门百分比，且必须为正数&lt;br&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;y对应速度限幅值，即此次标定最高行驶速度&lt;br&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;z对应减速度命令数值，即刹车百分比，且必须为负数&lt;br&gt;&lt;br&gt;Step 2:&lt;br&gt;运行shell脚本process_data.sh，即如下命令形式&lt;br&gt;bash process_data.sh data_path&lt;br&gt;&lt;br&gt;注：&lt;br&gt;a. 该shell脚本会使用process_data.py处理输入的目录下所有recorder.csv文件，然后合并生成一个result.csv文件，还有各个文件自己对应的.result文件&lt;br&gt;b. 可以处理之前先将所有收集的原始数据转移到新建的目录&lt;br&gt;&lt;br&gt;Step 3:&lt;br&gt;运行python脚本plot_result.py，即运行如下命令形式&lt;br&gt;python plot_result.py result.csv&lt;br&gt;&lt;br&gt;注：&lt;br&gt;a. 可以将上一步生成的result.csv的结果绘制成曲线显示&lt;br&gt;&lt;br&gt;Step 4:&lt;br&gt;运行shell脚本result2pb.sh，即运行如下命令形式&lt;br&gt;bash result2pb.sh result.csv&lt;br&gt;&lt;br&gt;注：&lt;br&gt;a. 将第二步生成的result.csv文件结果转换成protobuff格式的形式，然后就可以拷贝到控制的配置文件中&lt;br&gt;&lt;br&gt;" style="text;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#393C56;" vertex="1" parent="1">
           <mxGeometry x="40" y="80" width="350" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="HKrlnnEcn5-aqoaFCH6Y-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="HKrlnnEcn5-aqoaFCH6Y-2" target="HKrlnnEcn5-aqoaFCH6Y-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HKrlnnEcn5-aqoaFCH6Y-2" value="data_collector.py" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="1">
+          <mxGeometry x="480" y="160" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HKrlnnEcn5-aqoaFCH6Y-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="HKrlnnEcn5-aqoaFCH6Y-3" target="HKrlnnEcn5-aqoaFCH6Y-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HKrlnnEcn5-aqoaFCH6Y-18" value="x" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#393C56;" vertex="1" connectable="0" parent="HKrlnnEcn5-aqoaFCH6Y-12">
+          <mxGeometry x="-0.3878" relative="1" as="geometry">
+            <mxPoint y="8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HKrlnnEcn5-aqoaFCH6Y-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="HKrlnnEcn5-aqoaFCH6Y-3" target="HKrlnnEcn5-aqoaFCH6Y-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HKrlnnEcn5-aqoaFCH6Y-17" value="p" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#393C56;" vertex="1" connectable="0" parent="HKrlnnEcn5-aqoaFCH6Y-13">
+          <mxGeometry x="-0.2078" relative="1" as="geometry">
+            <mxPoint y="8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HKrlnnEcn5-aqoaFCH6Y-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="HKrlnnEcn5-aqoaFCH6Y-3" target="HKrlnnEcn5-aqoaFCH6Y-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HKrlnnEcn5-aqoaFCH6Y-16" value="q" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#393C56;" vertex="1" connectable="0" parent="HKrlnnEcn5-aqoaFCH6Y-14">
+          <mxGeometry x="-0.4203" relative="1" as="geometry">
+            <mxPoint x="-2" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HKrlnnEcn5-aqoaFCH6Y-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="HKrlnnEcn5-aqoaFCH6Y-3" target="HKrlnnEcn5-aqoaFCH6Y-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HKrlnnEcn5-aqoaFCH6Y-19" value="x,y,z" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#393C56;" vertex="1" connectable="0" parent="HKrlnnEcn5-aqoaFCH6Y-15">
+          <mxGeometry x="0.5543" relative="1" as="geometry">
+            <mxPoint x="20" y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HKrlnnEcn5-aqoaFCH6Y-3" value="" style="html=1;strokeWidth=2;shape=manualInput;whiteSpace=wrap;rounded=1;size=26;arcSize=11;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;points=[[0,0,0,0,0],[0,0.25,0,0,0],[0,0.5,0,0,0],[0,0.75,0,0,0],[0,1,0,0,0],[0.25,0,0,0,0],[0.25,1,0,0,0],[0.5,0,0,0,0],[0.5,1,0,0,0],[0.75,0,0,0,0],[0.75,1,0,0,0],[1,0,0,0,0],[1,0.25,0,0,0],[1,0.5,0,0,0],[1,0.75,0,0,0],[1,1,0,0,0]];" vertex="1" parent="1">
+          <mxGeometry x="640" y="135" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HKrlnnEcn5-aqoaFCH6Y-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="HKrlnnEcn5-aqoaFCH6Y-6" target="HKrlnnEcn5-aqoaFCH6Y-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HKrlnnEcn5-aqoaFCH6Y-6" value="绘制最后一次标定结果" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="1">
+          <mxGeometry x="760" y="155" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="HKrlnnEcn5-aqoaFCH6Y-7" value="删除最后一次标定结果" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="1">
+          <mxGeometry x="760" y="180" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="HKrlnnEcn5-aqoaFCH6Y-9" value="标定新数据" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="1">
+          <mxGeometry x="640" y="220" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="HKrlnnEcn5-aqoaFCH6Y-10" value="退出标定进程" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="1">
+          <mxGeometry x="760" y="130" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="HKrlnnEcn5-aqoaFCH6Y-20" value="调用plot_data.py" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="1">
+          <mxGeometry x="940" y="155" width="100" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
