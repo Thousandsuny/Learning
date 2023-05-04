@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-04T07:46:10.679Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="UwbPNrZIIFQWmF52mESe" version="21.2.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-05-04T07:58:00.847Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="urh_Z-LIfcFowQC0rQky" version="21.2.3" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="VS">
     <mxGraphModel dx="1582" dy="880" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -2938,20 +2938,15 @@
     </mxGraphModel>
   </diagram>
   <diagram id="yg9AW94qZbo5T2Lc0dVz" name="Calibration">
-    <mxGraphModel dx="1318" dy="733" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1091" dy="607" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="HKrlnnEcn5-aqoaFCH6Y-36" value="DataCollector.main()" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#E07A5F;fontColor=#393C56;fillColor=none;verticalAlign=top;fillStyle=dashed;" vertex="1" parent="1">
           <mxGeometry x="1260" y="20" width="439.5" height="781" as="geometry" />
         </mxCell>
-        <UserObject label="&lt;h1 style=&quot;margin: 0px 0px 10px; padding: 0px 0px 0px 5px; font-size: 28px; border: 0px; width: 1261.09px; clear: both; line-height: 1.5; font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Verdana, Arial, sans-serif; background-color: rgb(255, 255, 255);&quot; class=&quot;postTitle&quot;&gt;&lt;/h1&gt;&lt;font face=&quot;Helvetica Neue, Helvetica, Verdana, Arial, sans-serif&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;Apollo自动驾驶实践——第5讲 车辆动力学标定&lt;/b&gt;&lt;/div&gt;&lt;/span&gt;&lt;/font&gt;https://www.cnblogs.com/wsl-lld/p/13500024.html" link="https://www.cnblogs.com/wsl-lld/p/13500024.html" id="m_swJxXdyyRCfIZvp-0K-1">
-          <mxCell style="text;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#393C56;" vertex="1" parent="1">
-            <mxGeometry x="40" width="630" height="40" as="geometry" />
-          </mxCell>
-        </UserObject>
         <mxCell id="m_swJxXdyyRCfIZvp-0K-2" value="脚本目录：&lt;br&gt;modules/tools/vehicle_calibration&lt;br&gt;&lt;br&gt;Step 1:&lt;br&gt;运行python脚本data_collector.py，即如下命令形式&lt;br&gt;python data_collector.py&lt;br&gt;&lt;br&gt;注：&lt;br&gt;a. 输入q，退出运行脚本&lt;br&gt;b. 输入p，画出最后一次标定数据&lt;br&gt;c. 输入x，删除最后一次标定数据&lt;br&gt;d. 输入x y z三个数值，进行加速度标定&lt;br&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;其中x对应加速度命令数值，即油门百分比，且必须为正数&lt;br&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;y对应速度限幅值，即此次标定最高行驶速度&lt;br&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;z对应减速度命令数值，即刹车百分比，且必须为负数&lt;br&gt;&lt;br&gt;Step 2:&lt;br&gt;运行shell脚本process_data.sh，即如下命令形式&lt;br&gt;bash process_data.sh data_path&lt;br&gt;&lt;br&gt;注：&lt;br&gt;a. 该shell脚本会使用process_data.py处理输入的目录下所有recorder.csv文件，然后合并生成一个result.csv文件，还有各个文件自己对应的.result文件&lt;br&gt;b. 可以处理之前先将所有收集的原始数据转移到新建的目录&lt;br&gt;&lt;br&gt;Step 3:&lt;br&gt;运行python脚本plot_result.py，即运行如下命令形式&lt;br&gt;python plot_result.py result.csv&lt;br&gt;&lt;br&gt;注：&lt;br&gt;a. 可以将上一步生成的result.csv的结果绘制成曲线显示&lt;br&gt;&lt;br&gt;Step 4:&lt;br&gt;运行shell脚本result2pb.sh，即运行如下命令形式&lt;br&gt;bash result2pb.sh result.csv&lt;br&gt;&lt;br&gt;注：&lt;br&gt;a. 将第二步生成的result.csv文件结果转换成protobuff格式的形式，然后就可以拷贝到控制的配置文件中&lt;br&gt;&lt;br&gt;" style="text;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#393C56;" vertex="1" parent="1">
-          <mxGeometry x="40" y="80" width="350" height="600" as="geometry" />
+          <mxGeometry x="40" y="30" width="350" height="600" as="geometry" />
         </mxCell>
         <mxCell id="HKrlnnEcn5-aqoaFCH6Y-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="HKrlnnEcn5-aqoaFCH6Y-2" target="HKrlnnEcn5-aqoaFCH6Y-3">
           <mxGeometry relative="1" as="geometry" />
@@ -3478,13 +3473,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="HKrlnnEcn5-aqoaFCH6Y-166" value="遍历完指定目录下所有文件？" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="1">
-          <mxGeometry x="760" y="305.5" width="90" height="69" as="geometry" />
+          <mxGeometry x="754.25" y="305.5" width="90" height="69" as="geometry" />
         </mxCell>
         <mxCell id="HKrlnnEcn5-aqoaFCH6Y-179" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="HKrlnnEcn5-aqoaFCH6Y-167" target="HKrlnnEcn5-aqoaFCH6Y-178">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="HKrlnnEcn5-aqoaFCH6Y-167" value="python process_data.py *_recorder.csv" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="1">
-          <mxGeometry x="921.5" y="319.5" width="238.5" height="40" as="geometry" />
+          <mxGeometry x="880" y="320" width="238.5" height="40" as="geometry" />
         </mxCell>
         <mxCell id="HKrlnnEcn5-aqoaFCH6Y-168" value="生成&lt;br&gt;*_recorder.csv" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="1">
           <mxGeometry x="1000" y="220" width="100" height="40" as="geometry" />
@@ -3504,7 +3499,51 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="HKrlnnEcn5-aqoaFCH6Y-178" value="生成result.csv" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="1">
-          <mxGeometry x="998.62" y="400" width="84.25" height="41" as="geometry" />
+          <mxGeometry x="957.12" y="401" width="84.25" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HKrlnnEcn5-aqoaFCH6Y-181" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" source="HKrlnnEcn5-aqoaFCH6Y-182" target="HKrlnnEcn5-aqoaFCH6Y-183" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HKrlnnEcn5-aqoaFCH6Y-182" value="Step 4" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="1">
+          <mxGeometry x="401" y="560" width="80" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="HKrlnnEcn5-aqoaFCH6Y-189" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="HKrlnnEcn5-aqoaFCH6Y-183" target="HKrlnnEcn5-aqoaFCH6Y-184">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HKrlnnEcn5-aqoaFCH6Y-183" value="bash result2pb.sh result.csv" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="1">
+          <mxGeometry x="521" y="560" width="199" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HKrlnnEcn5-aqoaFCH6Y-190" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="HKrlnnEcn5-aqoaFCH6Y-184" target="HKrlnnEcn5-aqoaFCH6Y-185">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HKrlnnEcn5-aqoaFCH6Y-184" value="生成proto格式的ctl_conf_pb" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="1">
+          <mxGeometry x="790" y="560" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HKrlnnEcn5-aqoaFCH6Y-191" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="HKrlnnEcn5-aqoaFCH6Y-185" target="HKrlnnEcn5-aqoaFCH6Y-186">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1140" y="580" />
+              <mxPoint x="1140" y="660" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HKrlnnEcn5-aqoaFCH6Y-185" value="加载result.csv，生成speed_table_dict" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="1">
+          <mxGeometry x="960" y="560" width="158.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HKrlnnEcn5-aqoaFCH6Y-192" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="HKrlnnEcn5-aqoaFCH6Y-186" target="HKrlnnEcn5-aqoaFCH6Y-187">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HKrlnnEcn5-aqoaFCH6Y-186" value="将speed_table_dict转化成calibration_table_pb" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="1">
+          <mxGeometry x="960" y="640" width="158.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HKrlnnEcn5-aqoaFCH6Y-193" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="HKrlnnEcn5-aqoaFCH6Y-187" target="HKrlnnEcn5-aqoaFCH6Y-188">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HKrlnnEcn5-aqoaFCH6Y-187" value="将calibration_table_pb拷贝到ctl_conf_pb" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="1">
+          <mxGeometry x="775" y="640" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HKrlnnEcn5-aqoaFCH6Y-188" value="输出ctl_conf_pb到control_conf.pb.txt" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="1">
+          <mxGeometry x="590" y="640" width="130" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
