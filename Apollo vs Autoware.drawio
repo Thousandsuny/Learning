@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-05T07:59:40.448Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="QTnu3EZUKloBqOFgD9mZ" version="21.2.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-05-05T08:28:34.566Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="i3gPfDVrVvqhLkxfnoUQ" version="21.2.3" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="VS">
     <mxGraphModel dx="1582" dy="880" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -2938,12 +2938,15 @@
     </mxGraphModel>
   </diagram>
   <diagram id="yg9AW94qZbo5T2Lc0dVz" name="Calibration">
-    <mxGraphModel dx="1861" dy="956" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2260" dy="1161" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="HKrlnnEcn5-aqoaFCH6Y-294" value="process(data)" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#E07A5F;fontColor=#393C56;fillColor=none;verticalAlign=top;fillStyle=dashed;" vertex="1" parent="1">
-          <mxGeometry x="679.25" y="840" width="480.75" height="800" as="geometry" />
+        <mxCell id="HKrlnnEcn5-aqoaFCH6Y-294" value="get_calibration_table_pb(speed_table)" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#E07A5F;fontColor=#393C56;fillColor=none;verticalAlign=top;fillStyle=dashed;" vertex="1" parent="1">
+          <mxGeometry x="2079" y="840" width="240.75" height="800" as="geometry" />
+        </mxCell>
+        <mxCell id="HKrlnnEcn5-aqoaFCH6Y-369" value="load_calibration_raw_data(&quot;result.csv&quot;)" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#E07A5F;fontColor=#393C56;fillColor=none;verticalAlign=top;fillStyle=dashed;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="840" width="860" height="800" as="geometry" />
         </mxCell>
         <mxCell id="HKrlnnEcn5-aqoaFCH6Y-235" value="preprocess(filename)" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#E07A5F;fontColor=#393C56;fillColor=none;verticalAlign=top;fillStyle=dashed;" vertex="1" parent="1">
           <mxGeometry x="400" y="840" width="240" height="800" as="geometry" />
@@ -3983,12 +3986,13 @@
         <mxCell id="HKrlnnEcn5-aqoaFCH6Y-342" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="HKrlnnEcn5-aqoaFCH6Y-311" target="HKrlnnEcn5-aqoaFCH6Y-323">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1560" y="1540" />
+              <mxPoint x="1600" y="1580" />
+              <mxPoint x="1600" y="1580" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="HKrlnnEcn5-aqoaFCH6Y-311" value="将cmd_table[cmd]替换为其所有元素的平均值" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="1">
-          <mxGeometry x="1496" y="1580" width="128" height="40" as="geometry" />
+        <mxCell id="HKrlnnEcn5-aqoaFCH6Y-311" value="&lt;b&gt;将cmd_table[cmd]替换为其所有元素的平均值&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="1">
+          <mxGeometry x="1530" y="1580" width="134" height="40" as="geometry" />
         </mxCell>
         <mxCell id="HKrlnnEcn5-aqoaFCH6Y-346" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="HKrlnnEcn5-aqoaFCH6Y-312" target="HKrlnnEcn5-aqoaFCH6Y-314">
           <mxGeometry relative="1" as="geometry" />
@@ -4002,19 +4006,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="HKrlnnEcn5-aqoaFCH6Y-312" value="遍历完所有&lt;br&gt;speed_table？" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="1">
-          <mxGeometry x="1655" y="920" width="130" height="40" as="geometry" />
+          <mxGeometry x="1695" y="920" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="HKrlnnEcn5-aqoaFCH6Y-347" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="HKrlnnEcn5-aqoaFCH6Y-314" target="HKrlnnEcn5-aqoaFCH6Y-315">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="HKrlnnEcn5-aqoaFCH6Y-314" value="根据新读取的speed取出对应的已经存储的cmd_table" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="1">
-          <mxGeometry x="1656" y="1000" width="128" height="40" as="geometry" />
+          <mxGeometry x="1696" y="1000" width="128" height="40" as="geometry" />
         </mxCell>
         <mxCell id="HKrlnnEcn5-aqoaFCH6Y-348" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="HKrlnnEcn5-aqoaFCH6Y-315" target="HKrlnnEcn5-aqoaFCH6Y-316">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="HKrlnnEcn5-aqoaFCH6Y-315" value="新建加速度表格&lt;br&gt;acc_table" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="1">
-          <mxGeometry x="1656" y="1080" width="128" height="40" as="geometry" />
+          <mxGeometry x="1696" y="1080" width="128" height="40" as="geometry" />
         </mxCell>
         <mxCell id="HKrlnnEcn5-aqoaFCH6Y-354" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="HKrlnnEcn5-aqoaFCH6Y-316" target="HKrlnnEcn5-aqoaFCH6Y-317">
           <mxGeometry relative="1" as="geometry" />
@@ -4022,21 +4026,21 @@
         <mxCell id="HKrlnnEcn5-aqoaFCH6Y-357" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="HKrlnnEcn5-aqoaFCH6Y-316" target="HKrlnnEcn5-aqoaFCH6Y-312">
           <mxGeometry x="-0.8733" y="-10" relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1640" y="1180" />
-              <mxPoint x="1640" y="900" />
-              <mxPoint x="1720" y="900" />
+              <mxPoint x="1680" y="1180" />
+              <mxPoint x="1680" y="900" />
+              <mxPoint x="1760" y="900" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="HKrlnnEcn5-aqoaFCH6Y-316" value="遍历完上面的&lt;br&gt;cmd_table？" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="1">
-          <mxGeometry x="1655" y="1161" width="130" height="40" as="geometry" />
+          <mxGeometry x="1695" y="1161" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="HKrlnnEcn5-aqoaFCH6Y-355" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="HKrlnnEcn5-aqoaFCH6Y-317" target="HKrlnnEcn5-aqoaFCH6Y-318">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="HKrlnnEcn5-aqoaFCH6Y-317" value="提取循环变量cmd对应的acc平均值" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="1">
-          <mxGeometry x="1656" y="1241" width="128" height="40" as="geometry" />
+          <mxGeometry x="1696" y="1241" width="128" height="40" as="geometry" />
         </mxCell>
         <mxCell id="HKrlnnEcn5-aqoaFCH6Y-350" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="HKrlnnEcn5-aqoaFCH6Y-318" target="HKrlnnEcn5-aqoaFCH6Y-319">
           <mxGeometry relative="1" as="geometry" />
@@ -4044,7 +4048,7 @@
         <mxCell id="HKrlnnEcn5-aqoaFCH6Y-353" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="HKrlnnEcn5-aqoaFCH6Y-318" target="HKrlnnEcn5-aqoaFCH6Y-320">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1870" y="1340" />
+              <mxPoint x="1935" y="1340" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -4054,71 +4058,158 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="HKrlnnEcn5-aqoaFCH6Y-318" value="此acc平均值是否&lt;br&gt;在acc_table中？" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="1">
-          <mxGeometry x="1650" y="1320" width="140" height="40" as="geometry" />
+          <mxGeometry x="1690" y="1320" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="HKrlnnEcn5-aqoaFCH6Y-351" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="HKrlnnEcn5-aqoaFCH6Y-319" target="HKrlnnEcn5-aqoaFCH6Y-321">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="HKrlnnEcn5-aqoaFCH6Y-319" value="将循环变量cmd的添加到对应的acc_table中" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="1">
-          <mxGeometry x="1656" y="1400" width="128" height="40" as="geometry" />
+          <mxGeometry x="1696" y="1400" width="128" height="40" as="geometry" />
         </mxCell>
         <mxCell id="HKrlnnEcn5-aqoaFCH6Y-358" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="HKrlnnEcn5-aqoaFCH6Y-320" target="HKrlnnEcn5-aqoaFCH6Y-321">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1870" y="1460" />
-              <mxPoint x="1720" y="1460" />
+              <mxPoint x="1935" y="1460" />
+              <mxPoint x="1760" y="1460" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="HKrlnnEcn5-aqoaFCH6Y-320" value="新建acc_table[acc]，并将循环变量cmd作为初始值" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="1">
-          <mxGeometry x="1800" y="1400" width="140" height="40" as="geometry" />
+          <mxGeometry x="1865" y="1400" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="HKrlnnEcn5-aqoaFCH6Y-359" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="HKrlnnEcn5-aqoaFCH6Y-321" target="HKrlnnEcn5-aqoaFCH6Y-312">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1720" y="1530" />
-              <mxPoint x="1640" y="1530" />
-              <mxPoint x="1640" y="900" />
-              <mxPoint x="1720" y="900" />
+              <mxPoint x="1760" y="1530" />
+              <mxPoint x="1680" y="1530" />
+              <mxPoint x="1680" y="900" />
+              <mxPoint x="1760" y="900" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="HKrlnnEcn5-aqoaFCH6Y-321" value="将上面得到acc_table，填充到循环变量speed对应的speed_table2中" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="1">
-          <mxGeometry x="1650" y="1480" width="140" height="40" as="geometry" />
+          <mxGeometry x="1690" y="1480" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="HKrlnnEcn5-aqoaFCH6Y-363" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="HKrlnnEcn5-aqoaFCH6Y-322" target="HKrlnnEcn5-aqoaFCH6Y-325">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="HKrlnnEcn5-aqoaFCH6Y-322" value="返回speed_table2，此时表格的索引顺序为&lt;br&gt;speed-&amp;gt;acc-&amp;gt;cmd" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="1">
-          <mxGeometry x="1815" y="1002" width="128" height="40" as="geometry" />
+          <mxGeometry x="1856" y="1001" width="128" height="40" as="geometry" />
         </mxCell>
         <mxCell id="HKrlnnEcn5-aqoaFCH6Y-344" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="HKrlnnEcn5-aqoaFCH6Y-323" target="HKrlnnEcn5-aqoaFCH6Y-324">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1560" y="1250" />
-              <mxPoint x="1560" y="1250" />
+              <mxPoint x="1600" y="1110" />
+              <mxPoint x="1600" y="1110" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="HKrlnnEcn5-aqoaFCH6Y-323" value="此时表格的索引顺序为&lt;br&gt;speed-&amp;gt;cmd-&amp;gt;acc" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="1">
-          <mxGeometry x="1496" y="1500" width="128" height="40" as="geometry" />
+          <mxGeometry x="1536" y="1500" width="128" height="40" as="geometry" />
         </mxCell>
         <mxCell id="HKrlnnEcn5-aqoaFCH6Y-345" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="HKrlnnEcn5-aqoaFCH6Y-324" target="HKrlnnEcn5-aqoaFCH6Y-312">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1560" y="900" />
-              <mxPoint x="1720" y="900" />
+              <mxPoint x="1600" y="900" />
+              <mxPoint x="1760" y="900" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="HKrlnnEcn5-aqoaFCH6Y-324" value="新建speed_table2" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="1">
-          <mxGeometry x="1496" y="925" width="128" height="30" as="geometry" />
+          <mxGeometry x="1536" y="925" width="128" height="30" as="geometry" />
         </mxCell>
         <mxCell id="HKrlnnEcn5-aqoaFCH6Y-325" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="1">
-          <mxGeometry x="1859.75" y="1081" width="38.5" height="30" as="geometry" />
+          <mxGeometry x="1900.75" y="1081" width="38.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="HKrlnnEcn5-aqoaFCH6Y-369" value="load_calibration_raw_data(&quot;result.csv&quot;)" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#E07A5F;fontColor=#393C56;fillColor=none;verticalAlign=top;fillStyle=dashed;" vertex="1" parent="1">
-          <mxGeometry x="1180" y="840" width="780" height="800" as="geometry" />
+        <mxCell id="HKrlnnEcn5-aqoaFCH6Y-381" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="HKrlnnEcn5-aqoaFCH6Y-370" target="HKrlnnEcn5-aqoaFCH6Y-371">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HKrlnnEcn5-aqoaFCH6Y-370" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="1">
+          <mxGeometry x="2174" y="865" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HKrlnnEcn5-aqoaFCH6Y-382" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="HKrlnnEcn5-aqoaFCH6Y-371" target="HKrlnnEcn5-aqoaFCH6Y-372">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HKrlnnEcn5-aqoaFCH6Y-371" value="读取speed_table的所有速度键值，然后排序" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="1">
+          <mxGeometry x="2135" y="920" width="128" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HKrlnnEcn5-aqoaFCH6Y-383" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="HKrlnnEcn5-aqoaFCH6Y-372" target="HKrlnnEcn5-aqoaFCH6Y-373">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HKrlnnEcn5-aqoaFCH6Y-391" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="HKrlnnEcn5-aqoaFCH6Y-372" target="HKrlnnEcn5-aqoaFCH6Y-379">
+          <mxGeometry x="-0.9837" y="-10" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2109" y="1020" />
+              <mxPoint x="2109" y="1500" />
+              <mxPoint x="2199" y="1500" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HKrlnnEcn5-aqoaFCH6Y-372" value="遍历完所有&lt;br&gt;速度键值speeds？" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="1">
+          <mxGeometry x="2134" y="1000" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HKrlnnEcn5-aqoaFCH6Y-384" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="HKrlnnEcn5-aqoaFCH6Y-373" target="HKrlnnEcn5-aqoaFCH6Y-374">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HKrlnnEcn5-aqoaFCH6Y-373" value="读取速度键值对应的acc_table" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="1">
+          <mxGeometry x="2135" y="1080" width="128" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HKrlnnEcn5-aqoaFCH6Y-385" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="HKrlnnEcn5-aqoaFCH6Y-374" target="HKrlnnEcn5-aqoaFCH6Y-375">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HKrlnnEcn5-aqoaFCH6Y-374" value="读取acc_table的所有加速度键值，然后排序" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="1">
+          <mxGeometry x="2135" y="1160" width="128" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HKrlnnEcn5-aqoaFCH6Y-386" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="HKrlnnEcn5-aqoaFCH6Y-375" target="HKrlnnEcn5-aqoaFCH6Y-376">
+          <mxGeometry x="-0.5602" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HKrlnnEcn5-aqoaFCH6Y-390" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="HKrlnnEcn5-aqoaFCH6Y-375" target="HKrlnnEcn5-aqoaFCH6Y-372">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2284" y="1260" />
+              <mxPoint x="2284" y="980" />
+              <mxPoint x="2199" y="980" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HKrlnnEcn5-aqoaFCH6Y-392" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#393C56;" vertex="1" connectable="0" parent="HKrlnnEcn5-aqoaFCH6Y-390">
+          <mxGeometry x="-0.6983" y="5" relative="1" as="geometry">
+            <mxPoint x="-15" y="32" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HKrlnnEcn5-aqoaFCH6Y-375" value="遍历完所有&lt;br&gt;加速度键值accs？" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="1">
+          <mxGeometry x="2134" y="1241" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HKrlnnEcn5-aqoaFCH6Y-387" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="HKrlnnEcn5-aqoaFCH6Y-376" target="HKrlnnEcn5-aqoaFCH6Y-377">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HKrlnnEcn5-aqoaFCH6Y-376" value="读取加速度键值对应的所有cmds" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="1">
+          <mxGeometry x="2135" y="1320" width="128" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HKrlnnEcn5-aqoaFCH6Y-393" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="HKrlnnEcn5-aqoaFCH6Y-377" target="HKrlnnEcn5-aqoaFCH6Y-372">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2199" y="1480" />
+              <mxPoint x="2284" y="1480" />
+              <mxPoint x="2284" y="980" />
+              <mxPoint x="2199" y="980" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HKrlnnEcn5-aqoaFCH6Y-377" value="对cmds求平均值，即为当前查询速度和加速度键值对应的油门刹车命令数值" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="2127.5" y="1400" width="143" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HKrlnnEcn5-aqoaFCH6Y-389" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1" source="HKrlnnEcn5-aqoaFCH6Y-379" target="HKrlnnEcn5-aqoaFCH6Y-380">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HKrlnnEcn5-aqoaFCH6Y-379" value="按照CalibrationTable的格式返回标定表" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="1">
+          <mxGeometry x="2135" y="1520" width="128" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HKrlnnEcn5-aqoaFCH6Y-380" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="1">
+          <mxGeometry x="2179.75" y="1590" width="38.5" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
