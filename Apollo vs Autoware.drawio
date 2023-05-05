@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-05T08:31:27.375Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="ulVDjIGxS9K0QKd19S3C" version="21.2.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-05-05T09:40:10.041Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="q-Pb2uygj35PsE-QTYGw" version="21.2.3" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="VS">
     <mxGraphModel dx="1582" dy="880" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -2938,7 +2938,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="yg9AW94qZbo5T2Lc0dVz" name="Calibration">
-    <mxGraphModel dx="1582" dy="813" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="904" dy="465" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -4214,6 +4214,98 @@
         </mxCell>
         <mxCell id="HKrlnnEcn5-aqoaFCH6Y-380" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="1">
           <mxGeometry x="2179.75" y="1590" width="38.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HKrlnnEcn5-aqoaFCH6Y-395" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="1920" as="sourcePoint" />
+            <mxPoint x="520" y="1920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HKrlnnEcn5-aqoaFCH6Y-396" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#FF66FF;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="139.75" y="1960" as="sourcePoint" />
+            <mxPoint x="139.75" y="1680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HKrlnnEcn5-aqoaFCH6Y-397" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#3333FF;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500.75" y="1960" as="sourcePoint" />
+            <mxPoint x="500.75" y="1680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HKrlnnEcn5-aqoaFCH6Y-398" value="刹车" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF66FF;" vertex="1" parent="1">
+          <mxGeometry x="130" y="1690" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HKrlnnEcn5-aqoaFCH6Y-399" value="速度" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#3333FF;" vertex="1" parent="1">
+          <mxGeometry x="490.25" y="1690" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HKrlnnEcn5-aqoaFCH6Y-400" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#009900;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480.52" y="1960" as="sourcePoint" />
+            <mxPoint x="480.52" y="1680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HKrlnnEcn5-aqoaFCH6Y-401" value="加速度" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#009900;" vertex="1" parent="1">
+          <mxGeometry x="430.25" y="1690" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HKrlnnEcn5-aqoaFCH6Y-402" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="139.75" y="1960" as="sourcePoint" />
+            <mxPoint x="139.75" y="1680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HKrlnnEcn5-aqoaFCH6Y-403" value="油门" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF6666;" vertex="1" parent="1">
+          <mxGeometry x="100.25" y="1690" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HKrlnnEcn5-aqoaFCH6Y-404" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="139.75" y="1920" as="sourcePoint" />
+            <mxPoint x="360" y="1920" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="150" y="1920" />
+              <mxPoint x="150" y="1800" />
+              <mxPoint x="320" y="1800" />
+              <mxPoint x="320" y="1920" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HKrlnnEcn5-aqoaFCH6Y-405" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#FF66FF;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="1920" as="sourcePoint" />
+            <mxPoint x="470" y="1920" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="320.25" y="1920" />
+              <mxPoint x="320" y="1720" />
+              <mxPoint x="440" y="1720" />
+              <mxPoint x="440" y="1920" />
+              <mxPoint x="490.25" y="1920" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HKrlnnEcn5-aqoaFCH6Y-406" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#3333FF;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150.25" y="1920" as="sourcePoint" />
+            <mxPoint x="400" y="1920" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="320" y="1760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HKrlnnEcn5-aqoaFCH6Y-407" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#009900;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150.25" y="1920" as="sourcePoint" />
+            <mxPoint x="480" y="1920" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="150" y="1900" />
+              <mxPoint x="320" y="1900" />
+              <mxPoint x="320" y="1960" />
+              <mxPoint x="400" y="1960" />
+              <mxPoint x="400" y="1920" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HKrlnnEcn5-aqoaFCH6Y-408" value="log:&lt;br&gt;(time,io,&lt;br&gt;cmd.brake, cmd.throttle,&lt;span style=&quot;background-color: initial;&quot;&gt;cmd.gear_location,&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;vehicle_speed, engine_rpm,&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;driving_mode,&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;throttle_percentage, brake_percentage,&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;background-color: initial; font-size: 12px;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;gear_location, acceleration&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="140" y="1970" width="240" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
