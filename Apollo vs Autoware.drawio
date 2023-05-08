@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-08T03:37:57.830Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="jy4d8IEF8gxmQu4xQb48" version="21.2.9" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-05-08T03:45:30.543Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="6BitD6dqGgnfPgBWxoRC" version="21.2.9" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="VS">
     <mxGraphModel dx="1582" dy="880" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -4930,10 +4930,16 @@
     </mxGraphModel>
   </diagram>
   <diagram id="GSvfXQv8rLipdmTZXuyY" name="Design">
-    <mxGraphModel dx="3030" dy="1035" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="1" shadow="0">
+    <mxGraphModel dx="1922" dy="419" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Fzvj1rev-4CVMrwyB6m9-9" value="底盘响应延迟时间" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="27" y="323.5" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Fzvj1rev-4CVMrwyB6m9-14" value="未执行的控制序列" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="27" y="345" width="120" height="30" as="geometry" />
+        </mxCell>
         <mxCell id="BgZQWUZ5J6j2CCL8TdGR-50" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.387;exitY=0.039;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=classicThin;startFill=1;dashed=1;" parent="1" source="BgZQWUZ5J6j2CCL8TdGR-28" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-890" y="560.5" as="sourcePoint" />
@@ -5664,7 +5670,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="sS0oXQs-Sc3O5HR1DiJf-156" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="sS0oXQs-Sc3O5HR1DiJf-159" target="sS0oXQs-Sc3O5HR1DiJf-168" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="616" y="339" />
+              <mxPoint x="681" y="340" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="sS0oXQs-Sc3O5HR1DiJf-157" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="sS0oXQs-Sc3O5HR1DiJf-159" target="sS0oXQs-Sc3O5HR1DiJf-287" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -5673,7 +5684,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sS0oXQs-Sc3O5HR1DiJf-159" value="基于距离使用差值法+黄金分割法找到轨迹上离自车位置距离最近的匹配点&lt;br&gt;match_point" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="402" y="298.5" width="150" height="80" as="geometry" />
+          <mxGeometry x="401" y="299.5" width="150" height="80" as="geometry" />
         </mxCell>
         <mxCell id="sS0oXQs-Sc3O5HR1DiJf-160" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="sS0oXQs-Sc3O5HR1DiJf-161" target="sS0oXQs-Sc3O5HR1DiJf-287" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -5685,7 +5696,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sS0oXQs-Sc3O5HR1DiJf-163" value="基于预瞄绝对时间戳找到轨迹上时间最近的参考点&lt;br&gt;preview_point" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="402" y="58.5" width="149" height="80" as="geometry" />
+          <mxGeometry x="400" y="58.5" width="149" height="80" as="geometry" />
         </mxCell>
         <mxCell id="sS0oXQs-Sc3O5HR1DiJf-164" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" parent="1" source="sS0oXQs-Sc3O5HR1DiJf-171" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -5714,7 +5725,7 @@
           <mxGeometry x="681" y="179.5" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="sS0oXQs-Sc3O5HR1DiJf-168" value="基于匹配点计算Frenet坐标系下自车位置与匹配点之间的横纵向初始距离及其变化率" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="681" y="298.5" width="160" height="80" as="geometry" />
+          <mxGeometry x="681" y="299.5" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="sS0oXQs-Sc3O5HR1DiJf-169" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="sS0oXQs-Sc3O5HR1DiJf-171" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -5778,7 +5789,7 @@
           <mxGeometry x="336" y="213.5" width="50" height="20" as="geometry" />
         </mxCell>
         <mxCell id="sS0oXQs-Sc3O5HR1DiJf-181" value="参考轨迹" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="223.5" y="60" width="50" height="20" as="geometry" />
+          <mxGeometry x="277.5" y="53" width="50" height="20" as="geometry" />
         </mxCell>
         <mxCell id="sS0oXQs-Sc3O5HR1DiJf-182" value="station_error" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="852" y="178.5" width="50" height="20" as="geometry" />
@@ -7143,9 +7154,8 @@
             <Array as="points">
               <mxPoint x="2238" y="561" />
               <mxPoint x="2238" y="819" />
-              <mxPoint x="-105" y="819" />
-              <mxPoint x="-105" y="220" />
-              <mxPoint x="150" y="220" />
+              <mxPoint x="10" y="819" />
+              <mxPoint x="10" y="220" />
             </Array>
             <mxPoint x="-80" y="298.75" as="targetPoint" />
           </mxGeometry>
@@ -7375,8 +7385,8 @@
             <mxPoint x="350" y="660" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="347" y="800" />
-              <mxPoint x="-35" y="800" />
-              <mxPoint x="-35" y="235" />
+              <mxPoint x="30" y="800" />
+              <mxPoint x="30" y="235" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -7597,9 +7607,6 @@
         <mxCell id="BgZQWUZ5J6j2CCL8TdGR-59" value="$$ \frac{T_{eq}i_gi_o \eta_{T} }{r} = m(gf cos\alpha+gsin\alpha+\delta \frac{dv}{dt})+\frac{1}{2}C_DA\rho v^{2}$$&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;其中&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;`T_{tq}`：发动机转矩&amp;nbsp;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;`i_g`：变速器的传动比&amp;nbsp;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;`i_0`：主减速器的传动比&amp;nbsp;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;`\eta_{T} `：传动系的机械效率&amp;nbsp;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;`r`：车轮半径&amp;nbsp;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;`m`：汽车质量&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;`g`：重力加速度&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;`f`：滚动阻力系数&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;`\alpha`：道路坡度角，道路坡度`i=\frac{h}{s}=tan\alpha`，其中`h`坡高，`s`底长&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;`C_D`：空气阻力系数&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;`A`：迎风面积&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;`\rho`：空气密度&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;`v`：车与空气的相对速度，即除去风速后的行驶速度&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;`\frac{dv}{dt}`：行驶加速度&lt;br&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;`\delta`：汽车旋转质量转换系数，主要与飞轮的转动惯量、车轮的转动惯量以及传动系的传动比有关，&lt;br&gt;具体计算公式如下：&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;$$ \delta = 1 + \frac{1}{m}\frac{\sum I_w}{r^2}+\frac{1}{m}\frac{I_fi_g^2i_0^2\eta_T}{r^2}$$&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;其中&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;`I_w`：车轮的转动惯量&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;`I_f`：飞轮的转动惯量" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-1035" y="983.5" width="610" height="420" as="geometry" />
         </mxCell>
-        <mxCell id="Fzvj1rev-4CVMrwyB6m9-1" value="基于定位得到的自车位置&lt;br&gt;raw_point" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-490" y="600.5" width="140" height="39.5" as="geometry" />
-        </mxCell>
         <mxCell id="Fzvj1rev-4CVMrwyB6m9-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Fzvj1rev-4CVMrwyB6m9-3" target="Fzvj1rev-4CVMrwyB6m9-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -7620,26 +7627,20 @@
         <mxCell id="Fzvj1rev-4CVMrwyB6m9-7" value="定位话题传输延迟时间" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="19.5" y="175.5" width="150" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="Fzvj1rev-4CVMrwyB6m9-9" value="底盘响应延迟时间" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="27" y="304.5" width="120" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="Fzvj1rev-4CVMrwyB6m9-10" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" target="Fzvj1rev-4CVMrwyB6m9-4">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="40" y="334" as="sourcePoint" />
+            <mxPoint x="40" y="350" as="sourcePoint" />
             <mxPoint x="125" y="176.75" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Fzvj1rev-4CVMrwyB6m9-12" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" target="Fzvj1rev-4CVMrwyB6m9-4">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="40" y="365" as="sourcePoint" />
+            <mxPoint x="40" y="370" as="sourcePoint" />
             <mxPoint x="130" y="192.40999999999997" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fzvj1rev-4CVMrwyB6m9-14" value="未执行的控制序列" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="27" y="344.5" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="Fzvj1rev-4CVMrwyB6m9-4" value="推算底盘响应延迟时间后的车辆位置&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;predict_point" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="147" y="319" width="140" height="61" as="geometry" />
+        <mxCell id="Fzvj1rev-4CVMrwyB6m9-4" value="推算底盘响应延迟时间后的车辆位置predict_point" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="147" y="340" width="140" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
