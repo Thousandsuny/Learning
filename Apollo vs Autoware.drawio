@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-08T09:14:09.841Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="JwmYNoNYwNJaRan5mCDn" version="21.2.9" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-05-08T10:08:52.711Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="mjrpI4yNNdgUNLMuiZA2" version="21.2.9" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="VS">
     <mxGraphModel dx="1582" dy="880" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -4930,7 +4930,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="GSvfXQv8rLipdmTZXuyY" name="Design">
-    <mxGraphModel dx="998" dy="552" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="1" shadow="0">
+    <mxGraphModel dx="959" dy="533" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -6620,6 +6620,11 @@
         <mxCell id="sS0oXQs-Sc3O5HR1DiJf-507" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="sS0oXQs-Sc3O5HR1DiJf-501" target="sS0oXQs-Sc3O5HR1DiJf-494" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="Mx4qcEO52nhddtLfflmO-79" value="油门百分比" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="sS0oXQs-Sc3O5HR1DiJf-507">
+          <mxGeometry x="-0.3622" y="-1" relative="1" as="geometry">
+            <mxPoint y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="sS0oXQs-Sc3O5HR1DiJf-508" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="sS0oXQs-Sc3O5HR1DiJf-496" target="sS0oXQs-Sc3O5HR1DiJf-494" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -6691,7 +6696,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="sS0oXQs-Sc3O5HR1DiJf-518" value="底盘车速" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="2020" y="728" width="50" height="20" as="geometry" />
+          <mxGeometry x="2120" y="730" width="50" height="20" as="geometry" />
         </mxCell>
         <mxCell id="sS0oXQs-Sc3O5HR1DiJf-520" value="纵向控制框图" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontSize=22;" parent="1" vertex="1">
           <mxGeometry x="71" width="160" height="40" as="geometry" />
@@ -7147,6 +7152,11 @@
         <mxCell id="Mx4qcEO52nhddtLfflmO-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="Mx4qcEO52nhddtLfflmO-16" target="Mx4qcEO52nhddtLfflmO-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="Mx4qcEO52nhddtLfflmO-75" value="final_speed" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Mx4qcEO52nhddtLfflmO-38">
+          <mxGeometry x="-0.1915" y="-2" relative="1" as="geometry">
+            <mxPoint x="1" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="Mx4qcEO52nhddtLfflmO-39" value="FLAGS_use_planning_acc = false" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1738" y="284.5" width="200" height="30" as="geometry" />
         </mxCell>
@@ -7251,11 +7261,21 @@
         <mxCell id="Mx4qcEO52nhddtLfflmO-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="Mx4qcEO52nhddtLfflmO-25" target="Mx4qcEO52nhddtLfflmO-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="Mx4qcEO52nhddtLfflmO-76" value="final_acc" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Mx4qcEO52nhddtLfflmO-67">
+          <mxGeometry x="-0.2538" y="2" relative="1" as="geometry">
+            <mxPoint x="-8" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="Mx4qcEO52nhddtLfflmO-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="sS0oXQs-Sc3O5HR1DiJf-496" target="Mx4qcEO52nhddtLfflmO-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Mx4qcEO52nhddtLfflmO-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="sS0oXQs-Sc3O5HR1DiJf-496" target="Mx4qcEO52nhddtLfflmO-5">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Mx4qcEO52nhddtLfflmO-77" value="刹车百分比" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Mx4qcEO52nhddtLfflmO-69">
+          <mxGeometry x="-0.8967" y="1" relative="1" as="geometry">
+            <mxPoint x="21" y="8" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
