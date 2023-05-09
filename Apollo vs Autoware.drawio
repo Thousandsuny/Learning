@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-09T10:31:21.592Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="i92quV_OXnPjSMeY90OT" version="21.2.9" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-05-09T10:55:24.299Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="I80-UIjtKgrNzRiOOgR3" version="21.2.9" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="VS">
     <mxGraphModel dx="1582" dy="880" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -7565,6 +7565,9 @@
         </mxCell>
         <mxCell id="PxloEE0DjBmXBceAPIAB-50" value="转矩标定流程（对支持转矩控制的底盘）：&lt;br&gt;&lt;br&gt;1. 确定转矩的输入范围，包括正向和负向&lt;br&gt;2. 进行如下测试&lt;br&gt;a. 设置空载，半满载和满载三种条件下&lt;br&gt;b. 设置速度测试列表，比如[-1,-0.5,0.5,1,2,3]m/s&lt;br&gt;c. 从上面速度测试列表选取一个速度值做测试上限，比如1m/s&lt;br&gt;d. 将转矩从0到正向最大转矩，按一定步长设置转矩命令值&lt;br&gt;e. 当按上面转矩达到指定速度上限后，输入负向转矩，&lt;br&gt;范围是0到负向最大转矩&lt;br&gt;f. 测试记录此过程中的数据，包括：输入转矩，实际车速，&lt;br&gt;实际加速度，实际转矩，实际电流&lt;br&gt;g. 返回e步，测试完所以负向转矩&lt;br&gt;h. 返回d步，测试完所以正向转矩&lt;br&gt;i. 返回b步，测试完所以速度列表。注意负速度时，转矩方向需要取反&lt;br&gt;j. 返回a步，测试三种载重条件" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1200" y="842" width="390" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="PxloEE0DjBmXBceAPIAB-51" value="最大加速度标定流程：&lt;br&gt;&lt;br&gt;1. 进行如下测试&lt;br&gt;a. 设置空载，半满载和满载三种条件下&lt;br&gt;b. 设置速度测试列表，比如[-1,-0.5,0.5,1,2,3]m/s&lt;br&gt;c. 从上面速度测试列表选取一个速度值，比如1m/s&lt;br&gt;d. 将转矩从0到正向最大转矩，按一定步长设置转矩命令值&lt;br&gt;e. 当按上面转矩达到指定速度上限后，输入负向转矩，&lt;br&gt;范围是0到负向最大转矩&lt;br&gt;f. 测试记录此过程中的数据，包括：输入转矩，实际车速，&lt;br&gt;实际加速度，实际转矩，实际电流&lt;br&gt;g. 返回e步，测试完所以负向转矩&lt;br&gt;h. 返回d步，测试完所以正向转矩&lt;br&gt;i. 返回b步，测试完所以速度列表。注意负速度时，转矩方向需要取反&lt;br&gt;j. 返回a步，测试三种载重条件" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="1126" width="390" height="230" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
