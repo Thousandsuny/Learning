@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-12T06:18:50.151Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="jpkHb0nWqEaZSHqy8Ywi" version="21.2.9" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-05-12T06:50:11.641Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="eVGmHqeQH_BSP90Mqk3z" version="21.2.9" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="VS">
     <mxGraphModel dx="1582" dy="880" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -4930,7 +4930,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="GSvfXQv8rLipdmTZXuyY" name="Design">
-    <mxGraphModel dx="1376" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="1" shadow="0">
+    <mxGraphModel dx="1978" dy="1100" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -4941,7 +4941,7 @@
           <mxGeometry x="1750" y="350" width="570" height="270" as="geometry" />
         </mxCell>
         <mxCell id="leZWKz-y2Xnx4_1a_GlT-89" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;速度&lt;br&gt;控制&lt;br&gt;模式&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;verticalAlign=middle;align=right;" vertex="1" parent="1">
-          <mxGeometry x="1750" y="150.75" width="570" height="119.25" as="geometry" />
+          <mxGeometry x="1750" y="150.75" width="570" height="149.25" as="geometry" />
         </mxCell>
         <mxCell id="Fzvj1rev-4CVMrwyB6m9-9" value="底盘响应延迟时间" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="27" y="323.5" width="120" height="30" as="geometry" />
@@ -6947,18 +6947,16 @@
         <mxCell id="Mx4qcEO52nhddtLfflmO-45" value="查询减速度刹车压力百分比映射表" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1800" y="720" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Mx4qcEO52nhddtLfflmO-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="Mx4qcEO52nhddtLfflmO-81" edge="1">
+        <mxCell id="Mx4qcEO52nhddtLfflmO-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="Mx4qcEO52nhddtLfflmO-81" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1910" y="540" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1880" y="501" />
-              <mxPoint x="1880" y="540" />
-              <mxPoint x="1908" y="540" />
+              <mxPoint x="1850" y="540" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Mx4qcEO52nhddtLfflmO-81" value="查询加速度转矩映射表" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1800" y="480.5" width="66" height="40" as="geometry" />
+        <mxCell id="Mx4qcEO52nhddtLfflmO-81" value="查询不同重量速度&lt;br&gt;加速度转矩映射表" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1800" y="480.5" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Mx4qcEO52nhddtLfflmO-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Mx4qcEO52nhddtLfflmO-33" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -6967,7 +6965,7 @@
         </mxCell>
         <mxCell id="Mx4qcEO52nhddtLfflmO-83" value="final_torque" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" parent="Mx4qcEO52nhddtLfflmO-82" vertex="1" connectable="0">
           <mxGeometry x="-0.1978" y="-1" relative="1" as="geometry">
-            <mxPoint x="-19" y="-13" as="offset" />
+            <mxPoint x="-2" y="42" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Mx4qcEO52nhddtLfflmO-88" value="" style="group" parent="1" vertex="1" connectable="0">
@@ -7091,7 +7089,7 @@
         </mxCell>
         <mxCell id="leZWKz-y2Xnx4_1a_GlT-34" value="刹车百分比" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="vxvRtV6kmG-URV4Y7P-r-40">
           <mxGeometry x="-0.7077" y="1" relative="1" as="geometry">
-            <mxPoint x="7" y="11" as="offset" />
+            <mxPoint x="17" y="-8" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="vxvRtV6kmG-URV4Y7P-r-51" value="自车位置" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
@@ -7380,11 +7378,11 @@
         <mxCell id="PxloEE0DjBmXBceAPIAB-49" value="FLAGS_use_ekf_mass = false" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1280" y="245" width="180" height="34.5" as="geometry" />
         </mxCell>
-        <mxCell id="PxloEE0DjBmXBceAPIAB-50" value="转矩标定流程（对支持转矩控制模式的底盘）：&lt;br&gt;&lt;br&gt;1. 确定转矩的输入范围，包括正向和负向&lt;br&gt;2. 进行如下测试&lt;br&gt;a. 设置空载，半满载和满载三种条件下&lt;br&gt;b. 设置速度测试列表，比如[-1,-0.5,0.5,1,2,3]m/s&lt;br&gt;c. 从上面速度测试列表选取一个速度值做测试上限，比如1m/s&lt;br&gt;d. 将转矩从0到正向最大转矩，按一定步长设置转矩命令值&lt;br&gt;e. 当按上面转矩达到指定速度上限后，输入负向转矩，&lt;br&gt;范围是0到负向最大转矩&lt;br&gt;f. 测试记录此过程中的数据，包括：输入转矩，实际车速，&lt;br&gt;实际加速度，实际转矩，实际电流&lt;br&gt;g. 返回e步，测试完所以负向转矩&lt;br&gt;h. 返回d步，测试完所以正向转矩&lt;br&gt;i. 返回c步，测试完所以速度列表。注意负速度时，转矩方向需要取反&lt;br&gt;j. 返回a步，测试完三种载重条件&lt;br&gt;3. 用差值法，或者机器学习求取载重-&amp;gt;速度-&amp;gt;加速度-&amp;gt;转矩的映射表&lt;br&gt;4. 设计在线更新转矩映射表方法，适配不同车的差异" style="text;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d79b00;fillColor=#ffe6cc;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1200" y="840" width="390" height="270" as="geometry" />
+        <mxCell id="PxloEE0DjBmXBceAPIAB-50" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;转矩控制模式的底盘标定流程&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;b&gt;加速度转矩映射表&lt;/b&gt;&lt;br&gt;&lt;br&gt;1. 确定转矩的输入范围，包括正向和负向&lt;br&gt;2. 进行如下测试&lt;br&gt;a. 设置空载，半满载和满载三种条件下&lt;br&gt;b. 设置速度测试列表，比如[-1,-0.5,0.5,1,2,3]m/s&lt;br&gt;c. 从上面速度测试列表选取一个速度值做测试上限，比如1m/s&lt;br&gt;d. 将转矩从0到正向最大转矩，按一定步长设置转矩命令值&lt;br&gt;e. 当按上面转矩达到指定速度上限后，输入负向转矩，&lt;br&gt;范围是0到负向最大转矩&lt;br&gt;f. 测试记录此过程中的数据，包括：输入转矩，实际车速，&lt;br&gt;实际加速度，实际转矩，实际电流&lt;br&gt;g. 返回e步，测试完所以负向转矩&lt;br&gt;h. 返回d步，测试完所以正向转矩&lt;br&gt;i. 返回c步，测试完所以速度列表。注意负速度时，转矩方向需要取反&lt;br&gt;j. 返回a步，测试完三种载重条件&lt;br&gt;3. 实车用差值法或者机器学习求取&lt;br&gt;&lt;i&gt;载重-&amp;gt;速度-&amp;gt;加速度-&amp;gt;转矩的映射表&lt;/i&gt;&lt;br&gt;4. 设计在线更新转矩映射表方法，适配不同车的差异&lt;br&gt;&lt;br&gt;&lt;b&gt;电机最大减速度标定&lt;br&gt;&lt;/b&gt;&lt;br&gt;1. 根据上面的离线标定数据表，得到不同载重，不同车速下，&lt;br&gt;最大负向转矩对应的加速度&lt;br&gt;2. 设计在线更新最大负向转矩对应减速度表格，适配不同车的差异&lt;br&gt;&lt;br&gt;&lt;b&gt;减速度刹车百分比映射表标&lt;/b&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;1. 进行如下测试，得到离线映射表&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;a. 设置空载，半满载和满载三种条件下&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;b. 设置速度测试列表，比如[-1,-0.5,0.5,1,2,3]m/s&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;c. 从上面速度测试列表选取一个速度值，比如1m/s&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;d. 输入一个固定的合适的加速转矩，让车速达到上面指定的速度&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;e. 当按速度到指定速度上限后，输入刹车压力百分比，范围是&lt;br&gt;最小到最大，并以一定步长增加，比如[2:2:60]%&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;f. 测试记录此过程中的数据，包括：输入转矩，实际车速，&lt;br&gt;实际加速度，实际转矩，实际电流，输入刹车压力，实际刹车压力&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;g. 返回c步，测试完所以速度列表。注意负速度时，转矩方向需要取反&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;h. 返回a步，测试完三种载重条件&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;2. 实车使用差值法或者机器学习求取&lt;br&gt;&lt;i&gt;载重-&amp;gt;速度-&amp;gt;减速度-&amp;gt;刹车压力映射表&lt;/i&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;3. 设计在线更新最大减速度射表方法，适配不同车的差异" style="text;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d79b00;fillColor=#ffe6cc;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1202" y="840" width="390" height="650" as="geometry" />
         </mxCell>
-        <mxCell id="PxloEE0DjBmXBceAPIAB-52" value="最大减速度标定流程：&lt;br&gt;&lt;i style=&quot;&quot;&gt;&lt;u&gt;对支持转矩控制模式的底盘&lt;/u&gt;&lt;/i&gt;&lt;br&gt;&lt;br&gt;1. 进行如下测试，得到离线映射表&lt;br&gt;a. 设置空载，半满载和满载三种条件下&lt;br&gt;b. 设置速度测试列表，比如[-1,-0.5,0.5,1,2,3]m/s&lt;br&gt;c. 从上面速度测试列表选取一个速度值，比如1m/s&lt;br&gt;d. 输入一个固定的合适的加速转矩，让车速达到上面指定的速度&lt;br&gt;e. 当按速度到指定速度上限后，输入最大负向转矩，让车速减到零&lt;br&gt;f. 测试记录此过程中的数据，包括：输入转矩，实际车速，&lt;br&gt;实际加速度，实际转矩，实际电流&lt;br&gt;g. 返回c步，测试完所以速度列表。注意负速度时，转矩方向需要取反&lt;br&gt;h. 返回a步，测试完三种载重条件&lt;br&gt;2. 实车使用差值法，或者机器学习求取载重-&amp;gt;速度-&amp;gt;最大减速度&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;3. 设计在线更新最大减速度射表方法，适配不同车的差异&lt;br&gt;&lt;br&gt;&lt;i&gt;&lt;u&gt;对支持速度控制模式的底盘&lt;/u&gt;&lt;/i&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;1. 进行如下测试，得到离线映射表&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;a. 设置空载，半满载和满载三种条件下&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;b. 设置速度测试列表，比如[-1,-0.5,0.5,1,2,3]m/s&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;c. 从上面速度测试列表选取一个速度值做输入指令，比如1m/s&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;e. 当实际到指定速度上限后，输入一个接近0的速度指令，比如0.01m/s&lt;br&gt;让车速减到零&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;f. 测试记录此过程中的数据，包括：输入速度，实际车速，实际加速度&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;g. 返回c步，测试完所以速度列表。&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;h. 返回a步，测试完三种载重条件&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;2. 实车使用差值法，或者机器学习求取载重-&amp;gt;速度-&amp;gt;最大减速度&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;3. 设计在线更新最大减速度射表方法，适配不同车的差异" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d79b00;fillColor=#ffe6cc;" parent="1" vertex="1">
-          <mxGeometry x="1200" y="1160" width="400" height="430" as="geometry" />
+        <mxCell id="PxloEE0DjBmXBceAPIAB-52" value="减速度刹车百分比映射表标定流程：&lt;br&gt;&lt;i style=&quot;&quot;&gt;&lt;u&gt;对支持转矩控制模式的底盘&lt;/u&gt;&lt;/i&gt;&lt;br&gt;&lt;br&gt;1. 进行如下测试，得到离线映射表&lt;br&gt;a. 设置空载，半满载和满载三种条件下&lt;br&gt;b. 设置速度测试列表，比如[-1,-0.5,0.5,1,2,3]m/s&lt;br&gt;c. 从上面速度测试列表选取一个速度值，比如1m/s&lt;br&gt;d. 输入一个固定的合适的加速转矩，让车速达到上面指定的速度&lt;br&gt;e. 当按速度到指定速度上限后，输入最大负向转矩，让车速减到零&lt;br&gt;f. 测试记录此过程中的数据，包括：输入转矩，实际车速，&lt;br&gt;实际加速度，实际转矩，实际电流&lt;br&gt;g. 返回c步，测试完所以速度列表。注意负速度时，转矩方向需要取反&lt;br&gt;h. 返回a步，测试完三种载重条件&lt;br&gt;2. 实车使用差值法，或者机器学习求取载重-&amp;gt;速度-&amp;gt;最大减速度&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;3. 设计在线更新最大减速度射表方法，适配不同车的差异&lt;br&gt;&lt;br&gt;&lt;i&gt;&lt;u&gt;对支持速度控制模式的底盘&lt;/u&gt;&lt;/i&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;1. 进行如下测试，得到离线映射表&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;a. 设置空载，半满载和满载三种条件下&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;b. 设置速度测试列表，比如[-1,-0.5,0.5,1,2,3]m/s&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;c. 从上面速度测试列表选取一个速度值做输入指令，比如1m/s&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;e. 当实际到指定速度上限后，输入一个接近0的速度指令，比如0.01m/s&lt;br&gt;让车速减到零&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;f. 测试记录此过程中的数据，包括：输入速度，实际车速，实际加速度&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;g. 返回c步，测试完所以速度列表。&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;h. 返回a步，测试完三种载重条件&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;2. 实车使用差值法，或者机器学习求取载重-&amp;gt;速度-&amp;gt;最大减速度&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;3. 设计在线更新最大减速度射表方法，适配不同车的差异" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d79b00;fillColor=#ffe6cc;" parent="1" vertex="1">
+          <mxGeometry x="1773.5" y="980" width="400" height="430" as="geometry" />
         </mxCell>
         <mxCell id="PxloEE0DjBmXBceAPIAB-53" value="转矩闭环控制算法&lt;br&gt;&lt;br&gt;【PMSM】一. 经典电流环、速度环设计（上）&lt;br&gt;https://zhuanlan.zhihu.com/p/516484232&lt;br&gt;【PMSM】二. 经典电流环、速度环设计（下）&lt;br&gt;https://zhuanlan.zhihu.com/p/557280588" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d79b00;fillColor=#ffe6cc;" parent="1" vertex="1">
           <mxGeometry x="1720" y="840" width="270" height="100" as="geometry" />
@@ -7432,8 +7430,8 @@
         <mxCell id="leZWKz-y2Xnx4_1a_GlT-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="leZWKz-y2Xnx4_1a_GlT-80" target="leZWKz-y2Xnx4_1a_GlT-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="leZWKz-y2Xnx4_1a_GlT-14" value="查询不同重量速度需要的减速度刹车压力映射表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1630" y="279.5" width="140" height="40" as="geometry" />
+        <mxCell id="leZWKz-y2Xnx4_1a_GlT-14" value="查询不同重量速度减速度刹车压力映射表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1804" y="250" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="leZWKz-y2Xnx4_1a_GlT-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="Mx4qcEO52nhddtLfflmO-40" target="leZWKz-y2Xnx4_1a_GlT-15">
           <mxGeometry relative="1" as="geometry">
@@ -7441,21 +7439,19 @@
             <mxPoint x="1560" y="594" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="leZWKz-y2Xnx4_1a_GlT-17" value="planning_acc" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="leZWKz-y2Xnx4_1a_GlT-15" target="leZWKz-y2Xnx4_1a_GlT-14">
-          <mxGeometry x="-1" y="-53" relative="1" as="geometry">
-            <mxPoint x="-53" y="-53" as="offset" />
-          </mxGeometry>
+        <mxCell id="0SkUPc9qwhQZFoxITK9W-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="leZWKz-y2Xnx4_1a_GlT-15" target="leZWKz-y2Xnx4_1a_GlT-14">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="leZWKz-y2Xnx4_1a_GlT-15" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;direction=south;" vertex="1" parent="1">
-          <mxGeometry x="1556.5" y="296" width="7" height="7" as="geometry" />
+          <mxGeometry x="1556" y="267" width="7" height="7" as="geometry" />
         </mxCell>
-        <mxCell id="leZWKz-y2Xnx4_1a_GlT-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="leZWKz-y2Xnx4_1a_GlT-14" target="leZWKz-y2Xnx4_1a_GlT-20">
+        <mxCell id="leZWKz-y2Xnx4_1a_GlT-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="leZWKz-y2Xnx4_1a_GlT-14" target="leZWKz-y2Xnx4_1a_GlT-20">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1900" y="299.5" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="leZWKz-y2Xnx4_1a_GlT-19" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="1822.5" y="225.5" width="31" height="30" as="geometry" />
+          <mxGeometry x="1978" y="225.5" width="31" height="30" as="geometry" />
         </mxCell>
         <mxCell id="leZWKz-y2Xnx4_1a_GlT-20" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="leZWKz-y2Xnx4_1a_GlT-19">
           <mxGeometry width="30" height="30" as="geometry" />
@@ -7492,8 +7488,10 @@
             <mxPoint x="1452" y="340" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="leZWKz-y2Xnx4_1a_GlT-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.804;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="leZWKz-y2Xnx4_1a_GlT-27" target="leZWKz-y2Xnx4_1a_GlT-14">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="leZWKz-y2Xnx4_1a_GlT-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="leZWKz-y2Xnx4_1a_GlT-27" target="leZWKz-y2Xnx4_1a_GlT-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1720" y="290" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="leZWKz-y2Xnx4_1a_GlT-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="leZWKz-y2Xnx4_1a_GlT-27" target="leZWKz-y2Xnx4_1a_GlT-36">
           <mxGeometry relative="1" as="geometry" />
@@ -7516,16 +7514,17 @@
             <mxPoint x="-19" y="-9" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="leZWKz-y2Xnx4_1a_GlT-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="leZWKz-y2Xnx4_1a_GlT-41" target="leZWKz-y2Xnx4_1a_GlT-36">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="leZWKz-y2Xnx4_1a_GlT-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="leZWKz-y2Xnx4_1a_GlT-26" target="leZWKz-y2Xnx4_1a_GlT-41">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="0SkUPc9qwhQZFoxITK9W-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="leZWKz-y2Xnx4_1a_GlT-26" target="leZWKz-y2Xnx4_1a_GlT-36">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1611" y="370" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="leZWKz-y2Xnx4_1a_GlT-26" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;direction=south;" vertex="1" parent="1">
-          <mxGeometry x="1596.5" y="256.5" width="7" height="7" as="geometry" />
+          <mxGeometry x="1607.5" y="256.5" width="7" height="7" as="geometry" />
         </mxCell>
-        <mxCell id="leZWKz-y2Xnx4_1a_GlT-33" value="EHB减速度标定流程：&lt;br&gt;&lt;br&gt;1. 进行如下测试，得到离线映射表&lt;br&gt;a. 设置空载，半满载和满载三种条件下&lt;br&gt;b. 设置速度测试列表，比如[-1,-0.5,0.5,1,2,3]m/s&lt;br&gt;c. 从上面速度测试列表选取一个速度值，比如1m/s&lt;br&gt;d. 输入一个固定的合适的加速转矩，让车速达到上面指定的速度&lt;br&gt;e. 当按速度到指定速度上限后，输入最大负向转矩，让车速减到零&lt;br&gt;f. 测试记录此过程中的数据，包括：输入转矩，实际车速，&lt;br&gt;实际加速度，实际转矩，实际电流&lt;br&gt;g. 返回c步，测试完所以速度列表。注意负速度时，转矩方向需要取反&lt;br&gt;h. 返回a步，测试完三种载重条件&lt;br&gt;2. 实车使用差值法，或者机器学习求取载重-&amp;gt;速度-&amp;gt;最大减速度&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;3. 设计在线更新最大减速度射表方法，适配不同车的差异&lt;br&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d79b00;fillColor=#ffe6cc;" vertex="1" parent="1">
+        <mxCell id="leZWKz-y2Xnx4_1a_GlT-33" value="减速度刹车百分比映射表标定流程：&lt;br&gt;&lt;br&gt;1. 进行如下测试，得到离线映射表&lt;br&gt;a. 设置空载，半满载和满载三种条件下&lt;br&gt;b. 设置速度测试列表，比如[-1,-0.5,0.5,1,2,3]m/s&lt;br&gt;c. 从上面速度测试列表选取一个速度值，比如1m/s&lt;br&gt;d. 输入一个固定的合适的加速转矩，让车速达到上面指定的速度&lt;br&gt;e. 当按速度到指定速度上限后，输入最大负向转矩，让车速减到零&lt;br&gt;f. 测试记录此过程中的数据，包括：输入转矩，实际车速，&lt;br&gt;实际加速度，实际转矩，实际电流&lt;br&gt;g. 返回c步，测试完所以速度列表。注意负速度时，转矩方向需要取反&lt;br&gt;h. 返回a步，测试完三种载重条件&lt;br&gt;2. 实车使用差值法，或者机器学习求取载重-&amp;gt;速度-&amp;gt;最大减速度&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;3. 设计在线更新最大减速度射表方法，适配不同车的差异" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d79b00;fillColor=#ffe6cc;" vertex="1" parent="1">
           <mxGeometry x="1680" y="1270" width="390" height="210" as="geometry" />
         </mxCell>
         <mxCell id="leZWKz-y2Xnx4_1a_GlT-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="leZWKz-y2Xnx4_1a_GlT-36" target="leZWKz-y2Xnx4_1a_GlT-48">
@@ -7533,12 +7532,6 @@
         </mxCell>
         <mxCell id="leZWKz-y2Xnx4_1a_GlT-36" value="查询不同重量速度对应的电机最大减速度" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1630" y="359.5" width="116.5" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="leZWKz-y2Xnx4_1a_GlT-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="leZWKz-y2Xnx4_1a_GlT-41" target="leZWKz-y2Xnx4_1a_GlT-14">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="leZWKz-y2Xnx4_1a_GlT-41" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;direction=south;" vertex="1" parent="1">
-          <mxGeometry x="1596.5" y="285" width="7" height="7" as="geometry" />
         </mxCell>
         <mxCell id="leZWKz-y2Xnx4_1a_GlT-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="leZWKz-y2Xnx4_1a_GlT-44">
           <mxGeometry relative="1" as="geometry">
@@ -7625,8 +7618,8 @@
             <mxPoint x="2000" y="420" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="leZWKz-y2Xnx4_1a_GlT-64" value="查询减速度刹车压力百分比映射表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1800" y="400.5" width="100" height="40" as="geometry" />
+        <mxCell id="leZWKz-y2Xnx4_1a_GlT-64" value="查询不同重量速度减速度刹车压力百分比映射表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1800" y="400.5" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="leZWKz-y2Xnx4_1a_GlT-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="leZWKz-y2Xnx4_1a_GlT-61" target="Mx4qcEO52nhddtLfflmO-5">
           <mxGeometry relative="1" as="geometry" />
@@ -7672,7 +7665,7 @@
         <mxCell id="leZWKz-y2Xnx4_1a_GlT-75" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;direction=south;" vertex="1" parent="1">
           <mxGeometry x="2137" y="436.5" width="7" height="7" as="geometry" />
         </mxCell>
-        <mxCell id="leZWKz-y2Xnx4_1a_GlT-81" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="leZWKz-y2Xnx4_1a_GlT-26" target="leZWKz-y2Xnx4_1a_GlT-80">
+        <mxCell id="leZWKz-y2Xnx4_1a_GlT-81" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="leZWKz-y2Xnx4_1a_GlT-41" target="leZWKz-y2Xnx4_1a_GlT-80">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1603" y="260" as="sourcePoint" />
             <mxPoint x="1781" y="507" as="targetPoint" />
@@ -7713,6 +7706,21 @@
         </mxCell>
         <mxCell id="leZWKz-y2Xnx4_1a_GlT-78" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;direction=south;" vertex="1" parent="1">
           <mxGeometry x="1756" y="407" width="7" height="7" as="geometry" />
+        </mxCell>
+        <mxCell id="0SkUPc9qwhQZFoxITK9W-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="leZWKz-y2Xnx4_1a_GlT-26" target="leZWKz-y2Xnx4_1a_GlT-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1604" y="260" as="sourcePoint" />
+            <mxPoint x="1781" y="427" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1781" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0SkUPc9qwhQZFoxITK9W-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="leZWKz-y2Xnx4_1a_GlT-41" target="leZWKz-y2Xnx4_1a_GlT-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="leZWKz-y2Xnx4_1a_GlT-41" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="1777" y="256.5" width="7" height="7" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
