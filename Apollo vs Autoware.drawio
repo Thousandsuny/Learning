@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-12T06:13:54.914Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="Co6-FNLABBqCXi091b4w" version="21.2.9" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-05-12T06:18:50.151Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="jpkHb0nWqEaZSHqy8Ywi" version="21.2.9" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="VS">
-    <mxGraphModel dx="1434" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1582" dy="880" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -4934,6 +4934,15 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="leZWKz-y2Xnx4_1a_GlT-91" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;油门&lt;br&gt;刹车&lt;br&gt;控制&lt;br&gt;模式&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;verticalAlign=middle;align=right;" vertex="1" parent="1">
+          <mxGeometry x="1749" y="630" width="570" height="146.5" as="geometry" />
+        </mxCell>
+        <mxCell id="leZWKz-y2Xnx4_1a_GlT-90" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;转矩&lt;br&gt;控制&lt;br&gt;模式&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;verticalAlign=middle;align=right;" vertex="1" parent="1">
+          <mxGeometry x="1750" y="350" width="570" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="leZWKz-y2Xnx4_1a_GlT-89" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;速度&lt;br&gt;控制&lt;br&gt;模式&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;verticalAlign=middle;align=right;" vertex="1" parent="1">
+          <mxGeometry x="1750" y="150.75" width="570" height="119.25" as="geometry" />
+        </mxCell>
         <mxCell id="Fzvj1rev-4CVMrwyB6m9-9" value="底盘响应延迟时间" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="27" y="323.5" width="120" height="30" as="geometry" />
         </mxCell>
@@ -6279,8 +6288,8 @@
             <mxPoint x="1739.5" y="579.79" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sS0oXQs-Sc3O5HR1DiJf-468" value="control_acc" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="sS0oXQs-Sc3O5HR1DiJf-469" target="vxvRtV6kmG-URV4Y7P-r-1" edge="1">
-          <mxGeometry x="-0.2622" y="20" relative="1" as="geometry">
+        <mxCell id="sS0oXQs-Sc3O5HR1DiJf-468" value="control_acc" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;labelBackgroundColor=none;" parent="1" source="sS0oXQs-Sc3O5HR1DiJf-469" target="vxvRtV6kmG-URV4Y7P-r-1" edge="1">
+          <mxGeometry x="-0.7382" y="20" relative="1" as="geometry">
             <mxPoint x="1839.5000000000005" y="580" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
@@ -6473,7 +6482,7 @@
         <mxCell id="sS0oXQs-Sc3O5HR1DiJf-507" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="sS0oXQs-Sc3O5HR1DiJf-501" target="sS0oXQs-Sc3O5HR1DiJf-494" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Mx4qcEO52nhddtLfflmO-79" value="油门百分比" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="sS0oXQs-Sc3O5HR1DiJf-507" vertex="1" connectable="0">
+        <mxCell id="Mx4qcEO52nhddtLfflmO-79" value="油门百分比" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" parent="sS0oXQs-Sc3O5HR1DiJf-507" vertex="1" connectable="0">
           <mxGeometry x="-0.3622" y="-1" relative="1" as="geometry">
             <mxPoint y="-10" as="offset" />
           </mxGeometry>
@@ -6956,7 +6965,7 @@
             <mxPoint x="2000" y="460" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Mx4qcEO52nhddtLfflmO-83" value="final_torque" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Mx4qcEO52nhddtLfflmO-82" vertex="1" connectable="0">
+        <mxCell id="Mx4qcEO52nhddtLfflmO-83" value="final_torque" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" parent="Mx4qcEO52nhddtLfflmO-82" vertex="1" connectable="0">
           <mxGeometry x="-0.1978" y="-1" relative="1" as="geometry">
             <mxPoint x="-19" y="-13" as="offset" />
           </mxGeometry>
@@ -7070,7 +7079,7 @@
             <mxPoint x="2035.9999999998468" y="700" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vxvRtV6kmG-URV4Y7P-r-42" value="刹车百分比" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="vxvRtV6kmG-URV4Y7P-r-35" vertex="1" connectable="0">
+        <mxCell id="vxvRtV6kmG-URV4Y7P-r-42" value="刹车百分比" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" parent="vxvRtV6kmG-URV4Y7P-r-35" vertex="1" connectable="0">
           <mxGeometry x="-0.322" y="-1" relative="1" as="geometry">
             <mxPoint y="-12" as="offset" />
           </mxGeometry>
@@ -7080,7 +7089,7 @@
             <mxPoint x="2039.5" y="344" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="leZWKz-y2Xnx4_1a_GlT-34" value="刹车百分比" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vxvRtV6kmG-URV4Y7P-r-40">
+        <mxCell id="leZWKz-y2Xnx4_1a_GlT-34" value="刹车百分比" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="vxvRtV6kmG-URV4Y7P-r-40">
           <mxGeometry x="-0.7077" y="1" relative="1" as="geometry">
             <mxPoint x="7" y="11" as="offset" />
           </mxGeometry>
@@ -7553,7 +7562,7 @@
             <mxPoint x="2050" y="420" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="leZWKz-y2Xnx4_1a_GlT-70" value="is_using_ehb = false" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="leZWKz-y2Xnx4_1a_GlT-68">
+        <mxCell id="leZWKz-y2Xnx4_1a_GlT-70" value="is_using_ehb = false" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="leZWKz-y2Xnx4_1a_GlT-68">
           <mxGeometry x="0.449" y="-1" relative="1" as="geometry">
             <mxPoint x="-12" y="-11" as="offset" />
           </mxGeometry>
@@ -7628,7 +7637,7 @@
             <mxPoint x="2080" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="leZWKz-y2Xnx4_1a_GlT-73" value="final_speed" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="leZWKz-y2Xnx4_1a_GlT-72">
+        <mxCell id="leZWKz-y2Xnx4_1a_GlT-73" value="final_speed" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="leZWKz-y2Xnx4_1a_GlT-72">
           <mxGeometry x="-0.1915" y="-2" relative="1" as="geometry">
             <mxPoint x="3" y="-16" as="offset" />
           </mxGeometry>
