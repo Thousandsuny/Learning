@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-29T09:48:26.503Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="Okhv9AupKuVFiHxmXRsI" version="21.6.9" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-08-29T09:49:22.247Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="y-m0Hepfn_ECWk_T-NAV" version="21.6.9" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="VS">
     <mxGraphModel dx="1887" dy="843" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -4766,7 +4766,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="GSvfXQv8rLipdmTZXuyY" name="Design">
-    <mxGraphModel dx="1647" dy="843" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="1" shadow="0">
+    <mxGraphModel dx="1887" dy="843" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -5513,9 +5513,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="9w5lwCa-COPyyrOJ-EZ3-2" value="速度前馈" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" parent="sS0oXQs-Sc3O5HR1DiJf-357" vertex="1" connectable="0">
+        <mxCell id="9w5lwCa-COPyyrOJ-EZ3-2" value="基于参考点和匹配点的纵向&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;速度误差" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" parent="sS0oXQs-Sc3O5HR1DiJf-357" vertex="1" connectable="0">
           <mxGeometry x="0.879" y="2" relative="1" as="geometry">
-            <mxPoint x="-7" y="12" as="offset" />
+            <mxPoint x="-71" y="5" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="vxvRtV6kmG-URV4Y7P-r-75" value="feedforward_speed" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;labelBackgroundColor=none;" parent="1" source="sS0oXQs-Sc3O5HR1DiJf-358" target="vxvRtV6kmG-URV4Y7P-r-68" edge="1">
