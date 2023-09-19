@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-19T08:42:24.665Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="CKQER3pNeYQniumQ-Nmm" version="21.7.5" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-09-19T08:44:47.588Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="vwMPfD6bXvQQthY_KaeQ" version="21.7.5" type="github" pages="5">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="VS">
-    <mxGraphModel dx="2696" dy="1294" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1646" dy="905" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -7406,7 +7406,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="0n3Y-kJ7cQAPVPODCnAE" name="flowchart">
-    <mxGraphModel dx="3534" dy="2586" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="767" dy="1065" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -7602,124 +7602,124 @@
           <mxGeometry x="1779.71" y="2360" width="109.69" height="40" as="geometry" />
         </mxCell>
         <mxCell id="c2vW-4Oc72tD0WCrjuM0-102" value="使用坡度补偿？&lt;br&gt;（默认不使用）" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;rounded=1;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="2360" y="115" width="100" height="50" as="geometry" />
+          <mxGeometry x="2143.08" y="110" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="c2vW-4Oc72tD0WCrjuM0-103" value="根据坡度角（有正负），计算重力加速度的斜坡分量" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="2338" y="200" width="160.16" height="40" as="geometry" />
+          <mxGeometry x="2121.08" y="195" width="160.16" height="40" as="geometry" />
         </mxCell>
         <mxCell id="c2vW-4Oc72tD0WCrjuM0-104" value="加速度命令=加速度闭环量+加速度前馈量+斜坡补偿量" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="2329.92" y="280" width="160.16" height="40" as="geometry" />
+          <mxGeometry x="2113" y="275" width="160.16" height="40" as="geometry" />
         </mxCell>
         <mxCell id="c2vW-4Oc72tD0WCrjuM0-105" value="加速度命令不能大于standstiil_acceleration（默认-0.3m/s^2）" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="2350" y="460" width="160.16" height="40" as="geometry" />
+          <mxGeometry x="2133.08" y="455" width="160.16" height="40" as="geometry" />
         </mxCell>
         <mxCell id="c2vW-4Oc72tD0WCrjuM0-106" value="靠近停车阶段或者靠近终点？" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;rounded=1;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="2368.08" y="365" width="100" height="50" as="geometry" />
+          <mxGeometry x="2151.16" y="360" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="c2vW-4Oc72tD0WCrjuM0-107" value="赋值加速度查询键值，倒车时需取反" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="2350" y="550" width="120" height="40" as="geometry" />
+          <mxGeometry x="2133.08" y="545" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="c2vW-4Oc72tD0WCrjuM0-108" value="对加速度查询键值进行限幅" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="2358.08" y="640" width="120" height="40" as="geometry" />
+          <mxGeometry x="2141.16" y="635" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="c2vW-4Oc72tD0WCrjuM0-109" value="载重估计&lt;br&gt;（暂时不准确）" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="2358.08" y="730" width="91.92" height="40" as="geometry" />
+          <mxGeometry x="2141.16" y="725" width="91.92" height="40" as="geometry" />
         </mxCell>
         <mxCell id="c2vW-4Oc72tD0WCrjuM0-110" value="设置三维查询键值，即（载重，速度，加速度）" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="2334.04" y="810" width="140" height="40" as="geometry" />
+          <mxGeometry x="2117.12" y="805" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="c2vW-4Oc72tD0WCrjuM0-111" value="设置刹车启用时的最低速度误差阈值（为负）" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="2334.04" y="880" width="140" height="40" as="geometry" />
+          <mxGeometry x="2117.12" y="875" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="S9TrkZaBk5aM6Cy2XCRp-1" value="SpeedMode" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;rounded=1;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2334.04" y="1060" width="120" height="40" as="geometry" />
+          <mxGeometry x="2117.12" y="1055" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="S9TrkZaBk5aM6Cy2XCRp-2" value="纵向控制&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;模式切换" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2334.04" y="960" width="140" height="40" as="geometry" />
+          <mxGeometry x="2117.12" y="955" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="S9TrkZaBk5aM6Cy2XCRp-3" value="TorqueMode" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;rounded=1;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2540" y="1060" width="120" height="40" as="geometry" />
+          <mxGeometry x="2470" y="1055" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="S9TrkZaBk5aM6Cy2XCRp-4" value="ThrottleMode" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;rounded=1;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2720" y="1060" width="120" height="40" as="geometry" />
+          <mxGeometry x="2730" y="1055" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="S9TrkZaBk5aM6Cy2XCRp-5" value="PlanningMode" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;rounded=1;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2890" y="1060" width="120" height="40" as="geometry" />
+          <mxGeometry x="2970" y="1055" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="S9TrkZaBk5aM6Cy2XCRp-6" value="NoAcc" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;rounded=1;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="3070" y="1060" width="120" height="40" as="geometry" />
+          <mxGeometry x="3190" y="1055" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="S9TrkZaBk5aM6Cy2XCRp-9" value="使用速度&lt;br&gt;查询表？" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;rounded=1;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2350" y="1140" width="85.96" height="50" as="geometry" />
+          <mxGeometry x="2133.08" y="1135" width="85.96" height="50" as="geometry" />
         </mxCell>
         <mxCell id="S9TrkZaBk5aM6Cy2XCRp-10" value="加速度键值&amp;lt;0?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;rounded=1;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2330" y="1221" width="120" height="40" as="geometry" />
+          <mxGeometry x="2113.08" y="1216" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="S9TrkZaBk5aM6Cy2XCRp-12" value="根据键值查询得到刹车压力百分比" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2338" y="1290" width="101.92" height="40" as="geometry" />
+          <mxGeometry x="2121.08" y="1285" width="101.92" height="40" as="geometry" />
         </mxCell>
         <mxCell id="S9TrkZaBk5aM6Cy2XCRp-13" value="刹车压力限幅" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2339.04" y="1360" width="101.92" height="40" as="geometry" />
+          <mxGeometry x="2122.12" y="1355" width="101.92" height="40" as="geometry" />
         </mxCell>
         <mxCell id="S9TrkZaBk5aM6Cy2XCRp-14" value="速度反馈控制？" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;rounded=1;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2520" y="1221" width="120" height="40" as="geometry" />
+          <mxGeometry x="2303.08" y="1216" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="S9TrkZaBk5aM6Cy2XCRp-15" value="速度控制器输入限幅值作为speed_cmd" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2333" y="1440" width="111.92" height="40" as="geometry" />
+          <mxGeometry x="2116.08" y="1435" width="111.92" height="40" as="geometry" />
         </mxCell>
         <mxCell id="S9TrkZaBk5aM6Cy2XCRp-16" value="输入&lt;font color=&quot;#0000ff&quot;&gt;速度控制器输入限幅值&lt;/font&gt;到速度模式PID控制器得到速度闭环量" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2510.16" y="1300" width="140.23" height="50" as="geometry" />
+          <mxGeometry x="2293.24" y="1295" width="140.23" height="50" as="geometry" />
         </mxCell>
         <mxCell id="S9TrkZaBk5aM6Cy2XCRp-17" value="速度前馈控制？" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;rounded=1;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2520.27" y="1380" width="120" height="40" as="geometry" />
+          <mxGeometry x="2303.35" y="1375" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="S9TrkZaBk5aM6Cy2XCRp-18" value="读取前馈控制系数，计算速度前馈量，并更新临时变量（目前只有k0起作用，微分项噪声太大）" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2492.73" y="1440" width="174.55" height="60" as="geometry" />
+          <mxGeometry x="2275.81" y="1435" width="174.55" height="60" as="geometry" />
         </mxCell>
         <mxCell id="S9TrkZaBk5aM6Cy2XCRp-22" value="速度命令=速度闭环量+速度前馈量" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2454.04" y="1550" width="160.16" height="40" as="geometry" />
+          <mxGeometry x="2114.04" y="1540" width="160.16" height="40" as="geometry" />
         </mxCell>
         <mxCell id="S9TrkZaBk5aM6Cy2XCRp-23" value="速度mrac控制？" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;rounded=1;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2444.92" y="1630" width="120" height="40" as="geometry" />
+          <mxGeometry x="2104.92" y="1620" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="S9TrkZaBk5aM6Cy2XCRp-24" value="将速度命令输入到mrac控制器，进行矫正限幅，并更新相关变量" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2444.92" y="1720" width="125.08" height="50" as="geometry" />
+          <mxGeometry x="2104.92" y="1710" width="125.08" height="50" as="geometry" />
         </mxCell>
         <mxCell id="S9TrkZaBk5aM6Cy2XCRp-25" value="刹车闭环量置零&lt;br&gt;PID积分项清零" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2440" y="1920" width="130" height="40" as="geometry" />
+          <mxGeometry x="2100" y="1910" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="S9TrkZaBk5aM6Cy2XCRp-26" value="速度控制误差&amp;gt;0？" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;rounded=1;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2454.04" y="1830" width="120" height="40" as="geometry" />
+          <mxGeometry x="2114.04" y="1820" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="S9TrkZaBk5aM6Cy2XCRp-27" value="速度控制误差输入到刹车PID控制器计算得到刹车闭环量" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2600" y="1920" width="110" height="50" as="geometry" />
+          <mxGeometry x="2260" y="1910" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="S9TrkZaBk5aM6Cy2XCRp-28" value="速度控制误差小于刹车控制启用阈值，&lt;br&gt;并且实际车速高于动能回收速度阈值？" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;rounded=1;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2400" y="2010" width="250" height="60" as="geometry" />
+          <mxGeometry x="2060" y="2000" width="250" height="60" as="geometry" />
         </mxCell>
         <mxCell id="S9TrkZaBk5aM6Cy2XCRp-29" value="对刹车闭环量限幅得到最早刹车控制命令" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2468.08" y="2110" width="110" height="40" as="geometry" />
+          <mxGeometry x="2128.08" y="2100" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="S9TrkZaBk5aM6Cy2XCRp-30" value="最早刹车控制命令为0" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2640.27" y="2110" width="119.73" height="40" as="geometry" />
+          <mxGeometry x="2300.27" y="2100" width="119.73" height="40" as="geometry" />
         </mxCell>
         <mxCell id="S9TrkZaBk5aM6Cy2XCRp-31" value="如果当前速度绝对值小于速度&lt;br&gt;启动阈值（默认0.3m/s）？" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;rounded=1;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2420" y="2200" width="200" height="50" as="geometry" />
+          <mxGeometry x="2080" y="2190" width="200" height="50" as="geometry" />
         </mxCell>
         <mxCell id="S9TrkZaBk5aM6Cy2XCRp-32" value="使用最大启动加速度对速度控制命令增量进行限制&lt;br&gt;（当前基于实际车速进行判断，可以改成基于命令速度，默认最大启动加速度为10m/s^2）" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2390" y="2290" width="270" height="50" as="geometry" />
+          <mxGeometry x="2050" y="2280" width="270" height="50" as="geometry" />
         </mxCell>
         <mxCell id="S9TrkZaBk5aM6Cy2XCRp-35" value="控制器计算的速度与&lt;br&gt;规划的速度方向异号？" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;rounded=1;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2420" y="2370" width="200" height="50" as="geometry" />
+          <mxGeometry x="2080" y="2360" width="200" height="50" as="geometry" />
         </mxCell>
         <mxCell id="S9TrkZaBk5aM6Cy2XCRp-36" value="还有轨迹未走完？" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;rounded=1;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2614.2" y="2410" width="135.8" height="40" as="geometry" />
+          <mxGeometry x="2274.2" y="2400" width="135.8" height="40" as="geometry" />
         </mxCell>
         <mxCell id="S9TrkZaBk5aM6Cy2XCRp-37" value="速度命令改为死区速度" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2780" y="2280" width="129.73" height="40" as="geometry" />
+          <mxGeometry x="2380" y="2280" width="129.73" height="40" as="geometry" />
         </mxCell>
         <mxCell id="S9TrkZaBk5aM6Cy2XCRp-38" value="立即停车" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2800" y="2360" width="70" height="40" as="geometry" />
+          <mxGeometry x="2409.86" y="2350" width="70" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
