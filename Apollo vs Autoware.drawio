@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-19T06:05:52.146Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="Dad0kLIcobozcFS73OnH" version="21.7.5" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-09-19T08:04:20.269Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="QWd6FYmw1EgcQQAFfGDL" version="21.7.5" type="github" pages="5">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="VS">
     <mxGraphModel dx="2696" dy="1294" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -7721,7 +7721,7 @@
         <mxCell id="c2vW-4Oc72tD0WCrjuM0-97" value="速度控制输入速度控制误差" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="1859.8400000000001" y="1190" width="160.16" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="c2vW-4Oc72tD0WCrjuM0-98" value="输入限幅得到速度控制器输入限幅值" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;labelBackgroundColor=none;" parent="1" vertex="1">
+        <mxCell id="c2vW-4Oc72tD0WCrjuM0-98" value="输入限幅得到&lt;font color=&quot;#0000ff&quot;&gt;速度控制器输入限幅值&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="1999.55" y="1280" width="100.45" height="40" as="geometry" />
         </mxCell>
         <mxCell id="c2vW-4Oc72tD0WCrjuM0-99" value="速度控制输入到速度控制器中，得到闭环加速度输出" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;labelBackgroundColor=none;" parent="1" vertex="1">
@@ -7739,7 +7739,7 @@
         <mxCell id="c2vW-4Oc72tD0WCrjuM0-103" value="根据坡度角（有正负），计算重力加速度的斜坡分量" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="2338" y="200" width="160.16" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="c2vW-4Oc72tD0WCrjuM0-104" value="加速度命令=速度闭环量+速度前馈量+斜坡补偿量" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;labelBackgroundColor=none;" parent="1" vertex="1">
+        <mxCell id="c2vW-4Oc72tD0WCrjuM0-104" value="加速度命令=加速度闭环量+加速度前馈量+斜坡补偿量" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="2329.92" y="280" width="160.16" height="40" as="geometry" />
         </mxCell>
         <mxCell id="c2vW-4Oc72tD0WCrjuM0-105" value="加速度命令不能大于standstiil_acceleration（默认-0.3m/s^2）" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;labelBackgroundColor=none;" parent="1" vertex="1">
@@ -7798,6 +7798,18 @@
         </mxCell>
         <mxCell id="S9TrkZaBk5aM6Cy2XCRp-15" value="速度控制器输入限幅值作为speed_cmd" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="2333" y="1440" width="111.92" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="S9TrkZaBk5aM6Cy2XCRp-16" value="输入&lt;font color=&quot;#0000ff&quot;&gt;速度控制器输入限幅值&lt;/font&gt;&lt;font color=&quot;#000000&quot;&gt;到速度模式PID控制器得到速度模式闭环命令&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2510.16" y="1300" width="140.23" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="S9TrkZaBk5aM6Cy2XCRp-17" value="速度前馈控制？" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;rounded=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2520.27" y="1380" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="S9TrkZaBk5aM6Cy2XCRp-18" value="读取前馈控制系数，计算速度前馈量，并更新临时变量（目前只有k0起作用，微分项噪声太大）" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2492.73" y="1440" width="174.55" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S9TrkZaBk5aM6Cy2XCRp-22" value="速度命令=速度闭环量+速度前馈量" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2454.04" y="1550" width="160.16" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
