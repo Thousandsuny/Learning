@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-19T08:44:47.588Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="vwMPfD6bXvQQthY_KaeQ" version="21.7.5" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-09-19T11:55:03.298Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="q_ZLpVIs6KfTyTAR8TAQ" version="21.7.5" type="github" pages="5">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="VS">
     <mxGraphModel dx="1646" dy="905" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -7638,7 +7638,7 @@
           <mxGeometry x="2117.12" y="955" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="S9TrkZaBk5aM6Cy2XCRp-3" value="TorqueMode" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;rounded=1;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2470" y="1055" width="120" height="40" as="geometry" />
+          <mxGeometry x="2509.73" y="1055" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="S9TrkZaBk5aM6Cy2XCRp-4" value="ThrottleMode" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;rounded=1;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="2730" y="1055" width="120" height="40" as="geometry" />
@@ -7679,11 +7679,8 @@
         <mxCell id="S9TrkZaBk5aM6Cy2XCRp-22" value="速度命令=速度闭环量+速度前馈量" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="2114.04" y="1540" width="160.16" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="S9TrkZaBk5aM6Cy2XCRp-23" value="速度mrac控制？" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;rounded=1;labelBackgroundColor=none;" vertex="1" parent="1">
+        <mxCell id="S9TrkZaBk5aM6Cy2XCRp-23" value="速度mrac控制？&lt;br&gt;（默认不使用）" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;rounded=1;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="2104.92" y="1620" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="S9TrkZaBk5aM6Cy2XCRp-24" value="将速度命令输入到mrac控制器，进行矫正限幅，并更新相关变量" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2104.92" y="1710" width="125.08" height="50" as="geometry" />
         </mxCell>
         <mxCell id="S9TrkZaBk5aM6Cy2XCRp-25" value="刹车闭环量置零&lt;br&gt;PID积分项清零" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="2100" y="1910" width="130" height="40" as="geometry" />
@@ -7720,6 +7717,69 @@
         </mxCell>
         <mxCell id="S9TrkZaBk5aM6Cy2XCRp-38" value="立即停车" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="2409.86" y="2350" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="klspSoMCN7KWURker5a3-3" value="设置扭矩控制模式" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2517.71" y="1120" width="101.92" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="klspSoMCN7KWURker5a3-4" value="使用扭矩&lt;br&gt;查询表？" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;rounded=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2525.69" y="1191" width="85.96" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="klspSoMCN7KWURker5a3-6" value="加速度键值&amp;lt;0?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;rounded=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2509.73" y="1280" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="klspSoMCN7KWURker5a3-7" value="根据键值查询得到刹车压力百分比" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2516.67" y="1345" width="101.92" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="klspSoMCN7KWURker5a3-8" value="刹车压力限幅" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2517.71" y="1415" width="101.92" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="klspSoMCN7KWURker5a3-9" value="查询最大减速扭矩" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2518.77" y="1510" width="101.92" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="klspSoMCN7KWURker5a3-11" value="根据键值查询得到力矩命令查询量" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2700" y="1256" width="101.92" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="klspSoMCN7KWURker5a3-12" value="力矩命令查询量大于最大减速扭矩，&lt;br&gt;速度控制误差小于刹车控制启用阈值？" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;rounded=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2442.63" y="1600" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="klspSoMCN7KWURker5a3-13" value="使用刹车控制" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2518.77" y="1700" width="101.92" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="klspSoMCN7KWURker5a3-14" value="使用扭矩控制" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2680" y="1700" width="101.92" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="klspSoMCN7KWURker5a3-15" value="输入&lt;font color=&quot;#0000ff&quot;&gt;速度控制器输入限幅值&lt;/font&gt;到扭矩模式PID控制器得到扭矩闭环量" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2525.69" y="1790" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="klspSoMCN7KWURker5a3-18" value="扭矩mrac控制？&lt;br&gt;（默认不使用）" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;rounded=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2525.69" y="1880" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="klspSoMCN7KWURker5a3-19" value="对上面的速度闭环量进行mrac矫正限幅，并更新相关变量" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2111.5" y="1720" width="168.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="klspSoMCN7KWURker5a3-20" value="对上面的扭矩闭环量进行mrac矫正限幅，并更新相关变量" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2506.44" y="1960" width="168.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="klspSoMCN7KWURker5a3-21" value="刹车闭环量置零&lt;br&gt;PID积分项清零" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2590.96" y="2130" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="klspSoMCN7KWURker5a3-22" value="速度控制误差&amp;gt;0？" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;rounded=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2605" y="2040" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="klspSoMCN7KWURker5a3-23" value="速度控制误差输入到刹车PID控制器计算得到刹车闭环量" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2750.96" y="2130" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="klspSoMCN7KWURker5a3-24" value="速度控制误差小于刹车控制启用阈值，&lt;br&gt;并且实际车速高于动能回收速度阈值？" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;rounded=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2550.96" y="2220" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="klspSoMCN7KWURker5a3-25" value="对刹车闭环量限幅得到最早刹车控制命令" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2619.04" y="2320" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="klspSoMCN7KWURker5a3-26" value="最早刹车控制命令为0" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2791.23" y="2320" width="119.73" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="klspSoMCN7KWURker5a3-27" value="对扭矩闭环量赋值到最终的扭矩控制命令" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2645.69" y="2410" width="110" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
