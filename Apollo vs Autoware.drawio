@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-22T07:56:56.744Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="lmo0ZncurH4Z2Pd8DDCr" version="21.8.0" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-09-22T08:50:01.410Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="pgstanZb9W5OyYqC3JCp" version="21.8.0" type="github" pages="5">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="VS">
     <mxGraphModel dx="1646" dy="905" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -7406,7 +7406,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="0n3Y-kJ7cQAPVPODCnAE" name="flowchart">
-    <mxGraphModel dx="2946" dy="2263" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1182" dy="1293" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -7903,7 +7903,8 @@
         <mxCell id="UJRg269haVbIm5TEDBpV-144" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="1" source="c2vW-4Oc72tD0WCrjuM0-111" target="S9TrkZaBk5aM6Cy2XCRp-2">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1920" y="2390" />
+              <mxPoint x="1640" y="2460" />
+              <mxPoint x="1920" y="2460" />
               <mxPoint x="1920" y="100" />
               <mxPoint x="2080" y="100" />
             </Array>
@@ -7927,6 +7928,11 @@
         <mxCell id="UJRg269haVbIm5TEDBpV-152" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="1" source="S9TrkZaBk5aM6Cy2XCRp-3" target="klspSoMCN7KWURker5a3-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="UJRg269haVbIm5TEDBpV-242" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="1" source="S9TrkZaBk5aM6Cy2XCRp-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2740" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="S9TrkZaBk5aM6Cy2XCRp-3" value="TorqueMode" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;rounded=1;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="2379.65" y="200" width="120" height="40" as="geometry" />
         </mxCell>
@@ -7936,11 +7942,17 @@
         <mxCell id="S9TrkZaBk5aM6Cy2XCRp-4" value="ThrottleMode" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;rounded=1;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="2740.0000000000005" y="200" width="120" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="UJRg269haVbIm5TEDBpV-201" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="1" source="S9TrkZaBk5aM6Cy2XCRp-5" target="klspSoMCN7KWURker5a3-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="S9TrkZaBk5aM6Cy2XCRp-5" value="PlanningMode" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;rounded=1;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="3173.5299999999997" y="1530" width="120" height="40" as="geometry" />
+          <mxGeometry x="3059.4499999999994" y="200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UJRg269haVbIm5TEDBpV-206" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="1" source="S9TrkZaBk5aM6Cy2XCRp-6" target="klspSoMCN7KWURker5a3-48">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="S9TrkZaBk5aM6Cy2XCRp-6" value="NoAcc" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;rounded=1;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="3116.36" y="205" width="120" height="40" as="geometry" />
+          <mxGeometry x="3339" y="200" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="UJRg269haVbIm5TEDBpV-140" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="1" source="S9TrkZaBk5aM6Cy2XCRp-9" target="UJRg269haVbIm5TEDBpV-107">
           <mxGeometry relative="1" as="geometry" />
@@ -7962,6 +7974,18 @@
         </mxCell>
         <mxCell id="S9TrkZaBk5aM6Cy2XCRp-12" value="根据键值查询得到刹车压力百分比" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="2028.52" y="520" width="101.92" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UJRg269haVbIm5TEDBpV-249" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="1" source="S9TrkZaBk5aM6Cy2XCRp-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2719.9999999999995" y="1710" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2280" y="620" />
+              <mxPoint x="2280" y="1860" />
+              <mxPoint x="2600" y="1860" />
+              <mxPoint x="2600" y="1680" />
+              <mxPoint x="2720" y="1680" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="S9TrkZaBk5aM6Cy2XCRp-13" value="刹车压力限幅" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="2038.74" y="600" width="81.48" height="40" as="geometry" />
@@ -8092,23 +8116,33 @@
         <mxCell id="S9TrkZaBk5aM6Cy2XCRp-32" value="使用最大启动加速度对速度控制命令增量进行限制&lt;br&gt;（当前基于实际车速进行判断，可以改成基于命令速度，默认最大启动加速度为10m/s^2）" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="1991.98" y="1704" width="175" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="UJRg269haVbIm5TEDBpV-128" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="1" source="S9TrkZaBk5aM6Cy2XCRp-35" target="S9TrkZaBk5aM6Cy2XCRp-37">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="UJRg269haVbIm5TEDBpV-129" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="1" source="S9TrkZaBk5aM6Cy2XCRp-35" target="S9TrkZaBk5aM6Cy2XCRp-38">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="UJRg269haVbIm5TEDBpV-223" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="S9TrkZaBk5aM6Cy2XCRp-35" target="klspSoMCN7KWURker5a3-56">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2280" y="2060" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2600" y="1860" />
+              <mxPoint x="2600" y="1680" />
+              <mxPoint x="2720" y="1680" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="S9TrkZaBk5aM6Cy2XCRp-35" value="控制器计算的速度与&lt;br&gt;规划的速度方向异号？" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;rounded=1;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="1979.4799999999998" y="1835" width="200" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="UJRg269haVbIm5TEDBpV-221" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="1" source="S9TrkZaBk5aM6Cy2XCRp-36" target="S9TrkZaBk5aM6Cy2XCRp-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UJRg269haVbIm5TEDBpV-222" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="1" source="S9TrkZaBk5aM6Cy2XCRp-36" target="S9TrkZaBk5aM6Cy2XCRp-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="S9TrkZaBk5aM6Cy2XCRp-36" value="还有轨迹未走完？" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;rounded=1;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="2499.6499999999996" y="1890" width="135.8" height="40" as="geometry" />
+          <mxGeometry x="2011.1" y="1920" width="135.8" height="40" as="geometry" />
         </mxCell>
         <mxCell id="S9TrkZaBk5aM6Cy2XCRp-37" value="速度命令改为死区速度" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="2045" y="1920" width="70" height="40" as="geometry" />
+          <mxGeometry x="2044.48" y="2000" width="70" height="40" as="geometry" />
         </mxCell>
         <mxCell id="S9TrkZaBk5aM6Cy2XCRp-38" value="立即停车" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="2184.06" y="1920" width="70" height="40" as="geometry" />
+          <mxGeometry x="2185.17" y="2000" width="70" height="40" as="geometry" />
         </mxCell>
         <mxCell id="UJRg269haVbIm5TEDBpV-153" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="1" source="klspSoMCN7KWURker5a3-3" target="klspSoMCN7KWURker5a3-4">
           <mxGeometry relative="1" as="geometry" />
@@ -8164,10 +8198,10 @@
         <mxCell id="klspSoMCN7KWURker5a3-11" value="根据键值查询得到力矩命令查询量" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="2388.69" y="400" width="101.92" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="UJRg269haVbIm5TEDBpV-149" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="klspSoMCN7KWURker5a3-12" target="klspSoMCN7KWURker5a3-14">
+        <mxCell id="UJRg269haVbIm5TEDBpV-149" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="klspSoMCN7KWURker5a3-12" target="klspSoMCN7KWURker5a3-14">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="2599" y="820" />
+              <mxPoint x="2599" y="800" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -8175,13 +8209,24 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="klspSoMCN7KWURker5a3-12" value="力矩命令查询量大于最大减速扭矩，&lt;br&gt;速度控制误差小于刹车控制启用阈值？" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;rounded=1;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="2314.85" y="790" width="250" height="60" as="geometry" />
+          <mxGeometry x="2314.65" y="770" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UJRg269haVbIm5TEDBpV-252" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="1" source="klspSoMCN7KWURker5a3-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2720" y="1700" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2440" y="940" />
+              <mxPoint x="2600" y="940" />
+              <mxPoint x="2600" y="1280" />
+              <mxPoint x="2720" y="1280" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="klspSoMCN7KWURker5a3-13" value="使用刹车控制" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="2388.69" y="879.5" width="101.92" height="40" as="geometry" />
+          <mxGeometry x="2388.89" y="860" width="101.92" height="40" as="geometry" />
         </mxCell>
         <mxCell id="klspSoMCN7KWURker5a3-14" value="使用扭矩控制" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="2547.77" y="879.5" width="101.92" height="40" as="geometry" />
+          <mxGeometry x="2547.77" y="860" width="101.92" height="40" as="geometry" />
         </mxCell>
         <mxCell id="UJRg269haVbIm5TEDBpV-161" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="1" source="klspSoMCN7KWURker5a3-15" target="klspSoMCN7KWURker5a3-18">
           <mxGeometry relative="1" as="geometry" />
@@ -8285,11 +8330,22 @@
         <mxCell id="klspSoMCN7KWURker5a3-33" value="根据键值查询得到刹车压力百分比" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="2910" y="480" width="101.92" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="UJRg269haVbIm5TEDBpV-255" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="1" source="klspSoMCN7KWURker5a3-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2720" y="1700" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2800" y="640" />
+              <mxPoint x="2960" y="640" />
+              <mxPoint x="2960" y="1580" />
+              <mxPoint x="2720" y="1580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="klspSoMCN7KWURker5a3-34" value="油门开度限幅" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="2749.04" y="558.5" width="101.92" height="40" as="geometry" />
         </mxCell>
         <mxCell id="klspSoMCN7KWURker5a3-36" value="刹车压力限幅" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="2910" y="560" width="101.92" height="40" as="geometry" />
+          <mxGeometry x="2920.96" y="558.5" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="UJRg269haVbIm5TEDBpV-185" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="1" source="klspSoMCN7KWURker5a3-37" target="klspSoMCN7KWURker5a3-38">
           <mxGeometry relative="1" as="geometry" />
@@ -8313,7 +8369,11 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UJRg269haVbIm5TEDBpV-189" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="1" source="klspSoMCN7KWURker5a3-40" target="klspSoMCN7KWURker5a3-42">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2685" y="1000" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="klspSoMCN7KWURker5a3-40" value="速度控制误差&amp;gt;0？" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;rounded=1;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="2740.0000000000005" y="979.5" width="120" height="40" as="geometry" />
@@ -8325,7 +8385,7 @@
           <mxGeometry x="2752.5" y="1080" width="95" height="40" as="geometry" />
         </mxCell>
         <mxCell id="klspSoMCN7KWURker5a3-42" value="速度控制误差输入到刹车PID控制器计算得到刹车闭环量" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="2865.0000000000005" y="1075" width="110" height="50" as="geometry" />
+          <mxGeometry x="2630.0000000000005" y="1075" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="UJRg269haVbIm5TEDBpV-192" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="1" source="klspSoMCN7KWURker5a3-43" target="klspSoMCN7KWURker5a3-44">
           <mxGeometry relative="1" as="geometry" />
@@ -8347,118 +8407,251 @@
           <mxGeometry x="2745.0000000000005" y="1280" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="klspSoMCN7KWURker5a3-46" value="对扭矩闭环量赋值到最终的扭矩控制命令" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="2745" y="1400" width="110" height="40" as="geometry" />
+          <mxGeometry x="2745" y="1440" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="klspSoMCN7KWURker5a3-47" value="根据参考行驶方向设置档位" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="2397.59" y="1700" width="84.52" height="40" as="geometry" />
         </mxCell>
         <mxCell id="klspSoMCN7KWURker5a3-48" value="基于时间查询得到的&lt;br&gt;速度前馈作最终速度控制命令&lt;br&gt;加速度前馈作最终加速度控制命令" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="3081.36" y="280" width="190" height="60" as="geometry" />
+          <mxGeometry x="3304" y="275" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UJRg269haVbIm5TEDBpV-202" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="1" source="klspSoMCN7KWURker5a3-49" target="klspSoMCN7KWURker5a3-51">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="klspSoMCN7KWURker5a3-49" value="基于距离查询得到的&lt;br&gt;规划速度前馈作最终速度控制命令&lt;br&gt;规划加速度前馈作最终加速度控制命令" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="3129.9999999999995" y="1605" width="207.05" height="60" as="geometry" />
+          <mxGeometry x="3015.9199999999996" y="275" width="207.05" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UJRg269haVbIm5TEDBpV-203" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="1" source="klspSoMCN7KWURker5a3-51" target="klspSoMCN7KWURker5a3-52">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="klspSoMCN7KWURker5a3-51" value="使用刹车&lt;br&gt;查询表？" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;rounded=1;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="3194.69" y="1700" width="85.96" height="50" as="geometry" />
+          <mxGeometry x="3076.4599999999996" y="370" width="85.96" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UJRg269haVbIm5TEDBpV-204" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="1" source="klspSoMCN7KWURker5a3-52" target="klspSoMCN7KWURker5a3-53">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="klspSoMCN7KWURker5a3-52" value="加速度键值&amp;lt;0?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;rounded=1;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="3177.67" y="1785" width="120" height="40" as="geometry" />
+          <mxGeometry x="3059.4499999999994" y="455" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UJRg269haVbIm5TEDBpV-205" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="1" source="klspSoMCN7KWURker5a3-53" target="klspSoMCN7KWURker5a3-55">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="klspSoMCN7KWURker5a3-53" value="根据键值查询得到刹车压力百分比" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="3184.61" y="1850" width="101.92" height="40" as="geometry" />
+          <mxGeometry x="3068.4900000000002" y="534" width="101.92" height="40" as="geometry" />
         </mxCell>
         <mxCell id="klspSoMCN7KWURker5a3-55" value="对刹车限幅得到最终的刹车控制命令" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="3178.5299999999997" y="1925" width="110" height="40" as="geometry" />
+          <mxGeometry x="3064.4499999999994" y="615" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UJRg269haVbIm5TEDBpV-207" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="1" source="klspSoMCN7KWURker5a3-56">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2719.9" y="1779" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="klspSoMCN7KWURker5a3-56" value="刹车mrac控制？&lt;br&gt;（默认不使用）" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;rounded=1;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="3113.01" y="360" width="120" height="40" as="geometry" />
+          <mxGeometry x="2659.9" y="1700" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UJRg269haVbIm5TEDBpV-208" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="1" source="klspSoMCN7KWURker5a3-57" target="klspSoMCN7KWURker5a3-59">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="klspSoMCN7KWURker5a3-57" value="对上面的最终刹车控制量进行mrac矫正限幅，并更新相关变量" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="3083.01" y="440" width="180" height="40" as="geometry" />
+          <mxGeometry x="2629.89" y="1779" width="180" height="40" as="geometry" />
         </mxCell>
         <mxCell id="klspSoMCN7KWURker5a3-58" value="最小刹车压力为0" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="3283.76" y="590" width="101.92" height="40" as="geometry" />
+          <mxGeometry x="2827.19" y="1940" width="101.92" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UJRg269haVbIm5TEDBpV-209" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="1" source="klspSoMCN7KWURker5a3-59" target="klspSoMCN7KWURker5a3-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UJRg269haVbIm5TEDBpV-210" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="1" source="klspSoMCN7KWURker5a3-59" target="klspSoMCN7KWURker5a3-58">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="klspSoMCN7KWURker5a3-59" value="刹车压力&amp;gt;0?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;rounded=1;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="3113.01" y="515" width="120" height="40" as="geometry" />
+          <mxGeometry x="2659.89" y="1860" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UJRg269haVbIm5TEDBpV-211" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="1" source="klspSoMCN7KWURker5a3-60" target="klspSoMCN7KWURker5a3-61">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="klspSoMCN7KWURker5a3-60" value="添加刹车偏置量&lt;br&gt;（默认为0）" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="3122.05" y="590" width="101.92" height="40" as="geometry" />
+          <mxGeometry x="2668.93" y="1940" width="101.92" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UJRg269haVbIm5TEDBpV-212" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="1" source="klspSoMCN7KWURker5a3-61" target="klspSoMCN7KWURker5a3-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UJRg269haVbIm5TEDBpV-213" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="1" source="klspSoMCN7KWURker5a3-61" target="klspSoMCN7KWURker5a3-63">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="klspSoMCN7KWURker5a3-61" value="倒车使用acc控制？&lt;br&gt;（默认使用）" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;rounded=1;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="3113.01" y="675" width="120" height="40" as="geometry" />
+          <mxGeometry x="2659.89" y="2020" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="klspSoMCN7KWURker5a3-62" value="刹车，油门，扭矩，加速度全置为0" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="3122.05" y="750" width="111.71" height="40" as="geometry" />
+          <mxGeometry x="2822.2949999999996" y="2020" width="111.71" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UJRg269haVbIm5TEDBpV-217" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="1" source="klspSoMCN7KWURker5a3-63" target="klspSoMCN7KWURker5a3-64">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="klspSoMCN7KWURker5a3-63" value="速度查询绝对值小于刹车使用下限？" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;rounded=1;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="3113.01" y="840" width="120" height="40" as="geometry" />
+          <mxGeometry x="2659.89" y="2100" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="klspSoMCN7KWURker5a3-64" value="刹车置为0" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="3122.05" y="910" width="111.71" height="40" as="geometry" />
+          <mxGeometry x="2687.4" y="2164" width="64.99" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UJRg269haVbIm5TEDBpV-219" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="1" source="klspSoMCN7KWURker5a3-65" target="klspSoMCN7KWURker5a3-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UJRg269haVbIm5TEDBpV-261" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="1" source="klspSoMCN7KWURker5a3-65">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3240" y="778.888916015625" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2840" y="2280" />
+              <mxPoint x="2840" y="2400" />
+              <mxPoint x="2980" y="2400" />
+              <mxPoint x="2980" y="760" />
+              <mxPoint x="3240" y="760" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="klspSoMCN7KWURker5a3-65" value="剩余路程长度绝对值小于&lt;br&gt;最大停车剩余路程阈值" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;rounded=1;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="3089.9800000000005" y="980" width="175.85" height="60" as="geometry" />
+          <mxGeometry x="2631.975" y="2250" width="175.85" height="60" as="geometry" />
         </mxCell>
         <mxCell id="klspSoMCN7KWURker5a3-66" value="is_reach_goal_=true" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="3103.76" y="1080" width="125.1" height="40" as="geometry" />
+          <mxGeometry x="2657.35" y="2340" width="125.1" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UJRg269haVbIm5TEDBpV-224" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="1" source="klspSoMCN7KWURker5a3-68" target="klspSoMCN7KWURker5a3-69">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="klspSoMCN7KWURker5a3-68" value="SpeedMode" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;rounded=1;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="4295.48" y="70" width="120" height="40" as="geometry" />
+          <mxGeometry x="3179.9999999999995" y="780" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UJRg269haVbIm5TEDBpV-225" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="1" source="klspSoMCN7KWURker5a3-69" target="klspSoMCN7KWURker5a3-71">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="klspSoMCN7KWURker5a3-69" value="速度命令限幅" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="4304.52" y="145" width="101.92" height="40" as="geometry" />
+          <mxGeometry x="3189.0400000000004" y="860" width="101.92" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UJRg269haVbIm5TEDBpV-226" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="1" source="klspSoMCN7KWURker5a3-71" target="klspSoMCN7KWURker5a3-74">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="klspSoMCN7KWURker5a3-71" value="is_reach_goal?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;rounded=1;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="4295.48" y="230" width="120" height="40" as="geometry" />
+          <mxGeometry x="3179.9999999999995" y="940" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UJRg269haVbIm5TEDBpV-228" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="1" source="klspSoMCN7KWURker5a3-72" target="klspSoMCN7KWURker5a3-76">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="klspSoMCN7KWURker5a3-72" value="速度命令设置为0&lt;br&gt;立即停车" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="4303.83" y="395" width="101.92" height="40" as="geometry" />
+          <mxGeometry x="3189.04" y="1140" width="101.92" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UJRg269haVbIm5TEDBpV-227" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="1" source="klspSoMCN7KWURker5a3-74" target="klspSoMCN7KWURker5a3-72">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="klspSoMCN7KWURker5a3-74" value="速度命令绝对值不大于死区速度或&lt;br&gt;当前实际速度绝对值小于最大停车速度阈值？" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;rounded=1;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="4229.79" y="304" width="250" height="66" as="geometry" />
+          <mxGeometry x="3115" y="1027.5" width="250" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="UJRg269haVbIm5TEDBpV-229" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="1" source="klspSoMCN7KWURker5a3-76" target="klspSoMCN7KWURker5a3-77">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="klspSoMCN7KWURker5a3-76" value="速度命令绝对值大于死区速度或&lt;br&gt;剩余路程绝对值大于最大靠近终点剩余阈值？" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;rounded=1;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="4225.48" y="484" width="250" height="66" as="geometry" />
+          <mxGeometry x="3114.9999999999995" y="1227" width="250" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="UJRg269haVbIm5TEDBpV-230" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="1" source="klspSoMCN7KWURker5a3-77" target="klspSoMCN7KWURker5a3-78">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="klspSoMCN7KWURker5a3-77" value="is_reach_goal=false" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="4279.58" y="600" width="126.17" height="40" as="geometry" />
+          <mxGeometry x="3176.92" y="1340" width="126.17" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UJRg269haVbIm5TEDBpV-231" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="1" source="klspSoMCN7KWURker5a3-78" target="klspSoMCN7KWURker5a3-79">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="klspSoMCN7KWURker5a3-78" value="固定速度调试？" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;rounded=1;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="4290.48" y="690" width="120" height="40" as="geometry" />
+          <mxGeometry x="3179.9999999999995" y="1419.5" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UJRg269haVbIm5TEDBpV-232" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="1" source="klspSoMCN7KWURker5a3-79" target="klspSoMCN7KWURker5a3-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UJRg269haVbIm5TEDBpV-233" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="1" source="klspSoMCN7KWURker5a3-79" target="klspSoMCN7KWURker5a3-81">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="klspSoMCN7KWURker5a3-79" value="参考方向向前？" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;rounded=1;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="4294.79" y="780" width="120" height="40" as="geometry" />
+          <mxGeometry x="3180" y="1500" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="klspSoMCN7KWURker5a3-80" value="使用速度上限作为&lt;br&gt;最终速度输出命令" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="4295.48" y="850" width="126.17" height="40" as="geometry" />
+          <mxGeometry x="3190" y="1580" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UJRg269haVbIm5TEDBpV-264" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="1" source="klspSoMCN7KWURker5a3-81" target="klspSoMCN7KWURker5a3-82">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3358" y="1660" />
+              <mxPoint x="3239" y="1660" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="klspSoMCN7KWURker5a3-81" value="使用速度下限作为&lt;br&gt;最终速度输出命令" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="4440" y="850" width="126.17" height="40" as="geometry" />
+          <mxGeometry x="3305.48" y="1580" width="105.48" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UJRg269haVbIm5TEDBpV-234" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="1" source="klspSoMCN7KWURker5a3-82" target="klspSoMCN7KWURker5a3-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UJRg269haVbIm5TEDBpV-267" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="1" source="klspSoMCN7KWURker5a3-82" target="klspSoMCN7KWURker5a3-88">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3440" y="1720" />
+              <mxPoint x="3440" y="2240" />
+              <mxPoint x="3239" y="2240" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="klspSoMCN7KWURker5a3-82" value="TorqueMode" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;rounded=1;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="4310" y="1065" width="120" height="40" as="geometry" />
+          <mxGeometry x="3178.96" y="1700" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UJRg269haVbIm5TEDBpV-235" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="1" source="klspSoMCN7KWURker5a3-83" target="klspSoMCN7KWURker5a3-84">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="klspSoMCN7KWURker5a3-83" value="扭矩命令限幅" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="4319.04" y="1130" width="101.92" height="40" as="geometry" />
+          <mxGeometry x="3188" y="1781" width="101.92" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UJRg269haVbIm5TEDBpV-236" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="1" source="klspSoMCN7KWURker5a3-84" target="klspSoMCN7KWURker5a3-85">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="klspSoMCN7KWURker5a3-84" value="扭矩命令&amp;lt;0" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;rounded=1;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="4300.96" y="1206" width="120" height="40" as="geometry" />
+          <mxGeometry x="3178.96" y="1860" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UJRg269haVbIm5TEDBpV-237" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="1" source="klspSoMCN7KWURker5a3-85" target="klspSoMCN7KWURker5a3-86">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="klspSoMCN7KWURker5a3-85" value="对负扭矩进行缩放&lt;br&gt;（正负扭矩与加速度的比例系数可能不一致，当然默认1.5）" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="4275.96" y="1270" width="170" height="60" as="geometry" />
+          <mxGeometry x="3153.96" y="1940" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UJRg269haVbIm5TEDBpV-238" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="1" source="klspSoMCN7KWURker5a3-86" target="klspSoMCN7KWURker5a3-87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UJRg269haVbIm5TEDBpV-269" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="1" source="klspSoMCN7KWURker5a3-86" target="klspSoMCN7KWURker5a3-88">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3100" y="2080" />
+              <mxPoint x="3100" y="2240" />
+              <mxPoint x="3239" y="2240" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="klspSoMCN7KWURker5a3-86" value="is_reach_goal且&lt;br&gt;当前实际速度绝对值小于最大停车速度阈值？" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;rounded=1;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="4260" y="1410" width="250" height="66" as="geometry" />
+          <mxGeometry x="3113.96" y="2047" width="250" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="UJRg269haVbIm5TEDBpV-239" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="1" source="klspSoMCN7KWURker5a3-87" target="klspSoMCN7KWURker5a3-88">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="klspSoMCN7KWURker5a3-87" value="最终扭矩命令设为0，&lt;br&gt;并挂上空挡，立即停车" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="4340" y="1490" width="130.96" height="40" as="geometry" />
+          <mxGeometry x="3173.04" y="2160" width="130.96" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UJRg269haVbIm5TEDBpV-240" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="1" source="klspSoMCN7KWURker5a3-88" target="klspSoMCN7KWURker5a3-89">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="klspSoMCN7KWURker5a3-88" value="最终控制命令输出幅值给control_cmd" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="4340" y="1570" width="130.96" height="40" as="geometry" />
+          <mxGeometry x="3173.48" y="2260" width="130.96" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UJRg269haVbIm5TEDBpV-266" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="1" source="klspSoMCN7KWURker5a3-89" target="UJRg269haVbIm5TEDBpV-265">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="klspSoMCN7KWURker5a3-89" value="log保存控制信息" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="4340" y="1664" width="130.96" height="40" as="geometry" />
+          <mxGeometry x="3173.48" y="2340" width="130.96" height="40" as="geometry" />
         </mxCell>
         <mxCell id="UJRg269haVbIm5TEDBpV-28" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="1" source="c2vW-4Oc72tD0WCrjuM0-61" target="c2vW-4Oc72tD0WCrjuM0-62">
           <mxGeometry relative="1" as="geometry" />
@@ -8574,19 +8767,26 @@
         <mxCell id="UJRg269haVbIm5TEDBpV-174" value="刹车控制命令默认为0" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="2204.48" y="518.5" width="67.77" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="UJRg269haVbIm5TEDBpV-250" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="1" source="UJRg269haVbIm5TEDBpV-175" target="klspSoMCN7KWURker5a3-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2599" y="680" />
+              <mxPoint x="2440" y="680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="UJRg269haVbIm5TEDBpV-175" value="刹车控制命令默认为0" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="2564.85" y="540" width="67.77" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="UJRg269haVbIm5TEDBpV-195" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="1" source="UJRg269haVbIm5TEDBpV-191" target="klspSoMCN7KWURker5a3-46">
+        <mxCell id="UJRg269haVbIm5TEDBpV-195" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="UJRg269haVbIm5TEDBpV-191" target="klspSoMCN7KWURker5a3-46">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="2944" y="1360" />
-              <mxPoint x="2800" y="1360" />
+              <mxPoint x="2800" y="1380" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="UJRg269haVbIm5TEDBpV-191" value="刹车控制命令默认为0" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2910" y="1280" width="67.77" height="40" as="geometry" />
+          <mxGeometry x="2857.23" y="1360" width="67.77" height="40" as="geometry" />
         </mxCell>
         <mxCell id="UJRg269haVbIm5TEDBpV-196" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="1" source="klspSoMCN7KWURker5a3-18" target="klspSoMCN7KWURker5a3-22">
           <mxGeometry relative="1" as="geometry">
@@ -8600,12 +8800,176 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="2920" y="800" />
-              <mxPoint x="2920" y="979" />
+              <mxPoint x="2920" y="960" />
+              <mxPoint x="2800" y="960" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="UJRg269haVbIm5TEDBpV-198" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="1" source="klspSoMCN7KWURker5a3-42" target="klspSoMCN7KWURker5a3-43">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UJRg269haVbIm5TEDBpV-216" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="1" source="klspSoMCN7KWURker5a3-62" target="klspSoMCN7KWURker5a3-63">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2877.89" y="2080" />
+              <mxPoint x="2719.89" y="2080" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UJRg269haVbIm5TEDBpV-218" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="1" source="klspSoMCN7KWURker5a3-64" target="klspSoMCN7KWURker5a3-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UJRg269haVbIm5TEDBpV-220" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="1" source="S9TrkZaBk5aM6Cy2XCRp-35" target="S9TrkZaBk5aM6Cy2XCRp-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UJRg269haVbIm5TEDBpV-241" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.029;entryY=0.499;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="1" source="S9TrkZaBk5aM6Cy2XCRp-1" target="S9TrkZaBk5aM6Cy2XCRp-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UJRg269haVbIm5TEDBpV-243" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="1" source="S9TrkZaBk5aM6Cy2XCRp-4" target="S9TrkZaBk5aM6Cy2XCRp-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UJRg269haVbIm5TEDBpV-244" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="1" source="S9TrkZaBk5aM6Cy2XCRp-5" target="S9TrkZaBk5aM6Cy2XCRp-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UJRg269haVbIm5TEDBpV-245" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="1" source="S9TrkZaBk5aM6Cy2XCRp-37" target="klspSoMCN7KWURker5a3-56">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2079" y="2080" />
+              <mxPoint x="2600" y="2080" />
+              <mxPoint x="2600" y="1680" />
+              <mxPoint x="2720" y="1680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UJRg269haVbIm5TEDBpV-246" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="1" source="S9TrkZaBk5aM6Cy2XCRp-38" target="klspSoMCN7KWURker5a3-56">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2220" y="2080" />
+              <mxPoint x="2600" y="2080" />
+              <mxPoint x="2600" y="1680" />
+              <mxPoint x="2720" y="1680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UJRg269haVbIm5TEDBpV-247" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="1" source="klspSoMCN7KWURker5a3-47" target="klspSoMCN7KWURker5a3-56">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2440" y="1860" />
+              <mxPoint x="2600" y="1860" />
+              <mxPoint x="2600" y="1680" />
+              <mxPoint x="2720" y="1680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UJRg269haVbIm5TEDBpV-248" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="UJRg269haVbIm5TEDBpV-174" target="klspSoMCN7KWURker5a3-56">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2238" y="620" />
+              <mxPoint x="2280" y="620" />
+              <mxPoint x="2280" y="1860" />
+              <mxPoint x="2600" y="1860" />
+              <mxPoint x="2600" y="1680" />
+              <mxPoint x="2720" y="1680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UJRg269haVbIm5TEDBpV-251" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="1" source="klspSoMCN7KWURker5a3-14" target="klspSoMCN7KWURker5a3-56">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2600" y="1280" />
+              <mxPoint x="2720" y="1280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UJRg269haVbIm5TEDBpV-253" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="1" source="klspSoMCN7KWURker5a3-46" target="klspSoMCN7KWURker5a3-56">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2800" y="1580" />
+              <mxPoint x="2720" y="1580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UJRg269haVbIm5TEDBpV-254" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="klspSoMCN7KWURker5a3-36" target="klspSoMCN7KWURker5a3-56">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2960" y="600" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="2961" y="640" />
+              <mxPoint x="2960" y="640" />
+              <mxPoint x="2960" y="1580" />
+              <mxPoint x="2720" y="1580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UJRg269haVbIm5TEDBpV-256" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="1" source="klspSoMCN7KWURker5a3-55" target="klspSoMCN7KWURker5a3-56">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3119" y="720" />
+              <mxPoint x="2960" y="720" />
+              <mxPoint x="2960" y="1580" />
+              <mxPoint x="2720" y="1580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UJRg269haVbIm5TEDBpV-257" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="1" source="klspSoMCN7KWURker5a3-48" target="klspSoMCN7KWURker5a3-56">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3399" y="720" />
+              <mxPoint x="2960" y="720" />
+              <mxPoint x="2960" y="1580" />
+              <mxPoint x="2720" y="1580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UJRg269haVbIm5TEDBpV-258" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="1" source="klspSoMCN7KWURker5a3-58" target="klspSoMCN7KWURker5a3-61">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2878" y="2000" />
+              <mxPoint x="2720" y="2000" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UJRg269haVbIm5TEDBpV-259" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="1" source="klspSoMCN7KWURker5a3-63" target="klspSoMCN7KWURker5a3-65">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2800" y="2120" />
+              <mxPoint x="2800" y="2220" />
+              <mxPoint x="2720" y="2220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UJRg269haVbIm5TEDBpV-260" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="1" source="klspSoMCN7KWURker5a3-66" target="klspSoMCN7KWURker5a3-68">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2720" y="2400" />
+              <mxPoint x="2981" y="2400" />
+              <mxPoint x="2981" y="760" />
+              <mxPoint x="3240" y="760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UJRg269haVbIm5TEDBpV-262" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="1" source="klspSoMCN7KWURker5a3-68" target="klspSoMCN7KWURker5a3-82">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3440" y="800" />
+              <mxPoint x="3440" y="1660" />
+              <mxPoint x="3239" y="1660" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UJRg269haVbIm5TEDBpV-263" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="1" source="klspSoMCN7KWURker5a3-80" target="klspSoMCN7KWURker5a3-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UJRg269haVbIm5TEDBpV-265" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;rounded=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="3213.96" y="2430" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UJRg269haVbIm5TEDBpV-268" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="1" source="klspSoMCN7KWURker5a3-84" target="klspSoMCN7KWURker5a3-86">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3360" y="1880" />
+              <mxPoint x="3360" y="2020" />
+              <mxPoint x="3239" y="2020" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
